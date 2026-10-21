@@ -15,9 +15,13 @@ GitHub Actions (every 3 h) ──► scraper/collect.py ──► data/news.json
 2. **Sources** (all listed in `scraper/sources.json`, which you can edit):
    - **News search:** Google News (English and Swahili), Bing News and the
      [GDELT](https://www.gdeltproject.org/) global news API. These all search for "Kibera" or "Kibra".
-   - **Kenyan outlets:** RSS feeds from The Star, Capital FM, Kenyans.co.ke, Tuko, Citizen
-     Digital, The Standard, Nation, KBC and Ghetto Radio. Only stories that mention Kibera or
-     Kibra in the headline or summary are kept.
+   - **Kenyan outlets:** RSS feeds from Capital FM, Kenyans.co.ke, Tuko, The Standard, Nation,
+     KBC and Ghetto Radio. Only stories that mention Kibera or Kibra in the headline or summary
+     are kept. Bing results get the same check, because Bing returns many loose matches.
+   - **Exclude list:** an `exclude` list of words and publisher names. Matching stories are
+     dropped, including from the archive. Add to it when an off-topic story gets through.
+     Google News matches words anywhere in an article's text, so it occasionally returns
+     something unrelated.
 3. **Process.** Each story gets a UTC timestamp. Duplicates are merged: the same story found
    through Google and the outlet's own feed shows once, with the direct link. Each story also
    gets a topic assigned by keyword. The collector keeps one year of history and saves it to

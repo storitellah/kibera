@@ -1,5 +1,14 @@
 {
-  "keywords": ["kibera", "kibra"],
+  "keywords": [
+    "kibera",
+    "kibra"
+  ],
+  "exclude": [
+    "Signaling Pathway",
+    "openPR",
+    "EIN Presswire",
+    "Press Release"
+  ],
   "search": [
     {
       "name": "Google News",
@@ -14,7 +23,8 @@
     {
       "name": "Bing News",
       "type": "rss",
-      "url": "https://www.bing.com/news/search?q=Kibera&format=rss&setlang=en-GB"
+      "url": "https://www.bing.com/news/search?q=Kibera&format=rss&setlang=en-GB",
+      "filter_keywords": true
     },
     {
       "name": "GDELT",
@@ -23,14 +33,33 @@
     }
   ],
   "outlets": [
-    { "name": "The Star", "url": "https://www.the-star.co.ke/rss" },
-    { "name": "Capital FM", "url": "https://www.capitalfm.co.ke/news/feed/" },
-    { "name": "Kenyans.co.ke", "url": "https://www.kenyans.co.ke/feeds/news" },
-    { "name": "Tuko", "url": "https://www.tuko.co.ke/rss/all.rss" },
-    { "name": "Citizen Digital", "url": "https://www.citizen.digital/rss" },
-    { "name": "The Standard", "url": "https://www.standardmedia.co.ke/rss/headlines.php" },
-    { "name": "Nation", "url": "https://nation.africa/kenya/rss.xml" },
-    { "name": "KBC", "url": "https://www.kbc.co.ke/feed/" },
-    { "name": "Ghetto Radio", "url": "https://ghettoradio.co.ke/feed/" }
+    {
+      "name": "Capital FM",
+      "url": "https://www.capitalfm.co.ke/news/feed/"
+    },
+    {
+      "name": "Kenyans.co.ke",
+      "url": "https://www.kenyans.co.ke/feeds/news"
+    },
+    {
+      "name": "Tuko",
+      "url": "https://www.tuko.co.ke/rss/all.rss"
+    },
+    {
+      "name": "The Standard",
+      "url": "https://www.standardmedia.co.ke/rss/headlines.php"
+    },
+    {
+      "name": "Nation",
+      "url": "https://nation.africa/kenya/rss.xml"
+    },
+    {
+      "name": "KBC",
+      "url": "https://www.kbc.co.ke/feed/"
+    },
+    {
+      "name": "Ghetto Radio",
+      "url": "https://ghettoradio.co.ke/feed/"
+    }
   ]
 }

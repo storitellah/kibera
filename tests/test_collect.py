@@ -81,6 +81,28 @@ class CollectTests(unittest.TestCase):
                           "date": datetime(2030, 1, 1, tzinfo=timezone.utc)}, now)
         self.assertEqual(it["published"], "2026-10-21T00:00:00Z")
 
+    def test_sports_wins_over_politics_campaign(self):
+        self.assertEqual(c.categorize("Coach explains poor start to league campaign", ""), "Sports")
+
+    def test_msn_suffix_removed(self):
+        self.assertEqual(c.clean_publisher("Tuko News on MSN"), "Tuko News")
+
+    def test_bing_results_need_keyword(self):
+        kw = c.re.compile(r"\b(kibera|kibra)\b", c.re.I)
+        feed = b"""<rss><channel>
+<item><title>Hippo pathway research</title><link>https://www.bing.com/news/apiclick.aspx?url=https%3a%2f%2fa.com%2f1</link><description>Biotech.</description></item>
+<item><title>Kibera traders protest</title><link>https://www.bing.com/news/apiclick.aspx?url=https%3a%2f%2fa.com%2f2</link><description>x</description></item>
+</channel></rss>"""
+        orig = c.fetch
+        c.fetch = lambda url, **kw_: feed
+        try:
+            _, items, err = c.collect_source({"name": "Bing News", "url": "https://www.bing.com/news/search?q=Kibera&format=rss",
+                                              "filter_keywords": True}, kw, True)
+        finally:
+            c.fetch = orig
+        self.assertIsNone(err)
+        self.assertEqual([i["url"] for i in items], ["https://a.com/2"])
+
 
 if __name__ == "__main__":
     unittest.main()

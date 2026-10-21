@@ -6,6 +6,8 @@
 Sources (edit scraper/sources.json):
   * search: news search feeds (Google News, Bing News) and the GDELT API. Every
     result is kept, because the search engine already matched "Kibera".
+  * exclude: words or publisher names; matching stories are dropped (also from
+    the archive). Use it to silence off-topic results that search engines return.
   * outlets: RSS feeds from Kenyan publishers. Only items whose title or summary
     mention a keyword are kept.
 
@@ -19,6 +21,8 @@ import html
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -38,12 +42,12 @@ CATEGORIES = [
     ("Fire & Emergencies", r"\bfires?\b|blaze|inferno|flood|floods|flooding|collapse|disaster|tragedy|rescue|demolition victims|electrocut"),
     ("Crime & Security", r"police|crime|criminal|murder|killed|shot dead|shooting|robbery|robbers|theft|arrest|suspect|gang|stabb|assault|court|charged|detectives|dci\b|teargas|tear gas"),
     ("Housing & Land", r"housing|affordable homes?|houses|demolition|demolish|evict|eviction|land|slum upgrad|kensup|resettle|title deeds?|rent\b"),
-    ("Health", r"health|hospital|clinic|cholera|malaria|hiv|aids|tb\b|tuberculosis|vaccin|disease|outbreak|medical|maternal|nutrition|mental health|covid|mpox"),
+    ("Health", r"health|hospital|clinic|abortion|pregnan|maternity|infant|cholera|malaria|hiv|aids|tb\b|tuberculosis|vaccin|disease|outbreak|medical|maternal|nutrition|mental health|covid|mpox"),
     ("Water & Sanitation", r"water|sanitation|toilet|sewer|sewage|waste|garbage|dumpsite|nairobi river|clean[- ]?up|drainage"),
     ("Education", r"school|pupils?|students?|teachers?|education|kcse|kcpe|kjsea|cbc\b|bursar|scholarship|university|library|literacy"),
+    ("Sports", r"football|soccer|coach|\bfc\b|league|tournament|athlet|boxing|rugby|basketball|marathon|sports?\b|harambee stars|cup\b"),
     ("Politics & Governance", r"\bmp\b|member of parliament|mca\b|governor|sakaja|ruto|raila|odinga|election|campaign|iebc|parliament|senator|politic|ward rep|cdf\b|ng-cdf|county government|protest|demonstrat|maandamano|by-election"),
     ("Business & Jobs", r"business|traders?|market|jobs?\b|employment|unemploy|youth fund|loan|sacco|entrepreneur|economy|prices|hustler|livelihood|kazi mtaani|investment"),
-    ("Sports", r"football|soccer|\bfc\b|league|tournament|athlet|boxing|rugby|basketball|marathon|sports?\b|harambee stars|cup\b"),
     ("Arts & Culture", r"music|artist|film|movie|documentary|theatre|theater|festival|art\b|arts\b|dance|poet|photograph|mural|culture|ghetto radio"),
     ("Infrastructure & Transport", r"road|railway|\bsgr\b|bypass|electricity|power|kplc|street ?lights?|bridge|construction|matatu|transport|digital|internet|wi-?fi"),
     ("Community & Development", r"community|ngo|charity|donat|youth|women|girls|children|volunteer|initiative|project|empower|shofco|feeding|relief|church|mosque"),
@@ -60,10 +64,17 @@ def log(msg):
 
 # ---------- helpers ----------
 
-def fetch(url, timeout=25):
+def fetch(url, timeout=25, retries=2):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "*/*"})
-    with urllib.request.urlopen(req, timeout=timeout) as res:
-        return res.read()
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as res:
+                return res.read()
+        except urllib.error.HTTPError as err:
+            # Rate limits (GDELT) and server hiccups are worth one more try.
+            if attempt == retries or err.code not in (429, 500, 502, 503, 504):
+                raise
+            time.sleep(6 * (attempt + 1))
 
 
 def clean_text(s):
@@ -199,7 +210,7 @@ def parse_gdelt(raw, source_name):
 
 # ---------- pipeline ----------
 
-def collect_source(src, keyword_re, is_search):
+def collect_source(src, keyword_re, is_search, exclude_re=None):
     name = src["name"]
     try:
         raw = fetch(src["url"])
@@ -211,13 +222,21 @@ def collect_source(src, keyword_re, is_search):
             items = [fix_google(i) for i in items]
         elif "bing.com" in src["url"]:
             items = [fix_bing(i) for i in items]
-        if not is_search:
+        # Outlet feeds and loose search engines (Bing) must mention a keyword.
+        if src.get("filter_keywords", not is_search):
             items = [i for i in items if keyword_re.search(f"{i['title']} {i['summary']}")]
+        if exclude_re:
+            items = [i for i in items if not exclude_re.search(f"{i['title']} {i['publisher']}")]
+        if not is_search:
             for i in items:
                 i["publisher"] = i["publisher"] or name
         return name, items, None
     except Exception as err:  # one broken feed must not stop the run
         return name, [], f"{type(err).__name__}: {err}"[:200]
+
+
+def clean_publisher(name):
+    return re.sub(r"\s+on MSN$", "", name or "").strip()
 
 
 def normalise(raw, now):
@@ -231,7 +250,7 @@ def normalise(raw, now):
         "id": item_id(raw["url"]),
         "title": raw["title"],
         "url": raw["url"],
-        "source": raw["publisher"] or raw["via"],
+        "source": clean_publisher(raw["publisher"]) or raw["via"],
         "via": raw["via"],
         "published": to_utc_iso(date),
         "date_estimated": raw["date"] is None,
@@ -282,10 +301,12 @@ def main():
 
     cfg = json.loads(args.sources.read_text())
     keyword_re = re.compile(r"\b(" + "|".join(map(re.escape, cfg["keywords"])) + r")\b", re.I)
+    excludes = cfg.get("exclude", [])
+    exclude_re = re.compile("|".join(map(re.escape, excludes)), re.I) if excludes else None
     jobs = [(s, True) for s in cfg.get("search", [])] + [(s, False) for s in cfg.get("outlets", [])]
 
     with ThreadPoolExecutor(max_workers=8) as pool:
-        results = list(pool.map(lambda j: collect_source(j[0], keyword_re, j[1]), jobs))
+        results = list(pool.map(lambda j: collect_source(j[0], keyword_re, j[1], exclude_re), jobs))
 
     now = datetime.now(timezone.utc)
     # Outlets first so their direct links win over search-engine redirects.
@@ -297,6 +318,11 @@ def main():
     if args.out.exists():
         existing = json.loads(args.out.read_text()).get("items", [])
     items = merge(existing, fresh, now)
+    if exclude_re:
+        items = [i for i in items if not exclude_re.search(f"{i['title']} {i['source']}")]
+    for it in items:
+        it["category"] = categorize(it["title"], it.get("summary", ""))
+        it["source"] = clean_publisher(it["source"]) or it["source"]
 
     status = [{"name": n, "ok": e is None, "found": len(i), **({"error": e} if e else {})} for n, i, e in results]
     for s in status:

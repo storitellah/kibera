@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-21T14:41:27Z",
- "new_in_last_run": 33,
+ "generated_at": "2026-10-21T14:44:14Z",
+ "new_in_last_run": 9,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 32
+   "found": 31
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 32
+   "found": 31
   },
   {
    "name": "Bing News",
@@ -19,15 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  {
-   "name": "The Star",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 10
   },
   {
    "name": "Capital FM",
@@ -43,12 +36,6 @@
    "name": "Tuko",
    "ok": true,
    "found": 0
-  },
-  {
-   "name": "Citizen Digital",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 400: Bad Request"
   },
   {
    "name": "The Standard",
@@ -72,6 +59,19 @@
   }
  ],
  "items": [
+  {
+   "id": "b1085dac3414",
+   "title": "Kenya US Level 3 Travel Advisory : Ebola Risks and Tourism Fallout",
+   "url": "https://eturbonews.com/kenya-us-level-3-travel-advisory-ebola-tourism/",
+   "source": "eturbonews.com",
+   "via": "GDELT",
+   "published": "2026-10-21T11:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
+  },
   {
    "id": "05658ea8e6ce",
    "title": "\"Hakuwa mgonjwa\": Nairobi mum shattered after 5-month-old baby dies in daycare",
@@ -119,6 +119,45 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "80c6d469fcab",
+   "title": "US raises Kenya travel advisory over Ebola and security concerns",
+   "url": "https://www.africanews.com/2026/10/20/us-raises-kenya-travel-advisory-over-ebola-and-security-concerns/",
+   "source": "africanews.com",
+   "via": "GDELT",
+   "published": "2026-10-20T12:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
+  },
+  {
+   "id": "f34fed77d7e4",
+   "title": "Why the US has raised the travel advisory for Kenya",
+   "url": "https://www.standardmedia.co.ke/africa/article/2001560503/why-the-us-has-raised-the-travel-advisory-for-kenya",
+   "source": "standardmedia.co.ke",
+   "via": "GDELT",
+   "published": "2026-10-20T10:45:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
+  },
+  {
+   "id": "0fbdcf8d057e",
+   "title": "Red Alert ! U . S . raises travel advisory to Kenya to level 3 over Ebola - Reconsider Travel to Kenya Due to Risk of Health",
+   "url": "https://www.kenyan-post.com/2026/10/red-alert-us-raises-travel-advisory-to.html",
+   "source": "kenyan-post.com",
+   "via": "GDELT",
+   "published": "2026-10-20T07:30:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
   },
   {
    "id": "ec6b5f42617a",
@@ -229,6 +268,19 @@
    "first_seen": "2026-10-21T14:41:27Z"
   },
   {
+   "id": "1138e5b924d7",
+   "title": "Best Places to Live in Kenya for Expats 2026",
+   "url": "https://www.riotimesonline.com/best-places-to-live-in-kenya-for-expats-2026/",
+   "source": "riotimesonline.com",
+   "via": "GDELT",
+   "published": "2026-10-18T12:45:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
+  },
+  {
    "id": "7c1494e368d2",
    "title": "Raila Odinga Jnr Joins ODM Faction amid Divisions after Raila's First Memorial",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRjJzNTJBZkNDV1hhYUx5aC1NMHZQMnNEWERJZFgzUXZZS0JHZHBXbHBtOXMtUWxWWXZhNFh2aERBdXRvZUpUVHRHb2huZlJVMkpKcnJnbkxWVEhhb216OF9fX1JxbC13a3diQ09NNnZQYjBsUHA0WE45dU9JRFc3QU5FaDZfUTNSd0xmY1NRcUVaRmFMdklDdUpjMXFqT2pzUnJDRXl6ZFFSMTdOWFNDV05JbkZnOTA1dmR1SVJn?oc=5",
@@ -289,9 +341,9 @@
    "first_seen": "2026-10-21T14:41:27Z"
   },
   {
-   "id": "f5fa6df72146",
+   "id": "c6604f22d94c",
    "title": "Kibera Churches Revive COVID Precautions Against Ebola",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQkUzQUx5dUwtQjBGYzlfN0VrbnI5OE84TnJsRkpJdGx0aHluaXBDS1JVRGJtUVNkZVYzTExoR3l6ekJVNkpQZ2F0V0UxajZLQXFGdDFickxoOFJ4TW1PaWIxSHR5b1VWbXlJcjRfeGVHRUhGeXR4WDNPSmNGVi1LNXp5YUxRZC1y?oc=5",
+   "url": "https://ghettoradio.co.ke/kibera-churches-revive-covid-precautions-against-ebola/",
    "source": "ghettoradio.co.ke",
    "via": "Google News",
    "published": "2026-10-17T08:09:14Z",
@@ -311,6 +363,19 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "6b30b3613d65",
+   "title": "Senator Sifuna Accuses President Ruto of Intimidation as Governor Natembeya Challenges Security Withdrawal",
+   "url": "https://kenya-today.com/report-senator-sifuna-accuses-president-ruto-of-intimidation-as-governor-natembeya-challenges-security-withdrawal-12415/",
+   "source": "kenya-today.com",
+   "via": "GDELT",
+   "published": "2026-10-17T05:45:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
   },
   {
    "id": "a83ed789bef6",
@@ -373,6 +438,19 @@
    "first_seen": "2026-10-21T14:41:27Z"
   },
   {
+   "id": "4c0a1e2b5941",
+   "title": "Raila daughter , son scheme for political seats in Nairobi",
+   "url": "https://www.the-star.co.ke/news/2026-10-16-railas-daughter-son-scheme-for-political-seats-in-nairobi",
+   "source": "the-star.co.ke",
+   "via": "GDELT",
+   "published": "2026-10-16T05:15:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
+  },
+  {
    "id": "fefe07ba967b",
    "title": "Raila’s daughter, son scheme for political seats in Nairobi",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMElsMDVLWlZ2Z3g4U2RVTHQyWXlDTjVWWVUyUjBvdmFoUVhOSTZkREhWblFna1ZvSGV3eGg3b1ZrT0cxTVZNZVpfSnZRRmF6S3I0b0pmVUVFYmxzVFhYd29adDJYSUpLNnI2ckFPSVh4RDFzX2Uta21Sa0dTbXQ3NXVvX0M4TXIwdTUzLURmQTNCVWd2ZVJ4WUY4MkpBcEs5cXc?oc=5",
@@ -383,6 +461,32 @@
    "summary": "",
    "category": "Politics & Governance",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "a59dcce7707e",
+   "title": "Stigma , legal risks put girls off reproductive healthcare",
+   "url": "https://www.the-star.co.ke/news/big-read/2026-10-15-stigma-legal-risks-put-girls-off-reproductive-healthcare",
+   "source": "the-star.co.ke",
+   "via": "GDELT",
+   "published": "2026-10-16T00:30:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
+  },
+  {
+   "id": "2ed3a7e9b30b",
+   "title": "KDF DAY 2026 : HONOURING HEROES , UPLIFTING COMMUNITIES , STRENGTHENING NATIONAL UNITY – Ministry of Defence – Kenya",
+   "url": "https://www.mod.go.ke/news/kdf-day-2026-honouring-heroes-uplifting-communities-strengthening-national-unity/",
+   "source": "mod.go.ke",
+   "via": "GDELT",
+   "published": "2026-10-15T18:30:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "language": "English",
+   "first_seen": "2026-10-21T14:44:14Z"
   },
   {
    "id": "9186871b6971",

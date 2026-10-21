@@ -1,465 +1,381 @@
-/* Kibera Photo Map
- * Leaflet + OpenStreetMap. Photos come from data/photos.json; village labels from
- * data/villages.geojson; an optional OSM boundary from data/kibera-osm.geojson
- * (generate it with scripts/fetch_osm.py).
+/* Kibera News: renders data/news.json (written by scraper/collect.py) with
+ * filters, day grouping and configurable date/time formatting. Filters live in
+ * the URL query string so any view can be shared.
  */
 (function () {
   'use strict';
 
-  const KIBERA_CENTER = [-1.3127, 36.7860];
-  const KIBERA_BOUNDS = L.latLngBounds([-1.3285, 36.7620], [-1.2975, 36.8085]);
+  const DATA_URL = 'data/news.json';
+  const POLL_MS = 5 * 60 * 1000;
+  const PAGE = 60;
 
-  const state = {
-    photos: [],
-    visible: [],
-    village: null,
-    tags: new Set(),
-    query: '',
-    activeId: null,
-    markers: new Map(), // photo id -> L.Marker
+  const CATEGORY_COLORS = {
+    'Fire & Emergencies': '--c-fire',
+    'Crime & Security': '--c-crime',
+    'Housing & Land': '--c-housing',
+    'Health': '--c-health',
+    'Water & Sanitation': '--c-water',
+    'Education': '--c-education',
+    'Politics & Governance': '--c-politics',
+    'Business & Jobs': '--c-business',
+    'Sports': '--c-sports',
+    'Arts & Culture': '--c-arts',
+    'Infrastructure & Transport': '--c-infra',
+    'Community & Development': '--c-community',
+    'General': '--c-general',
   };
 
-  // ---------- Map ----------
-  const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  const DEFAULTS = { q: '', period: '7d', from: '', to: '', cats: [], source: '', sort: 'new', tz: 'Africa/Nairobi', clock: '24', datefmt: 'long' };
+  const state = { ...DEFAULTS, items: [], generatedAt: null, sources: [], shown: PAGE, newIds: new Set(), pending: null };
+  const $ = (id) => document.getElementById(id);
+
+  // ---------- Date & time formatting ----------
+  function tzOpt() { return state.tz === 'local' ? undefined : state.tz; }
+
+  function zoneLabel() {
+    if (state.tz === 'Africa/Nairobi') return 'EAT';
+    if (state.tz === 'UTC') return 'UTC';
+    const part = new Intl.DateTimeFormat(undefined, { timeZoneName: 'short' }).formatToParts(new Date()).find((p) => p.type === 'timeZoneName');
+    return part ? part.value : '';
+  }
+
+  function fmtTime(d, withSeconds) {
+    return new Intl.DateTimeFormat('en-GB', {
+      timeZone: tzOpt(), hour: state.clock === '12' ? 'numeric' : '2-digit', minute: '2-digit',
+      second: withSeconds ? '2-digit' : undefined, hour12: state.clock === '12',
+    }).format(d);
+  }
+
+  function dayKey(d) {
+    const p = Object.fromEntries(new Intl.DateTimeFormat('en-GB', { timeZone: tzOpt(), year: 'numeric', month: '2-digit', day: '2-digit' })
+      .formatToParts(d).map((x) => [x.type, x.value]));
+    return `${p.year}-${p.month}-${p.day}`;
+  }
+
+  function fmtDate(d) {
+    if (state.datefmt === 'iso') return dayKey(d);
+    const opts = state.datefmt === 'short'
+      ? { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric' }
+      : { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' };
+    return new Intl.DateTimeFormat('en-GB', { timeZone: tzOpt(), ...opts }).format(d);
+  }
+
+  function fmtDateTime(d) { return `${fmtDate(d)}, ${fmtTime(d)} ${zoneLabel()}`; }
+
+  function ago(d, now = new Date()) {
+    const s = Math.round((now - d) / 1000);
+    if (s < 60) return 'just now';
+    const m = Math.round(s / 60);
+    if (m < 60) return `${m} min ago`;
+    const h = Math.round(m / 60);
+    if (h < 24) return `${h} hr${h === 1 ? '' : 's'} ago`;
+    const days = Math.round(h / 24);
+    if (days < 30) return `${days} day${days === 1 ? '' : 's'} ago`;
+    const mo = Math.round(days / 30.4);
+    return mo < 12 ? `${mo} month${mo === 1 ? '' : 's'} ago` : `${Math.round(mo / 12)} yr ago`;
+  }
+
+  function relDay(key, now = new Date()) {
+    const today = dayKey(now);
+    const yesterday = dayKey(new Date(now - 864e5));
+    return key === today ? 'Today' : key === yesterday ? 'Yesterday' : '';
+  }
+
+  // Sample labels in the format dropdown always show today's date.
+  function refreshFormatLabels() {
+    const now = new Date();
+    const saved = state.datefmt;
+    $('datefmt').querySelectorAll('option').forEach((o) => { state.datefmt = o.value; o.textContent = fmtDate(now); });
+    state.datefmt = saved;
+    const savedClock = state.clock;
+    $('clock').querySelectorAll('option').forEach((o) => {
+      state.clock = o.value;
+      o.textContent = `${o.value}-hour (${fmtTime(now)})`;
+    });
+    state.clock = savedClock;
+  }
+
+  // ---------- Clock ----------
+  function tick() {
+    const now = new Date();
+    $('clock-date').textContent = fmtDate(now);
+    $('clock-time').textContent = `${fmtTime(now, true)} ${zoneLabel()}`;
+    if (state.generatedAt) {
+      $('updated').textContent = `Updated ${ago(state.generatedAt, now)} · ${fmtDateTime(state.generatedAt)}`;
+    } else {
+      $('updated').textContent = 'Waiting for the first collection run';
+    }
+  }
+
+  // ---------- URL state ----------
+  function readURL() {
+    const p = new URLSearchParams(location.search);
+    for (const k of Object.keys(DEFAULTS)) {
+      if (!p.has(k)) continue;
+      state[k] = k === 'cats' ? p.get(k).split('|').filter(Boolean) : p.get(k);
+    }
+  }
+
+  function writeURL() {
+    const p = new URLSearchParams();
+    for (const [k, def] of Object.entries(DEFAULTS)) {
+      const v = k === 'cats' ? state.cats.join('|') : state[k];
+      if (v !== (k === 'cats' ? '' : def)) p.set(k, v);
+    }
+    const qs = p.toString();
+    history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
+  }
+
+  // ---------- Data ----------
+  async function load({ initial = false } = {}) {
+    let data;
+    try {
+      const res = await fetch(`${DATA_URL}?t=${Date.now()}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error(res.status);
+      data = await res.json();
+    } catch (err) {
+      if (initial) $('feed').innerHTML = `<div class="empty"><h2>Couldn't load the news</h2><p>${esc(String(err))}. If you opened the file directly, serve the folder over HTTP instead.</p></div>`;
+      return;
+    }
+
+    const items = (data.items || [])
+      .map((it) => ({ ...it, date: new Date(it.published) }))
+      .filter((it) => !isNaN(it.date));
+
+    if (initial) {
+      apply(data, items);
+      return;
+    }
+    const known = new Set(state.items.map((i) => i.id));
+    const fresh = items.filter((i) => !known.has(i.id));
+    if (fresh.length) {
+      state.pending = { data, items, fresh };
+      $('show-new').textContent = `${fresh.length} new stor${fresh.length === 1 ? 'y' : 'ies'}: show`;
+      $('new-banner').hidden = false;
+    } else {
+      state.generatedAt = data.generated_at ? new Date(data.generated_at) : state.generatedAt;
+      state.sources = data.sources || [];
+      renderSources();
+      tick();
+    }
+  }
+
+  function apply(data, items, fresh = []) {
+    state.items = items;
+    state.generatedAt = data.generated_at ? new Date(data.generated_at) : null;
+    state.sources = data.sources || [];
+    state.newIds = new Set(fresh.map((i) => i.id));
+    buildSourceOptions();
+    renderSources();
+    render();
+    tick();
+  }
+
+  $('show-new').addEventListener('click', () => {
+    const { data, items, fresh } = state.pending;
+    state.pending = null;
+    $('new-banner').hidden = true;
+    apply(data, items, fresh);
+    window.scrollTo({ top: $('feed').offsetTop - 20, behavior: 'smooth' });
   });
-  const hot = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    subdomains: 'abc',
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, tiles style by <a href="https://www.hotosm.org/">HOT</a> hosted by <a href="https://openstreetmap.fr/">OSM France</a>',
+  $('refresh').addEventListener('click', async (e) => {
+    e.target.textContent = 'Checking…';
+    await load();
+    e.target.textContent = state.pending ? '↻ New stories found' : '↻ Up to date. Check again';
   });
 
-  const map = L.map('map', {
-    center: KIBERA_CENTER,
-    zoom: 16,
-    minZoom: 13,
-    maxBounds: KIBERA_BOUNDS.pad(1.5),
-    layers: [hot],
-    zoomControl: false,
-  });
-  L.control.zoom({ position: 'topright' }).addTo(map);
-  L.control.scale({ imperial: false, position: 'bottomright' }).addTo(map);
+  // ---------- Filtering ----------
+  function inPeriod(it, now) {
+    switch (state.period) {
+      case 'today': return dayKey(it.date) === dayKey(now);
+      case '24h': return now - it.date <= 864e5;
+      case '7d': return now - it.date <= 7 * 864e5;
+      case '30d': return now - it.date <= 30 * 864e5;
+      case 'custom': {
+        const k = dayKey(it.date);
+        return (!state.from || k >= state.from) && (!state.to || k <= state.to);
+      }
+      default: return true;
+    }
+  }
 
-  const villageLayer = L.layerGroup().addTo(map);
-  const boundaryLayer = L.layerGroup().addTo(map);
+  function matchesText(it) {
+    if (!state.q) return true;
+    const hay = `${it.title} ${it.summary || ''} ${it.source} ${it.category}`.toLowerCase();
+    return state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w));
+  }
 
-  const cluster = L.markerClusterGroup({
-    showCoverageOnHover: false,
-    maxClusterRadius: 48,
-    spiderfyOnMaxZoom: true,
-    iconCreateFunction(c) {
-      const first = c.getAllChildMarkers()[0].options.photo;
-      return L.divIcon({
-        className: '',
-        iconSize: [54, 54],
-        html: `<div class="photo-cluster"><div class="photo-marker"><img src="${esc(first.thumb)}" alt=""></div><span class="count">${c.getChildCount()}</span></div>`,
-      });
-    },
-  }).addTo(map);
+  function filtered({ ignoreCats = false } = {}) {
+    const now = new Date();
+    return state.items.filter((it) =>
+      inPeriod(it, now) && matchesText(it) &&
+      (!state.source || it.source === state.source) &&
+      (ignoreCats || !state.cats.length || state.cats.includes(it.category)));
+  }
 
-  L.control.layers(
-    { 'Humanitarian (HOT)': hot, 'OpenStreetMap Standard': osm },
-    { 'Village names': villageLayer, 'Kibera boundary': boundaryLayer, 'Photos': cluster },
-    { position: 'topright' }
-  ).addTo(map);
-
-  // ---------- Helpers ----------
+  // ---------- Rendering ----------
   function esc(s) {
     return String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
-  function fmtDate(d) {
-    if (!d) return '';
-    const dt = new Date(d);
-    return isNaN(dt) ? d : dt.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
-  }
-  async function loadJSON(url, optional) {
-    try {
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(res.status);
-      return await res.json();
-    } catch (err) {
-      if (!optional) console.error(`Could not load ${url}`, err);
-      return null;
-    }
-  }
-  const $ = (id) => document.getElementById(id);
+  function color(cat) { return `var(${CATEGORY_COLORS[cat] || '--c-general'})`; }
+  function safeUrl(u) { return /^https?:\/\//i.test(u) ? u : '#'; }
 
-  // ---------- Data ----------
-  async function init() {
-    const [photoData, villages, boundary] = await Promise.all([
-      loadJSON('data/photos.json'),
-      loadJSON('data/villages.geojson'),
-      loadJSON('data/kibera-osm.geojson', true),
-    ]);
+  function render() {
+    writeURL();
+    syncControls();
+    renderCats();
+    renderStats();
 
-    if (boundary) drawBoundary(boundary);
-    if (villages) drawVillages(villages);
+    const list = filtered().sort((a, b) => state.sort === 'old' ? a.date - b.date : b.date - a.date);
+    const n = list.length;
+    $('result-count').textContent = state.items.length ? `${n} stor${n === 1 ? 'y' : 'ies'} match${n === 1 ? 'es' : ''} your filters` : '';
+    const active = activeFilterCount();
+    $('active-count').textContent = active ? `(${active} active)` : '';
 
-    state.photos = (photoData?.photos || []).filter((p) => isFinite(p.lat) && isFinite(p.lng));
-    buildMarkers();
-    buildChips();
-    applyFilters();
-    if (state.photos.length) map.fitBounds(L.latLngBounds(state.photos.map((p) => [p.lat, p.lng])).pad(0.15), { maxZoom: 17 });
-    readHash();
-  }
-
-  function drawBoundary(gj) {
-    L.geoJSON(gj, {
-      filter: (f) => f.geometry && f.geometry.type !== 'Point',
-      style: { color: '#b4532a', weight: 2, dashArray: '6 5', fill: true, fillOpacity: 0.04 },
-      interactive: false,
-    }).addTo(boundaryLayer);
-  }
-
-  function drawVillages(gj) {
-    L.geoJSON(gj, {
-      pointToLayer: (f, latlng) =>
-        L.marker(latlng, { opacity: 0, interactive: false, keyboard: false })
-          .bindTooltip(f.properties.name, { permanent: true, direction: 'center', className: 'village-label' }),
-    }).addTo(villageLayer);
-  }
-
-  function markerIcon(p, active) {
-    return L.divIcon({
-      className: '',
-      iconSize: [46, 46],
-      iconAnchor: [23, 23],
-      html: `<div class="photo-marker${active ? ' is-active' : ''}"><img src="${esc(p.thumb)}" alt=""></div>`,
-    });
-  }
-
-  function buildMarkers() {
-    state.photos.forEach((p) => {
-      const m = L.marker([p.lat, p.lng], { icon: markerIcon(p), photo: p, title: p.title, alt: p.title });
-      m.on('click', () => openLightbox(p.id));
-      state.markers.set(p.id, m);
-    });
-  }
-
-  // ---------- Filters ----------
-  function buildChips() {
-    const villages = [...new Set(state.photos.map((p) => p.village).filter(Boolean))].sort();
-    const tags = [...new Set(state.photos.flatMap((p) => p.tags || []))].sort();
-
-    const vWrap = $('village-chips');
-    vWrap.innerHTML = '';
-    ['All villages', ...villages].forEach((v, i) => {
-      const b = chip(v, i === 0);
-      b.addEventListener('click', () => {
-        state.village = i === 0 ? null : v;
-        vWrap.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', String(c === b)));
-        applyFilters({ fit: true });
-      });
-      vWrap.appendChild(b);
-    });
-
-    const tWrap = $('tag-chips');
-    tWrap.innerHTML = '';
-    tags.forEach((t) => {
-      const b = chip(t, false);
-      b.classList.add('tag');
-      b.addEventListener('click', () => {
-        state.tags.has(t) ? state.tags.delete(t) : state.tags.add(t);
-        b.setAttribute('aria-pressed', String(state.tags.has(t)));
-        applyFilters({ fit: true });
-      });
-      tWrap.appendChild(b);
-    });
-  }
-
-  function chip(label, pressed) {
-    const b = document.createElement('button');
-    b.type = 'button';
-    b.className = 'chip';
-    b.textContent = label;
-    b.setAttribute('aria-pressed', String(pressed));
-    return b;
-  }
-
-  $('search').addEventListener('input', (e) => {
-    state.query = e.target.value.trim().toLowerCase();
-    applyFilters();
-  });
-
-  function matches(p) {
-    if (state.village && p.village !== state.village) return false;
-    for (const t of state.tags) if (!(p.tags || []).includes(t)) return false;
-    if (state.query) {
-      const hay = [p.title, p.caption, p.village, p.photographer, ...(p.tags || [])].join(' ').toLowerCase();
-      if (!hay.includes(state.query)) return false;
-    }
-    return true;
-  }
-
-  function applyFilters({ fit = false } = {}) {
-    state.visible = state.photos.filter(matches).sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-    cluster.clearLayers();
-    cluster.addLayers(state.visible.map((p) => state.markers.get(p.id)));
-    renderList();
-    if (fit && state.visible.length) {
-      map.flyToBounds(L.latLngBounds(state.visible.map((p) => [p.lat, p.lng])).pad(0.3), { maxZoom: 17, duration: 0.6 });
-    }
-  }
-
-  function renderList() {
-    const list = $('photo-list');
-    const n = state.visible.length;
-    $('result-count').textContent = `${n} photo${n === 1 ? '' : 's'}${n !== state.photos.length ? ` of ${state.photos.length}` : ''}`;
-    if (!n) {
-      list.innerHTML = '<li class="empty">No photos match these filters.</li>';
+    const feed = $('feed');
+    if (!state.items.length) {
+      feed.innerHTML = '<div class="empty"><h2>No stories yet</h2><p>The collector runs every 3 hours. Stories will appear here after its first run.</p></div>';
       return;
     }
-    list.innerHTML = state.visible.map((p) => `
-      <li class="photo-card${p.id === state.activeId ? ' is-active' : ''}" data-id="${esc(p.id)}" tabindex="0">
-        <img src="${esc(p.thumb)}" alt="" loading="lazy">
-        <div>
-          <h3>${esc(p.title)}</h3>
-          <p class="meta">${esc(p.village || 'Kibera')}${p.date ? ' · ' + esc(fmtDate(p.date)) : ''}</p>
-        </div>
-      </li>`).join('');
-  }
-
-  const list = $('photo-list');
-  list.addEventListener('click', (e) => {
-    const card = e.target.closest('.photo-card');
-    if (card) openLightbox(card.dataset.id);
-  });
-  list.addEventListener('keydown', (e) => {
-    const card = e.target.closest('.photo-card');
-    if (card && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openLightbox(card.dataset.id); }
-  });
-  list.addEventListener('mouseover', (e) => {
-    const card = e.target.closest('.photo-card');
-    if (card) highlight(card.dataset.id);
-  });
-  list.addEventListener('mouseleave', () => highlight(state.activeId));
-
-  let highlighted = null;
-  function highlight(id) {
-    if (highlighted === id) return;
-    const prev = state.markers.get(highlighted);
-    if (prev) prev.setIcon(markerIcon(prev.options.photo, false));
-    highlighted = id;
-    const m = state.markers.get(id);
-    if (m) {
-      m.setIcon(markerIcon(m.options.photo, true));
-      m.setZIndexOffset(1000);
+    if (!n) {
+      feed.innerHTML = '<div class="empty"><h2>Nothing matches</h2><p>Try a longer period, or clear the search or topic filters.</p><button class="btn-link" type="button" data-reset>Reset filters</button></div>';
+      return;
     }
-  }
 
-  // ---------- Lightbox ----------
-  const lb = $('lightbox');
-  let lastFocus = null;
-
-  function openLightbox(id) {
-    const p = state.photos.find((x) => x.id === id);
-    if (!p) return;
-    state.activeId = id;
-    lastFocus = lastFocus || document.activeElement;
-
-    $('lb-img').src = p.src;
-    $('lb-img').alt = p.alt || p.title;
-    $('lb-village').textContent = p.village || 'Kibera';
-    $('lb-title').textContent = p.title;
-    $('lb-caption').textContent = p.caption || '';
-    $('lb-byline').innerHTML = [
-      p.photographer && `Photo: ${esc(p.photographer)}`,
-      p.date && esc(fmtDate(p.date)),
-      p.license && esc(p.license),
-    ].filter(Boolean).join(' · ');
-    $('lb-tags').innerHTML = (p.tags || []).map((t) => `<li>${esc(t)}</li>`).join('');
-
-    lb.hidden = false;
-    lb.querySelector('.lb-close').focus();
-    highlight(id);
-    renderList();
-    history.replaceState(null, '', `#photo=${encodeURIComponent(id)}`);
-  }
-
-  function closeLightbox() {
-    lb.hidden = true;
-    history.replaceState(null, '', location.pathname + location.search);
-    if (lastFocus) lastFocus.focus();
-    lastFocus = null;
-  }
-
-  function step(dir) {
-    const pool = state.visible.length ? state.visible : state.photos;
-    const i = pool.findIndex((p) => p.id === state.activeId);
-    const next = pool[(i + dir + pool.length) % pool.length];
-    if (next) openLightbox(next.id);
-  }
-
-  function locate(id) {
-    const m = state.markers.get(id);
-    if (!m) return;
-    closeLightbox();
-    cluster.zoomToShowLayer(m, () => map.panTo(m.getLatLng()));
-    highlight(id);
-  }
-
-  lb.addEventListener('click', (e) => { if (e.target.closest('[data-close]')) closeLightbox(); });
-  lb.querySelector('.lb-prev').addEventListener('click', () => step(-1));
-  lb.querySelector('.lb-next').addEventListener('click', () => step(1));
-  $('lb-locate').addEventListener('click', () => locate(state.activeId));
-  document.addEventListener('keydown', (e) => {
-    if (lb.hidden) return;
-    if (e.key === 'Escape') closeLightbox();
-    if (e.key === 'ArrowLeft') step(-1);
-    if (e.key === 'ArrowRight') step(1);
-  });
-
-  function readHash() {
-    const m = location.hash.match(/photo=([^&]+)/);
-    if (m) openLightbox(decodeURIComponent(m[1]));
-  }
-  window.addEventListener('hashchange', readHash);
-
-  // ---------- Contribute ----------
-  const drawer = $('contribute');
-  const drafts = []; // { id, file, url, lat, lng, title, village, caption, photographer, date, marker }
-  const draftLayer = L.layerGroup().addTo(map);
-  let placing = null;
-
-  $('contribute-btn').addEventListener('click', () => { drawer.hidden = false; });
-  $('contrib-close').addEventListener('click', () => { drawer.hidden = true; stopPlacing(); });
-
-  const dz = $('dropzone');
-  ['dragenter', 'dragover'].forEach((t) => dz.addEventListener(t, (e) => { e.preventDefault(); dz.classList.add('is-over'); }));
-  ['dragleave', 'drop'].forEach((t) => dz.addEventListener(t, (e) => { e.preventDefault(); dz.classList.remove('is-over'); }));
-  dz.addEventListener('drop', (e) => addFiles(e.dataTransfer.files));
-  $('file-input').addEventListener('change', (e) => addFiles(e.target.files));
-
-  async function addFiles(files) {
-    for (const file of files) {
-      if (!file.type.startsWith('image/')) continue;
-      let gps = null, meta = null;
-      try {
-        gps = await exifr.gps(file);
-        meta = await exifr.parse(file, ['DateTimeOriginal', 'Artist']);
-      } catch (_) { /* no EXIF */ }
-      const d = {
-        id: slug(file.name.replace(/\.[^.]+$/, '')),
-        file: file.name,
-        url: URL.createObjectURL(file),
-        lat: gps?.latitude ?? null,
-        lng: gps?.longitude ?? null,
-        title: '',
-        village: nearestVillage(gps),
-        caption: '',
-        photographer: meta?.Artist || '',
-        date: meta?.DateTimeOriginal ? new Date(meta.DateTimeOriginal).toISOString().slice(0, 10) : '',
-      };
-      drafts.push(d);
-      if (d.lat != null) placeDraft(d, [d.lat, d.lng]);
+    const now = new Date();
+    const groups = [];
+    for (const it of list.slice(0, state.shown)) {
+      const k = dayKey(it.date);
+      if (!groups.length || groups[groups.length - 1].key !== k) groups.push({ key: k, date: it.date, items: [] });
+      groups[groups.length - 1].items.push(it);
     }
-    renderDrafts();
+    const zone = zoneLabel();
+
+    feed.innerHTML = groups.map((g) => {
+      const rel = relDay(g.key, now);
+      const count = list.filter((i) => dayKey(i.date) === g.key).length;
+      return `
+      <section class="day" aria-label="${esc(fmtDate(g.date))}">
+        <h2 class="day-head">${rel ? `<span class="rel">${rel}</span> ` : ''}${esc(fmtDate(g.date))}
+          <small>${count} stor${count === 1 ? 'y' : 'ies'}</small></h2>
+        ${g.items.map((it) => `
+          <article class="story${state.newIds.has(it.id) ? ' is-new' : ''}">
+            <div class="when">
+              <time datetime="${esc(it.published)}" title="${esc(fmtDateTime(it.date))}">${esc(fmtTime(it.date))} <span class="zone">${esc(zone)}</span></time>
+              <span class="ago">${esc(ago(it.date, now))}</span>
+              ${it.date_estimated ? '<span class="est">time approximate</span>' : ''}
+            </div>
+            <div>
+              <div class="meta">
+                <button type="button" class="pill" style="background:${color(it.category)}" data-cat="${esc(it.category)}" title="Show only ${esc(it.category)}">${esc(it.category)}</button>
+              </div>
+              <h3><a href="${esc(safeUrl(it.url))}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a></h3>
+              ${it.summary ? `<p class="summary">${esc(it.summary)}</p>` : ''}
+              <div class="meta">
+                <span class="source">${esc(it.source)}</span>
+                ${it.via && it.via !== it.source ? `<span>via ${esc(it.via)}</span>` : ''}
+              </div>
+            </div>
+          </article>`).join('')}
+      </section>`;
+    }).join('') + (n > state.shown ? `<button class="more" type="button" data-more>Show more (${n - state.shown} left)</button>` : '');
   }
 
-  function slug(s) {
-    return s.toLowerCase().normalize('NFKD').replace(/[^\w]+/g, '-').replace(/^-|-$/g, '');
+  function renderStats() {
+    const now = new Date();
+    const today = dayKey(now);
+    const t = state.items.filter((i) => dayKey(i.date) === today).length;
+    const w = state.items.filter((i) => now - i.date <= 7 * 864e5).length;
+    $('stats').innerHTML = `
+      <div class="stat"><b>${t}</b><span>stories today</span></div>
+      <div class="stat"><b>${w}</b><span>in the last 7 days</span></div>
+      <div class="stat"><b>${state.items.length}</b><span>in the archive</span></div>`;
   }
 
-  let villagePoints = [];
-  function nearestVillage(gps) {
-    if (!gps || !villagePoints.length) return '';
-    const here = L.latLng(gps.latitude, gps.longitude);
-    let best = null, bestD = Infinity;
-    villagePoints.forEach((v) => {
-      const dist = here.distanceTo(v.latlng);
-      if (dist < bestD) { bestD = dist; best = v.name; }
-    });
-    return bestD < 800 ? best : '';
+  function renderCats() {
+    const counts = {};
+    filtered({ ignoreCats: true }).forEach((i) => { counts[i.category] = (counts[i.category] || 0) + 1; });
+    const cats = Object.keys(CATEGORY_COLORS).filter((c) => counts[c] || state.cats.includes(c) || state.items.some((i) => i.category === c));
+    $('cats').innerHTML = cats.length ? cats.map((c) => `
+      <label class="cat${counts[c] ? '' : ' is-empty'}">
+        <input type="checkbox" value="${esc(c)}"${state.cats.includes(c) ? ' checked' : ''}>
+        <span class="dot" style="background:${color(c)}"></span>${esc(c)}
+        <span class="n">${counts[c] || 0}</span>
+      </label>`).join('') : '<p class="result-count">Topics appear once stories arrive.</p>';
   }
-  loadJSON('data/villages.geojson').then((gj) => {
-    villagePoints = (gj?.features || []).map((f) => ({
-      name: f.properties.name,
-      latlng: L.latLng(f.geometry.coordinates[1], f.geometry.coordinates[0]),
-    }));
+
+  function buildSourceOptions() {
+    const counts = {};
+    state.items.forEach((i) => { counts[i.source] = (counts[i.source] || 0) + 1; });
+    const names = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
+    $('source').innerHTML = '<option value="">All sources</option>' +
+      names.map((s) => `<option value="${esc(s)}">${esc(s)} (${counts[s]})</option>`).join('');
+    $('source').value = state.source;
+  }
+
+  function renderSources() {
+    $('source-status').innerHTML = state.sources.length
+      ? state.sources.map((s) => `<li><span class="${s.ok ? 'ok' : 'err'}">${s.ok ? '●' : '✕'}</span> ${esc(s.name)}: ${s.ok ? `${s.found} found` : esc(s.error || 'failed')}</li>`).join('')
+      : '<li>No collection run yet.</li>';
+  }
+
+  function syncControls() {
+    $('q').value = state.q;
+    $('period').querySelectorAll('button').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.v === state.period)));
+    $('range').hidden = state.period !== 'custom';
+    $('from').value = state.from;
+    $('to').value = state.to;
+    $('sort').value = state.sort;
+    $('tz').value = state.tz;
+    $('clock').value = state.clock;
+    $('datefmt').value = state.datefmt;
+    if ([...$('source').options].some((o) => o.value === state.source)) $('source').value = state.source;
+  }
+
+  function activeFilterCount() {
+    return [state.q, state.period !== DEFAULTS.period, state.cats.length, state.source].filter(Boolean).length;
+  }
+
+  // ---------- Events ----------
+  function update(patch) {
+    Object.assign(state, patch, { shown: PAGE });
+    render();
+  }
+
+  let qTimer;
+  $('q').addEventListener('input', (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => update({ q: e.target.value.trim() }), 150); });
+  $('period').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) update({ period: b.dataset.v }); });
+  $('from').addEventListener('change', (e) => update({ from: e.target.value }));
+  $('to').addEventListener('change', (e) => update({ to: e.target.value }));
+  $('cats').addEventListener('change', () => update({ cats: [...$('cats').querySelectorAll('input:checked')].map((i) => i.value) }));
+  $('source').addEventListener('change', (e) => update({ source: e.target.value }));
+  $('sort').addEventListener('change', (e) => update({ sort: e.target.value }));
+  ['tz', 'clock', 'datefmt'].forEach((k) => $(k).addEventListener('change', (e) => {
+    update({ [k]: e.target.value });
+    refreshFormatLabels();
+    tick();
+  }));
+  function reset() { update({ q: '', period: DEFAULTS.period, from: '', to: '', cats: [], source: '', sort: 'new' }); }
+  $('reset').addEventListener('click', reset);
+  $('feed').addEventListener('click', (e) => {
+    if (e.target.matches('[data-reset]')) reset();
+    if (e.target.matches('[data-more]')) { state.shown += PAGE; render(); }
+    const pill = e.target.closest('[data-cat]');
+    if (pill) update({ cats: [pill.dataset.cat] });
+  });
+  $('filters-toggle').addEventListener('click', (e) => {
+    const open = e.currentTarget.parentElement.classList.toggle('is-open');
+    e.currentTarget.setAttribute('aria-expanded', String(open));
   });
 
-  function placeDraft(d, latlng) {
-    d.lat = +latlng[0].toFixed(6);
-    d.lng = +latlng[1].toFixed(6);
-    if (!d.village) d.village = nearestVillage({ latitude: d.lat, longitude: d.lng });
-    if (d.marker) d.marker.setLatLng(latlng);
-    else {
-      d.marker = L.marker(latlng, {
-        draggable: true,
-        icon: L.divIcon({ className: '', iconSize: [18, 18], html: '<div class="draft-pin"></div>' }),
-      }).addTo(draftLayer);
-      d.marker.on('dragend', () => { const ll = d.marker.getLatLng(); placeDraft(d, [ll.lat, ll.lng]); renderDrafts(); });
-    }
-  }
-
-  function startPlacing(d) {
-    placing = d;
-    document.body.classList.add('placing-hint');
-    renderDrafts();
-  }
-  function stopPlacing() {
-    placing = null;
-    document.body.classList.remove('placing-hint');
-  }
-  map.on('click', (e) => {
-    if (!placing) return;
-    placeDraft(placing, [e.latlng.lat, e.latlng.lng]);
-    stopPlacing();
-    renderDrafts();
-  });
-
-  function renderDrafts() {
-    const ul = $('draft-list');
-    const villageOptions = villagePoints.map((v) => v.name).sort();
-    ul.innerHTML = drafts.map((d, i) => `
-      <li class="draft${placing === d ? ' is-placing' : ''}" data-i="${i}">
-        <img src="${d.url}" alt="">
-        <div>
-          <input data-k="title" placeholder="Title" value="${esc(d.title)}">
-          <select data-k="village">
-            <option value="">Village…</option>
-            ${villageOptions.map((v) => `<option${v === d.village ? ' selected' : ''}>${esc(v)}</option>`).join('')}
-          </select>
-          <input data-k="caption" placeholder="Caption" value="${esc(d.caption)}">
-          <input data-k="photographer" placeholder="Photographer" value="${esc(d.photographer)}">
-          <p class="loc">${d.lat != null ? `${d.lat}, ${d.lng} · ` : 'No location · '}<button type="button" data-place>${placing === d ? 'Click the map…' : d.lat != null ? 'Move' : 'Place on map'}</button></p>
-        </div>
-      </li>`).join('');
-    $('download-json').disabled = !drafts.some((d) => d.lat != null);
-  }
-
-  $('draft-list').addEventListener('input', (e) => {
-    const li = e.target.closest('.draft');
-    if (li && e.target.dataset.k) drafts[li.dataset.i][e.target.dataset.k] = e.target.value;
-  });
-  $('draft-list').addEventListener('click', (e) => {
-    const li = e.target.closest('.draft');
-    if (li && e.target.matches('[data-place]')) startPlacing(drafts[li.dataset.i]);
-  });
-
-  $('download-json').addEventListener('click', () => {
-    const out = drafts.filter((d) => d.lat != null).map((d) => ({
-      id: d.id,
-      title: d.title || d.id,
-      caption: d.caption,
-      village: d.village,
-      tags: [],
-      lat: d.lat,
-      lng: d.lng,
-      date: d.date,
-      photographer: d.photographer,
-      license: 'CC BY-SA 4.0',
-      consent: '',
-      src: `photos/full/${d.id}.jpg`,
-      thumb: `photos/thumbs/${d.id}.jpg`,
-    }));
-    const blob = new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' });
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = 'new-photos.json';
-    a.click();
-  });
-
-  init();
+  // ---------- Start ----------
+  readURL();
+  syncControls();
+  refreshFormatLabels();
+  tick();
+  setInterval(tick, 1000);
+  load({ initial: true });
+  setInterval(load, POLL_MS);
+  // Keep "x min ago" labels fresh without refetching.
+  setInterval(() => { if (state.items.length) render(); }, 60 * 1000);
 })();

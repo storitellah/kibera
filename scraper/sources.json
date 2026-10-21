@@ -1,0 +1,36 @@
+{
+  "keywords": ["kibera", "kibra"],
+  "search": [
+    {
+      "name": "Google News",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=Kibera+OR+Kibra+when:7d&hl=en-KE&gl=KE&ceid=KE:en"
+    },
+    {
+      "name": "Google News (Swahili)",
+      "type": "rss",
+      "url": "https://news.google.com/rss/search?q=Kibera+OR+Kibra+when:7d&hl=sw&gl=KE&ceid=KE:sw"
+    },
+    {
+      "name": "Bing News",
+      "type": "rss",
+      "url": "https://www.bing.com/news/search?q=Kibera&format=rss&setlang=en-GB"
+    },
+    {
+      "name": "GDELT",
+      "type": "gdelt",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc?query=(Kibera%20OR%20Kibra)&mode=artlist&format=json&maxrecords=100&timespan=7d&sort=datedesc"
+    }
+  ],
+  "outlets": [
+    { "name": "The Star", "url": "https://www.the-star.co.ke/rss" },
+    { "name": "Capital FM", "url": "https://www.capitalfm.co.ke/news/feed/" },
+    { "name": "Kenyans.co.ke", "url": "https://www.kenyans.co.ke/feeds/news" },
+    { "name": "Tuko", "url": "https://www.tuko.co.ke/rss/all.rss" },
+    { "name": "Citizen Digital", "url": "https://www.citizen.digital/rss" },
+    { "name": "The Standard", "url": "https://www.standardmedia.co.ke/rss/headlines.php" },
+    { "name": "Nation", "url": "https://nation.africa/kenya/rss.xml" },
+    { "name": "KBC", "url": "https://www.kbc.co.ke/feed/" },
+    { "name": "Ghetto Radio", "url": "https://ghettoradio.co.ke/feed/" }
+  ]
+}

@@ -1,5 +1,0 @@
-# Original, full-resolution photos (may contain EXIF/GPS and faces) — never publish these
-photos/originals/
-node_modules/
-__pycache__/
-.DS_Store

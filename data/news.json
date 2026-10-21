@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-10-21T14:44:14Z",
- "new_in_last_run": 9,
+ "generated_at": "2026-10-21T19:21:28Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 31
+   "found": 33
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 31
+   "found": 33
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 9
+   "found": 11
   },
   {
    "name": "GDELT",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "Capital FM",
@@ -54,11 +54,49 @@
   },
   {
    "name": "Ghetto Radio",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 521: <none>"
   }
  ],
  "items": [
+  {
+   "id": "03f1542187d2",
+   "title": "Just transition remains elusive for Kenyan women despite robust policies",
+   "url": "https://news.mongabay.com/2026/10/just-transition-remains-elusive-for-kenyan-women-despite-robust-policies/",
+   "source": "news.mongabay.com",
+   "via": "GDELT",
+   "published": "2026-10-21T18:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Community & Development",
+   "language": "English",
+   "first_seen": "2026-10-21T19:21:28Z"
+  },
+  {
+   "id": "112b0ad2038d",
+   "title": "US Warns Kenya Travelers to 'Prepare a Will'",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVzV5aUVVemNKczAyN2plM1hLZDh4T2pteFM1bnFfeUZ1bnhOOHU3MUtHZmlCWkpObkU0RWlMSjN2QVJkWDcyTlp5WGw0U3lxeDJ0aUlxbmlMa2dpUFZjRl83bFA2VGRaVTJJX1oxQ1hkdVNQekxwbnNLdUE4OUlxWmVvUUY?oc=5",
+   "source": "Newsmax",
+   "via": "Google News",
+   "published": "2026-10-21T17:16:49Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T19:21:28Z"
+  },
+  {
+   "id": "2bb1c0d5d0a3",
+   "title": "Lang’ata MP Race: Davji Atellah Leads With 38% Support in New Poll",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNLU8yN3ZZTnhrYU5UcFNOSENoajd1aXhkYjI4NUJUaHlnVWZtbklSd1ozMG10b3RMd2gyOWsza0x5M0k2YV9kZ3E5eWg3X1pFZVdTTDRrTEN0aVBrSl9xWmUyVnhiRHdhbXNxUi1fbl9qOUYwOHF5UkwzWmpaa0VPM3hSQ01FYUFwZ1F3?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-21T17:00:52Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T19:21:28Z"
+  },
   {
    "id": "b1085dac3414",
    "title": "Kenya US Level 3 Travel Advisory : Ebola Risks and Tourism Fallout",
@@ -414,6 +452,18 @@
    "first_seen": "2026-10-21T14:41:27Z"
   },
   {
+   "id": "43a5b79dd58a",
+   "title": "“Stevo Simple Boy!” Pritty Vishy’s Birthday Speech Takes Unexpected Turn",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdnk1RFhWZ0t1R3psSmxMa0lwV2kwalNGS25rRDQ3Ty0zMTBFcEtGLUhGV3JfUm5oTGVBSlA2dmxlSG5zT3JSNEo5M1pKSWs2ak92eGNUamVoWXhqMVJXUnpWWUR2WU5GWk1yLXhHTzVWWXZvWHVuT2c1d0lmanhpcnRvQk1BNVdnWk5ta0x2bG1WT0MxYWtTSkhFWEFjRk9ISmhKQ1lUSlF3cktqUmlNNW5MMUYta29USGM4?oc=5",
+   "source": "Mpasho",
+   "via": "Google News",
+   "published": "2026-10-16T11:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T19:21:28Z"
+  },
+  {
    "id": "c67db3aaab19",
    "title": "Aisha Saringe, Bien’s ‘I’ll Be Okay’ video model, opens up about coming from Kibera",
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeXRPa04yUC1hRXRFcVdScTlpZGV2YXRUT2Jvd3FaamsxV2tIMDVaZDdZdFpnUjI2LXZiUjhlME9uR3dXeUljem5PWXpVazlMXzktbXdwNkFGRERvdEllVzQwamNQRmZROHpHV2ZEWmNfRGtlbXQ3d3hiNkZuOHpacmMtamVhVVl2dVM0UmdqbEJZaXBCYng0dmdMc01NQk5GOWJocFNDLWtXdjZMNk5EdXZiMGlFaDZwZ2JPZnFB?oc=5",
@@ -501,14 +551,14 @@
    "first_seen": "2026-10-21T14:41:27Z"
   },
   {
-   "id": "7367324dad2f",
+   "id": "c710ec51c918",
    "title": "Meet Mzungu Woman Living in Kibera Slums with Influencer Lover",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWHJqZ2RPcGRSZjJveTN2ZF90OU1vSndkUm5yVTVxOVZ4Yy1xYnFYdElyNEY5c1NSZXZzNHBReWtKNzZXR25aZlJkZ3RRZENBM0RueERtS29scVpnaG5RbE9WaU5zV0ItNThGXzdJVTBBX1FWcm9zUlREbWZlY1VBZ29LZE5IbWlNaWxJSkh6RXR5ZnN1WWMzTk9HQV81VkFVR09ZdmVReGZYRW1IMDRXUg?oc=5",
+   "url": "https://www.msn.com/en-xl/africa/kenya/meet-mzungu-woman-living-in-kibera-slums-with-influencer-lover/ar-AA2ejroL",
    "source": "Tuko News",
    "via": "Google News",
    "published": "2026-10-15T17:30:31Z",
    "date_estimated": false,
-   "summary": "",
+   "summary": "TikTok couple Chimama and Champ draw Kenyan attention as videos show her doing chores, from washing shoes to carrying a gas cylinder, in Kibera together.",
    "category": "General",
    "first_seen": "2026-10-21T14:41:27Z"
   },

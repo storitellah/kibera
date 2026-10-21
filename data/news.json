@@ -1,6 +1,472 @@
 {
- "generated_at": null,
- "new_in_last_run": 0,
- "sources": [],
- "items": []
+ "generated_at": "2026-10-21T14:41:27Z",
+ "new_in_last_run": 33,
+ "sources": [
+  {
+   "name": "Google News",
+   "ok": true,
+   "found": 32
+  },
+  {
+   "name": "Google News (Swahili)",
+   "ok": true,
+   "found": 32
+  },
+  {
+   "name": "Bing News",
+   "ok": true,
+   "found": 9
+  },
+  {
+   "name": "GDELT",
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "name": "The Star",
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+   "name": "Capital FM",
+   "ok": true,
+   "found": 0
+  },
+  {
+   "name": "Kenyans.co.ke",
+   "ok": true,
+   "found": 0
+  },
+  {
+   "name": "Tuko",
+   "ok": true,
+   "found": 0
+  },
+  {
+   "name": "Citizen Digital",
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 400: Bad Request"
+  },
+  {
+   "name": "The Standard",
+   "ok": true,
+   "found": 0
+  },
+  {
+   "name": "Nation",
+   "ok": true,
+   "found": 0
+  },
+  {
+   "name": "KBC",
+   "ok": true,
+   "found": 0
+  },
+  {
+   "name": "Ghetto Radio",
+   "ok": true,
+   "found": 0
+  }
+ ],
+ "items": [
+  {
+   "id": "05658ea8e6ce",
+   "title": "\"Hakuwa mgonjwa\": Nairobi mum shattered after 5-month-old baby dies in daycare",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTV9UWHE0OXZBbWtEOUlOQ2FCVE1VX193bC1PQXFHYkt0RUsxdmlmcHpuaHVUaU5odTdCOGktODhQYS1neDVpR0ZjRG1tamdfVzBtLUZ3czJUVHc0cGRVMXdwcXFEY0ZtcnRUU0VlVE9RcnhOQ3ZkemxtbzMtSXBpdGx2ZWhRSnA2VFB2U3h3S0ZLWjdsQ2FnUDE5VF9VZ1h0M3Q3Y2R1UHZMQlhqcXZpdVVGZXNkU2M?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-21T05:22:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "a348d54ef5f5",
+   "title": "Kenya’s Kibera Hidden Abortion Crisis: No Safe Way Out Amidst Uncertainty",
+   "url": "https://www.talkafrica.co.ke/kenyas-kibera-hidden-abortion-crisis-no-safe-way-out-amidst-uncertainty/",
+   "source": "Talk Africa",
+   "via": "Google News",
+   "published": "2026-10-21T05:17:39Z",
+   "date_estimated": false,
+   "summary": "Before dawn breaks over Nairobi’s Kibera sprawling informal settlement, another quiet struggle is already unfolding ...",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "582d9ad776d0",
+   "title": "Nairobi mum inconsolable after 5-month-old baby dies in daycare, shares what happened",
+   "url": "https://www.msn.com/en-xl/news/other/nairobi-mum-inconsolable-after-5-month-old-baby-dies-in-daycare-shares-what-happened/ar-AA2fHVXy",
+   "source": "Tuko News on MSN",
+   "via": "Bing News",
+   "published": "2026-10-20T22:22:00Z",
+   "date_estimated": false,
+   "summary": "A Kibera mother seeks answers after her five-month-old baby died at an Olympic-area daycare, as Timon Odhiambo and Karen Nyamu pledged support to the family.",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "a3f042d6fbba",
+   "title": "Vihiga Queens coach reveals three reasons behind poor start in new campaign",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXVXeTNSZy1BR19Fd19kZnpfaHpkTzNUZ3ZvcTQzOWFyLTdrRlZ0OUl0U2JxY1BDMGRJXzZBWEVkOTNqOUl4NzVrWUgtMWJqTmQtdW9leUI4c0VZWVc2Mm1ENkVOQnlWTTlSZUpXMWlFNV9CVlIzRnVyenVNejAtTWZLaWtuQkI5SjRsMnZMbkdWeHh6V3YzdTFoSWphRHRPYlkzN1JIZXcyZ1pDOXdQQi12S2p1dE94SzlZbjExMlViNm1t?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-10-20T18:44:16Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "ec6b5f42617a",
+   "title": "US Cautions Citizens Against Travel to Kenya Over Ebola, Terrorism and Kidnapping",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMTAyOFpwbkR4V3c0Q3lBR2NaRG9iZkc1TVlZNlJrWWQwVF9TR05LN2dwVTI0NGVlQkdLZUNEdUNBalpyWHFkLU0wT244QjliLTJlN3ltR1lkQTUwTzdNdHFSdUNqYkRmLVFCMnF2Z096S0tlS194dkNDRF9wVnNlNHhrZUw3Y1Z5ZGwxdHB2aFoxT25HNWJXYmY5eUlzRDQwZTZNUmo1QTRXYlhET3k4bk5yWWZWV0czcnBDMEN1TlBjcHRxWXpvQU93?oc=5",
+   "source": "Pulse Kenya",
+   "via": "Google News",
+   "published": "2026-10-20T05:18:59Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "64f28e5a195c",
+   "title": "U.S. Names Kenyan Areas Americans Should Avoid in New Advisory",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPODFjdnpvZG96NEptTndXdk9qTENZUVhuZkdLU1phWVJDci1nemtVdVo5MmxCbnRkc1R4SjlNS080S0szRTFISnlPTG40NVVkS1pwZUlSdVBWd2FUaHR0RlgyR1dLYThJN0FzaGRDRFJaUkJMdDFQMmkzbG5OTERtNmRCejBQMHJuR0pmd2pHQUxGRGJLa0U0cFNxNVJmbHpCcVE?oc=5",
+   "source": "Kenyans.co.ke",
+   "via": "Google News",
+   "published": "2026-10-20T04:30:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "57ae8596a4de",
+   "title": "Hippo Signaling Pathway Research Gets Full-coverage Support with Cloud-Clone’s 97 Target-specific Antibodies",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQLXEtb0JOLWlqaVFad1g5bE45MEt4T1VVWDlCSHZPVGpLSHZrSzE3d295QTV3MU43OVI2dkhxMUpPUFhGeWs4c0lxU3dwSnFWdEhmeDFybnNkbTdtRmJmWmFXbU0tdjd2NHoxQnN4ekU3MG1ESzNlSUhPY0Z3WnJTWU4wS25yV0ZUbXhuaVV1TnNUbHNXRFpWcXl3T1haRFVlanFmS0kyRGtTMmdQWjhUaE5yamp6ZXZyeVNMaXJMM3BtT3pGTmNZdmhHTW43RkpSeVJnOTVjbVkwM1VCMGFrQS1VOERZY3VSX0c5ZTln?oc=5",
+   "source": "Detroit Free Press",
+   "via": "Google News",
+   "published": "2026-10-20T04:24:54Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "a267c81b1439",
+   "title": "US State Department asks Americans to reconsider travel to Kenya in fresh alert",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOWVTM0xhZHVsMm1IY0hqVFZqYXRIU0NreXZ1NVlvY0VkSEZya2YyTkk4cndGa1Y0T1IzR0dkZXRxTXhZY2dCYVI2SmZxQnlteU4wc3JMYVFaNGRZLWVxdUM5UHc0cmY2X29NZzJNbVo5Zl83ckdwNldaaXpSRmh4ajNJOTRkbnRta1Vaa0NhTzBKTmpHckViTGpqaDFIQWtoWF9JWldMTV9QaGZtR3ViSlpB?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-19T23:30:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "8e4713bb1ee2",
+   "title": "Stop leaving the ODM Party; Raila Junior pleads with ODM members",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbkl1dnBWSHd5aVJBYXlzbkdqQmsxVUpRYklQYkpsUzdzZjdHQzZfRG9jemlNbVlFZE5tTmoweFBybVBFTTJEcV9aM3BGeS1CR1daNTlYZ3lzYW5KZUsydU90aVhHRWJNcXpOLTV2cWs2eTZVUHJXdXRGd01sUlExWmZBWjJWRHdqc0RvbkVpcXVJM1ZV?oc=5",
+   "source": "Uzalendo News",
+   "via": "Google News",
+   "published": "2026-10-19T11:59:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "9958b2e611c1",
+   "title": "Raila Junior profile: Education, career, and businesses owned by Raila’s youngest son",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ZQzRxZU0wNU9mVUQxbUxPVDBiME5mVzVLOE1SQk84Q1pNcHNEWDJDYV9QU0piUTNKRzBrenBqZjZ0YTVoUTJjQ2JjQUZBT3JLUmRpR01ENDBMM0lqN0RFbU9kc0x1T2xLRGp1RnM1cTRja3Rvd1dlRHZVRWU?oc=5",
+   "source": "Bizna Kenya",
+   "via": "Google News",
+   "published": "2026-10-19T06:46:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "6fa8065d94b4",
+   "title": "\"Nitakufa na Ruto\": Odinga rift grows as Raila Jr distances himself from Winnie",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ3YtQy1SWTlETHFOVFJUZzFac0d1aDR1V3NRVW9iLWlCSjFMWGFNbEJhRzB1ald0R01uWWZSUTVwZll3Um5zei1fb3JhZ21GTDdIQzRtYXZlM0ZZWHctQmtXcXE5MmpUaWw4Uzc4aGpUVFkycl95WkNoWHlTQzgzaUtFVnN2TEI4VEtzejdoQmFqeXd5UDgwbTlqNkhHcXdmMFZfbzdKOUpiVjBEMTVudkJXZW1XTlJDQUVkZm1B?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-19T04:41:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "f1347a0a8236",
+   "title": "Ulinzi Starlets demolish Kayole to go top as Kibera bounce back",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONEs5bW9Dd2pCVHpSYkNMenVBRTlwaEtUSTdFajFsMVJiQ2JvczN4dE1Uc29GTjFjdVFLbmxhTGc1QzFvM25hZ0NhbW1uc0s1dVBoRTFaekRGclhoYXlWSmhoWVV6bjNGWllDclplWEZnUWxPZFpkbWZYYjFNNEtqVHhmcE12dEpYX0pfUTc5NU13Q3FHNGhuaDV2TGpnbW10RVJ3RWxjWDE4NGF3SkJoTmR2bTI?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-10-18T18:13:20Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "7363f206827a",
+   "title": "News Comments Ulinzi Starlets demolish Kayole to go top as Kibera bounce back",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUzFqNU9LODh1QU84eWlWSmtFakE1aXZJTDU4Tzc5a2FjNTRBVXZUZkZWME9NMzFOSFdCZTZmSEFFUWtYcU5VRTJXdkxSN25Wd0tnaUtDUjE1cmRSWEo3R29DS3NxM3dhOGFmZ3dJS2VFQ1ZDWHJ1TjVLZE5fZTZ2YnRsN2VNVllZUGREOFhEQnRBM3dXWjhzemlBV2QwdzREUlJZVXRRdm9hX1hvUEJKVGh0b2NRWHpWc29NdEtNWlQ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-10-18T17:59:11Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "27a11c05fb55",
+   "title": "Winnie Odinga and Raila Junior plot Nairobi political bids amid shifting party alliances",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlhiaWNpMGFNYmxMT3RaZDQzUUh4QUhCQTV4eXBrd0xEeVpDeHU4alJCX0puNzNseDFKTl9TTzBSYXR4YlJqeXNEcTh2Ql9QbFBCbEdwdFhmWUlCamZhLWNzLUxtQXVNVThEc2M4UDNGeVRCdVRkWm9xRkwwRGlCWHRsaUpVRFFTb01xNkU4dm10cl9oMjA4YXN2aFhicWVfeUphOEwzYUZRcGRLcS04T9IBsAFBVV95cUxQNlhiaWNpMGFNYmxMT3RaZDQzUUh4QUhCQTV4eXBrd0xEeVpDeHU4alJCX0puNzNseDFKTl9TTzBSYXR4YlJqeXNEcTh2Ql9QbFBCbEdwdFhmWUlCamZhLWNzLUxtQXVNVThEc2M4UDNGeVRCdVRkWm9xRkwwRGlCWHRsaUpVRFFTb01xNkU4dm10cl9oMjA4YXN2aFhicWVfeUphOEwzYUZRcGRLcS04Tw?oc=5",
+   "source": "254 News",
+   "via": "Google News",
+   "published": "2026-10-18T16:35:52Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "7c1494e368d2",
+   "title": "Raila Odinga Jnr Joins ODM Faction amid Divisions after Raila's First Memorial",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRjJzNTJBZkNDV1hhYUx5aC1NMHZQMnNEWERJZFgzUXZZS0JHZHBXbHBtOXMtUWxWWXZhNFh2aERBdXRvZUpUVHRHb2huZlJVMkpKcnJnbkxWVEhhb216OF9fX1JxbC13a3diQ09NNnZQYjBsUHA0WE45dU9JRFc3QU5FaDZfUTNSd0xmY1NRcUVaRmFMdklDdUpjMXFqT2pzUnJDRXl6ZFFSMTdOWFNDV05JbkZnOTA1dmR1SVJn?oc=5",
+   "source": "Nairobi Leo",
+   "via": "Google News",
+   "published": "2026-10-18T09:39:25Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "95656f26773c",
+   "title": "WPL: High-flying Ulinzi Starlets face Kayole Starlets in packed Sunday action",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMVhSejlRbWpUVnVuOXFOckNTVi11QzY4NlNaZ3Y3bkt0a0FobVJ5Y1ExeWYtSllnZFNvcVRvbEFUWW5peE9aMEo1UE5zeTJyTVRQelNRWHNna3pNbFo4amZoaDZGNVRaOVVuUjBpVmwtLTBzWXd5Ui1Sczc3RVB5bTVkSUNVMlhjbFpGdDR5M0FwVVBUOTdQNFZoUEdpS3pVcEU0OWMyQmF3bVBpeC1uVjB0dXBWbWVCVlkxUjAtWVhkVnI4ZGc?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-10-18T07:23:46Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "fe9e03950aba",
+   "title": "\"We are behind you\": Raila Junior backs Jalang'o for Nairobi senator",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa1dJLVdXVmd3b1Z5ZVlIQWF6X3Vfai1rZFZZTm5aWmZQRmZfZkpUeEhueERFT2VIYXRZQjhWemc1cW10NVlxRkRHQUFycnJXaS02NzRhUUxMdHA0alF1b3k2dlFackpjNThNelVrdjR4TmpSQnAtaGJsYlREVVFfczdGeWc2WlVxbTVIc3hoYTNYUkczel9rcUZvakoyYjFVUktxSDBtVk1mMEk?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-17T16:23:09Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "e1145c91c8fa",
+   "title": "Raila’s Political Empire: One Year On, the Fight for Control Intensifies",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYURMSE5UTDBIOGxiTkNrd2E1Tnc3bGh0MjdoMEtyUTN6bEpBUUJ6WlgxNzJLTFB4OEYyZmh3QnFRYU9KY1UxamxNd3dvRTFLeVg1bm44bmNWU2hhT0gxWS1nT0ZkTS1BOFJueXdveUgxWW5KVDUyN0JhWk8wT05vZFNxRU5HYmFlc3dwRkdFSDd0ZHNmV3c?oc=5",
+   "source": "Vellum Kenya",
+   "via": "Google News",
+   "published": "2026-10-17T10:56:28Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "a2c6179101c2",
+   "title": "FKF Women’s Premier League returns with Round 4 after international break",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOGNLX3l4d2JGSUlaQllmNHN2Sk0zWmdpX1U5bHJEMXRualBjNkJNSWlGa0FlNDd0a3BSbEViREIzbDdjVUpJTkg3QlZrSmFPMjJsWDd1eVZZS2tWQjM4UU5Uam1nQ2FjdWhwMjFITVJQV214bjZSajJ0SjQyT0kxVm9rRWdVR2I1c1BRWEtuc0NaVS1KYVZoWmpLRWFtVHBKRmZMeDIwQ0ZTRW1TOVJiNlhnaTY?oc=5",
+   "source": "SportPesa Blog",
+   "via": "Google News",
+   "published": "2026-10-17T10:46:32Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "f5fa6df72146",
+   "title": "Kibera Churches Revive COVID Precautions Against Ebola",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQkUzQUx5dUwtQjBGYzlfN0VrbnI5OE84TnJsRkpJdGx0aHluaXBDS1JVRGJtUVNkZVYzTExoR3l6ekJVNkpQZ2F0V0UxajZLQXFGdDFickxoOFJ4TW1PaWIxSHR5b1VWbXlJcjRfeGVHRUhGeXR4WDNPSmNGVi1LNXp5YUxRZC1y?oc=5",
+   "source": "ghettoradio.co.ke",
+   "via": "Google News",
+   "published": "2026-10-17T08:09:14Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "521a28b49a11",
+   "title": "Aisha Saringe: Viral vixen in Bien’s video speaks out on lack of family support for her career",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUEdaSFJFcFVIUFJwRFZDTko3VmM5c3RSRmVSOE9Tb0xkdVIwc0NlZ1R2WXFKRGNPTmRzajVzNTlmWXJlcURQaW9pbGxXM2hjbHJTTHhjNG5PN1Z2UkVBazlKdGZPYnJ4bExJdjVIOHJvU05za1BLcVM2ckdJZkJsb1Z6dURUYjRUYUtsNGJDMG5RS3JCMXJXTmRYRzdBeG9HREhUM1RONFV6TXFWdElwYlhCUHhiZnA4M05qdllPV3RFUXR0VWdheThTOGZQV0QzNGc?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-10-17T05:47:49Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "a83ed789bef6",
+   "title": "Sh1,000 rent, Sh4.5m subletting returns: Inside Kibra Kenya Railways housing scandal",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNFdxSnNOUEFjNnFEVXZoWnRXRGd3TllDc29BNm5TMFAxLTRjQWJMZklPeHFrMEo3REhXZjkzeEVYQ3ZNWXd1bkNGMGU1aHBVb0hPYy1obEZzSm96UUpTbnVldnZBXzVrU3JXQzRial9TTG9MbUIyOS1tdXFUVUZSUjdCanRYYW9ka1l1UURjemZSUXNVajBKc1RGM242UjREd25xYWN0OVBkZDFGNlNZXzlSQk9QcDJiS3NTT0NqeENVS2xm?oc=5",
+   "source": "Daily Nation",
+   "via": "Google News",
+   "published": "2026-10-17T03:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "e3de0f2e4a22",
+   "title": "Manzi wa Kibera appeals to Pastor Kanyari to rescue her before she gives up on life",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQX1JIbkUySFFFOTI4Y0Z1SDZyakoydXlNOFNsMlJQdkZvMFdNMEJuMHVDRDRvdXdUQ0lGZFFWdzhQVTJXdDVCeUN0UVFMRjJibElscldJRFZJX1NFMkw5aThQQk5JVi1udzFXTlZmdWhRVGJPdnZ3OE11Rm1DYWlqbzJ3YWhxcFotOU5lWWszdlhjYnNWWkdPWUNzbk13SGlwaFFjM0lDbzY4TGotNndTQ003MlNmeEVJQWZFLVBvQ3U2RzVzNHc?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-10-16T23:55:07Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "d65f6ffea34d",
+   "title": "Rose Muiru, ODM Elections Chairperson in Laikipia County: We will keep ODM strong.",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNTWhiNFBPanRhRkhzZWc2WmFwN2pEYzBBUTQtS1BNd2RxRVAxWmNUcVRWdkVPd2VsUzhEeHQxVGEtU3dvMk51RFlKa184b2o2cWxxY3Z4a0tKdlk0OS1kNjduODMzNDI4UUZZTFg1NUxzcDMtSmdzQ3A3dVBHeW9MV0VZSzFMUy1XSUNwSktFUG15OFd4bzExYkNMTF9hcVNZazZScnFrN3VxOGUzNE1IYlFpNTVCaDUzVUpFMnJOalZaQXU2NGhOLU05UkdTTmd1YmR0bHE3YXF0YUc1?oc=5",
+   "source": "Facebook",
+   "via": "Google News",
+   "published": "2026-10-16T20:00:43Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "c67db3aaab19",
+   "title": "Aisha Saringe, Bien’s ‘I’ll Be Okay’ video model, opens up about coming from Kibera",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOeXRPa04yUC1hRXRFcVdScTlpZGV2YXRUT2Jvd3FaamsxV2tIMDVaZDdZdFpnUjI2LXZiUjhlME9uR3dXeUljem5PWXpVazlMXzktbXdwNkFGRERvdEllVzQwamNQRmZROHpHV2ZEWmNfRGtlbXQ3d3hiNkZuOHpacmMtamVhVVl2dVM0UmdqbEJZaXBCYng0dmdMc01NQk5GOWJocFNDLWtXdjZMNk5EdXZiMGlFaDZwZ2JPZnFB?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-10-16T09:39:41Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "e68204478e51",
+   "title": "Traffic Paralysed on Nairobi's Southern Bypass After Two Heavy Commercial Lorries Overturn",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSFZDZG82TmZiZ0k3YjBEZ1VXQWRJU3c3Q2FkMDZCM1NvamJLTWdmYU9fWnBJcEdfZlF1aUpSZ3JuWUZSOEVDUTJIdllULVlvRkN3TEhGWWtYVjlTU1V0VGhBWks3THpnLU50d2V1MjlaZzBhMUpLRmJhcXZ0b2o3N0F1V0dNZmtjQ2RzZFJTTHVnNF9Lc0d6N2VwbFVNWUtrR0o0anVmYktWZlF1Sk82ZmU5eXotVlc5OFFicnY0M1g?oc=5",
+   "source": "https://streamlinefeed.co.ke/",
+   "via": "Google News",
+   "published": "2026-10-16T08:08:40Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "fefe07ba967b",
+   "title": "Raila’s daughter, son scheme for political seats in Nairobi",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMElsMDVLWlZ2Z3g4U2RVTHQyWXlDTjVWWVUyUjBvdmFoUVhOSTZkREhWblFna1ZvSGV3eGg3b1ZrT0cxTVZNZVpfSnZRRmF6S3I0b0pmVUVFYmxzVFhYd29adDJYSUpLNnI2ckFPSVh4RDFzX2Uta21Sa0dTbXQ3NXVvX0M4TXIwdTUzLURmQTNCVWd2ZVJ4WUY4MkpBcEs5cXc?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-10-16T04:45:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "9186871b6971",
+   "title": "President William Samoei Ruto inspects the Kabarnet Town Affordable Housing Project",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZm54d1F1VlIyM0VmTHV4SEpJTjdyNVFqZXEzY202VGE5QWo1bjlHdXB3YlcteGdYWHB5NUVsU3p3OW41aDBFNHA1WXNaT1A2NkF2UVFoMEdUY2wzMVVBN1JvbzZSYlQ0dC11S2pCTGhIY01Zb3RXYzZjZ2hKeEdfNE02ZWU4MTAwbUJBVl9wVDR0OUxTdlNfTEdoSzZ0QlZoNlNRalg1RW5oQ0pONlp2SkZ0ZGp4TDJlbXFCUGhWUFBfbGdNUnplT1FJZFhTTnZfM3NmNU82dzZnc3JPZ3c?oc=5",
+   "source": "Facebook",
+   "via": "Google News",
+   "published": "2026-10-15T18:10:01Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "7367324dad2f",
+   "title": "Meet Mzungu Woman Living in Kibera Slums with Influencer Lover",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWHJqZ2RPcGRSZjJveTN2ZF90OU1vSndkUm5yVTVxOVZ4Yy1xYnFYdElyNEY5c1NSZXZzNHBReWtKNzZXR25aZlJkZ3RRZENBM0RueERtS29scVpnaG5RbE9WaU5zV0ItNThGXzdJVTBBX1FWcm9zUlREbWZlY1VBZ29LZE5IbWlNaWxJSkh6RXR5ZnN1WWMzTk9HQV81VkFVR09ZdmVReGZYRW1IMDRXUg?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-15T17:30:31Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "79e0e44f7952",
+   "title": "\"Kuna nafasi\": Winnie Odinga announces bid for Nairobi senator in 2027",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQkMxWVR1S0RkcjJJcWJ3SUZvLWhsSTVpc2tuX2xxOFRqcENRbFduYnphTmtCR09iQUtsWXhQN1NwdE1hcXUtRjVRZWRUeFEtLXllWmJJVnl2REt4aGl6T0lybl9OTHd1TldEV3pDYzFTMmdKaC10RVlkcUR2NUZZdFNpSGkwVHdEdmZvY1pSRzFRV2FJbVhtM2dwT2U?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-15T11:17:05Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "b09c89ab2142",
+   "title": "Winnie Odinga Declares Interest in Nairobi Senatorial Seat",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT25XUmFCMHVuS2ZrbTY2Z3JYekdsY1d5b1VJN1pOM0NwUFNsdlVGRVM1dnVtX1pidHd3SnBCdE1EMlZ3ZVVDemgzRXExclYySlhyNkFYOW9iZWM0dGUxX0M2dkF2TGlraEtsX2ZjTWtmOVZTQjc3MWcwNFVIbHI4Si1RaVBUdU0?oc=5",
+   "source": "Kenyans.co.ke",
+   "via": "Google News",
+   "published": "2026-10-15T11:15:14Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "42cbde38e048",
+   "title": "Kibera makes progress in fight against diarrhoeal diseases",
+   "url": "https://www.msn.com/en-xl/health/diseases-and-conditions/kibera-makes-progress-in-fight-against-diarrhoeal-diseases/ar-AA2ehv8S",
+   "source": "www.the-star.co.ke",
+   "via": "Google News",
+   "published": "2026-10-14T19:02:00Z",
+   "date_estimated": false,
+   "summary": "For years, MildredAkinyi, a resident of Kibera, paid little attention to messages from communityhealth promoters urging residents to handle water safely, wash their handsregularly and maintain proper ...",
+   "category": "Health",
+   "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "c55db215aa56",
+   "title": "Police officer denies stealing motor vehicle, obtaining money illegally",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQR1BILTNERnBUckJTYm1fdW4yR0VJQVc3b25vTUVLaXpETGJNUWhoazdNSUloM0M3cGZnOTNRa0FBZXRFaGtnMXBZdm9hcWhpQ2lhMy1JeElGa1A4TkpoR0xwa3FKWW5RY0I3RlcxS1lkWUJfdzRpT3NsVHdYa3c0eU9yd2tuU0hEMmRaUWl0cGJjYWtMMUxocTd5a3kzem92NUhKUkJYbHZOUThTeVc0WA?oc=5",
+   "source": "Daily Nation",
+   "via": "Google News",
+   "published": "2026-10-14T17:10:25Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-21T14:41:27Z"
+  }
+ ]
 }

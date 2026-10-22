@@ -1,26 +1,28 @@
 {
- "generated_at": "2026-10-22T17:18:46Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-10-22T21:44:31Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
-   "ok": true,
-   "found": 36
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   },
   {
    "name": "Google News (Swahili)",
-   "ok": true,
-   "found": 36
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 9
+   "found": 10
   },
   {
    "name": "GDELT",
    "ok": true,
-   "found": 11
+   "found": 10
   },
   {
    "name": "Capital FM",

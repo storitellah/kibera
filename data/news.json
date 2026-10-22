@@ -1,26 +1,27 @@
 {
- "generated_at": "2026-10-22T00:03:28Z",
+ "generated_at": "2026-10-22T05:01:25Z",
  "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 35
+   "found": 36
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 35
+   "found": 36
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 8
+   "found": 10
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 11
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -54,9 +55,8 @@
   },
   {
    "name": "Ghetto Radio",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 520: <none>"
+   "ok": true,
+   "found": 0
   }
  ],
  "items": [
@@ -169,6 +169,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "336708e61078",
+   "title": "Music producer Refigah Heviweit receives National Heroes Medal",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNcFNjVDJXemtYOUt2cklRU0hzdkxYblUxQVdfUnVNMEdtbHNITmE1eHMwRk14NGpXcGRHQWl2aW9PQlRMOE16UWxpTXpfTjZTQ0QwUU9RUVNlQmh2ZWlmVXJDb256c2EzamhIUXFvQ0MwcHJadnZIUVNJT3plT3BDWmU1LVlrNXdfSUxmclFKQWtpR0F6Rm9tYy1HZ3llcG1YdWFCMWJCam50Q09GQnNKcXJ1SGVCWDQxSzRUZ2gzMi00cFUzWENRN3N3?oc=5",
+   "source": "www.standardmedia.co.ke",
+   "via": "Google News",
+   "published": "2026-10-20T12:27:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Arts & Culture",
+   "first_seen": "2026-10-22T05:01:25Z"
   },
   {
    "id": "80c6d469fcab",
@@ -498,6 +510,18 @@
    "summary": "",
    "category": "Infrastructure & Transport",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "a23d57ae7d28",
+   "title": "Nairobi woman found dead after sleeping for nearly a day",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS2NENFExVElXaE5HcC1oek83aVh3UDJDelRnd3ZpYUhFa3IwOVpQYjhtcWs1S2xxSWNwNmhCTF84U24wb0g5UTBlODVXMXA5ZDlHWENvUTBnQlF6aWRULVhtcUtOTTJPcXo0WjVuYW5JaktPMW9MbFkzb3hoMUlrVTc3cDFtbGZf0gGQAUFVX3lxTE96b3o5YTdMalZ4a0FfNEZWbkJ2bV9sRzVyTWowWDYyRVZXdVpfeWlJY01FaWp4cnJZUkNDaDh2a3g0WXBGdkwyMGh1azNqYUJvaHNXRVN6alJPaEJWdUhZY3FrbnNTLVlOd3pEVm9HZjB0SU1kN045MHJMRHNvLWJGQjdsb2pubVRzNVJWREZJdA?oc=5",
+   "source": "Kahawatungu",
+   "via": "Google News",
+   "published": "2026-10-16T05:21:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-22T05:01:25Z"
   },
   {
    "id": "4c0a1e2b5941",

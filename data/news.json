@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-21T19:21:28Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-10-22T00:03:28Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 33
+   "found": 35
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 33
+   "found": 35
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 8
   },
   {
    "name": "GDELT",
@@ -56,10 +56,22 @@
    "name": "Ghetto Radio",
    "ok": false,
    "found": 0,
-   "error": "HTTPError: HTTP Error 521: <none>"
+   "error": "HTTPError: HTTP Error 520: <none>"
   }
  ],
  "items": [
+  {
+   "id": "8694084d7663",
+   "title": "Nairobi Dam Spillway Opens as Kibera, Nyayo Highrise and Madaraka Residents Put on Alert",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPY3dnaVFwMC1OU25MWXd1QUY2VDBYMDkwdUgxVjVVRDR0R1BpRUZzU0FDZGU1OTJvTUNLaFpXRzhENnEzNlFYdmZ4ZVVDczU4QzZrbnZhazEzOEtpN0wxa19oMTBjRHRnNGxLeVFUMzBXTkNYSWFfXzI0MnRQaEhseXYzOXBtUUU2WFBTZVJ2LW1PN0pqRG1vMUZQT2NiTVVzUWs3VkMzWExsa3N2OWdkRURXT1k?oc=5",
+   "source": "Uzalendo News",
+   "via": "Google News",
+   "published": "2026-10-21T19:36:46Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-22T00:03:28Z"
+  },
   {
    "id": "03f1542187d2",
    "title": "Just transition remains elusive for Kenyan women despite robust policies",
@@ -561,6 +573,18 @@
    "summary": "TikTok couple Chimama and Champ draw Kenyan attention as videos show her doing chores, from washing shoes to carrying a gas cylinder, in Kibera together.",
    "category": "General",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "9312b4976636",
+   "title": "Inside Cohen and Wairimu's repeated domestic disputes before murder",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMWNsclRGR1JCUGo4WmdTY1hneGU2Z25kYjVXVlI1cHhWSUw2NDNSOVJTcDZGS0l4dnVLVGxSV2YxWTNyM0xHdW5pbFpPb056d1pwZi1sbEpjaFBfRzJJb0E1QVhoZjlkbVo1VGRoSUN1ajd1Rzg5eXJCNHJrRkZWdWVrQmxOZk13eGZOc0E3Nk1yUk5sNkxaSHlOT0VZdzhhNUNWSk4xUzZGMDY4a1ZpRTdZSkZCYk95LWxkSjJ4QVdyamNk?oc=5",
+   "source": "The Standard",
+   "via": "Google News",
+   "published": "2026-10-15T16:22:05Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-22T00:03:28Z"
   },
   {
    "id": "79e0e44f7952",

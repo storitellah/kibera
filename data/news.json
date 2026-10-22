@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-22T12:04:03Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-10-22T17:18:46Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 36
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 36
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 9
   },
   {
    "name": "GDELT",
@@ -59,6 +59,42 @@
   }
  ],
  "items": [
+  {
+   "id": "5f26b82e4c2a",
+   "title": "Former Auditor General employee charged with forging KCSE certificate",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVUFjNkZEWXh4SE9tNkdZODVaV2paejlMdzNvcTFOd01FdVZiODVIVG45a2dxTDliakFfTHRPWFRXWFItcWxTWGNmT0VmVGJFamx0UEcxLWhfcFNrb05aZ1dvZWhQcWpTSEwtX2I5M1ZmU3psOUQtbzVabkxVbXpmX1NmVlFnYkxWeWQ1YjIwbGg3NlR6bnphX2hxY0trMUdWWlgwRHd4MFQtT0tDeGc?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-10-22T15:37:32Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-22T17:18:46Z"
+  },
+  {
+   "id": "1efcc9629f43",
+   "title": "Fake credentials?: Ex-OAG employee charged in alleged KSh 5.8 million fraud case",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMGhNR253WUdDZnpRTmJmRUF2c09JREJLX2pXYjVkdmYtLUM0Wk9QazBRdlVnbWZ0T0I5Ny1YREtDNnUyamZzMWxVYmx1YUNfTkFzTmctREQ3QjB5VE5LSUh1a19jcXFkeHVremRPU1g4d25KNkM5YzhYdzRNdUZOSGZ3Vk5nMUViWEt4NzFkeWpHcllSRGp1MGhpRGtrTXVyd21PejJ2LUw3MnhROHhEMlA5NmI3VXZsb2c?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-22T12:01:41Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-22T17:18:46Z"
+  },
+  {
+   "id": "3c7200b93177",
+   "title": "Rasoha sets early pace in WPL Golden Boot quest",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ053RnBzUkFnaUxSYlIxYlNYNWEtdWNoZFdkNlIwODE0MFl0S09FaXdPV1Bnakg3Y1hjOXkzTGNGY3B4Z1dEbTZSaGMtYWhhQlpXU2lrakVXWXFqak5XZWZoRzBFb0NrZTdodkJnZ0hRa3ZRMnRMM1lBMm9CUDI3a0tlUkdWRjVELUpJUFpIZGhwMElOUnE3ZEpOTVJjbVFETkJVVFRn?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-10-22T02:30:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-22T17:18:46Z"
+  },
   {
    "id": "8694084d7663",
    "title": "Nairobi Dam Spillway Opens as Kibera, Nyayo Highrise and Madaraka Residents Put on Alert",
@@ -219,6 +255,18 @@
    "category": "Health",
    "language": "English",
    "first_seen": "2026-10-21T14:44:14Z"
+  },
+  {
+   "id": "7bc67594b021",
+   "title": "Travel Advisory – Kenya Level 3 – Reconsider Travel",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE44ZXNjTzBobXJjLXdJTFJ1WWh2UXc5MXdacldwQlgwNTFfNkd4Z2JsSUd3VnVKX0RLUi1TNEdmUXdnOU9udXBBMXVCUFE3RTVmcUxsaGx3ZHRQTWtwLV9pQk0yVFZNcDk1blRhZHNTclVEazhhV2VrS0xPa3o1dw?oc=5",
+   "source": "U.S. Embassy in Kenya (.gov)",
+   "via": "Google News",
+   "published": "2026-10-20T06:42:22Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-22T17:18:46Z"
   },
   {
    "id": "ec6b5f42617a",

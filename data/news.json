@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-23T05:02:06Z",
- "new_in_last_run": 3,
+ "generated_at": "2026-10-23T11:50:17Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
@@ -15,7 +15,7 @@
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 10
   },
   {
    "name": "GDELT",
@@ -44,9 +44,8 @@
   },
   {
    "name": "Nation",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "KBC",
@@ -61,9 +60,33 @@
  ],
  "items": [
   {
-   "id": "62b1518ab135",
+   "id": "9185fe97d494",
+   "title": "Darajani Gogo FC takes relegation battle to High Court, accusing FKF of inconsistent rule application",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeExsOXZ4MVhQdnpVZDd5S1Z4clUySEtSWm51T1JzZGFXX2tqaS0zRlBuT2MzTkR1a0tjS2RYYWdVZ3ZLMnBVY0JMTDlCeTdqVl9TanUyTlhFMWk2QzlaOXAtbDB4ak82QWU2eDBNYmdUSXNVQ1hjSFR5U3JDYjdGVkZQNVhOODJ6d0pkZGFEVVc0RDA0eG1vR25La2VZNTV2cG9XOVVqRUM3ZVE4Q1JZN1g2S3U1ektrRU5tQ0JrMkpHbG9aSDZKWXhwUEp2cHg4SW51S3RBU19TTGdrN1I0dHk4dw?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-10-23T10:17:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-23T11:50:17Z"
+  },
+  {
+   "id": "eaee0dfe6966",
+   "title": "Kenya Met Warns of Rain in 44 counties, Thunderstorms in 21 Over Next 5 Days",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNkhBVmEtTG9kZnJtb2t2MEhYNU85eGtsTWlHeGNheUtRSktJUHJhUFZOYzJXWmNmZmx1THVKRmdhUEZYSWd6LWNwNk1LV2tReUNZNVIwQ2lCQ04xTHViUGo1MXZrRndKTklOVTF4dWcwcGtTd2s4LTh5NUdvNDZzWG1oZ0E1N0VjQXBNWlNzNVJjUi02OVVYWTd6VU4?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-23T07:19:48Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-23T11:50:17Z"
+  },
+  {
+   "id": "4f4726defc56",
    "title": "Ex-Auditor-General Employee Charged Over Forged KCSE Certificate and Ksh5.8 Million Salary",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnFUZUlVczlnZ2hKZ3ctMGFNR1p5cUJCMGN1VFd3Z3AzRmZoX0NVZ2Zsc0E5U1Y5UHlmQ2dhTTRqTldIRUtRaTBIZkx4enhLUm9nVmRuM2IxeW9mRmVzLVZBMnZPa1BIUmh0ZXJnbFpobFI4N2ZYcXhsUEZ1azVlYlRSWHExRE91LTVLOHg5YXVNMUZhcERmdFlHS1M0dXItaFAza0dWbmYzLUUwWW5LTGZEbmhrOWJVX25qdFA2LXdZZk5DV2c?oc=5",
+   "url": "https://nairobiwire.com/2026/10/ex-auditor-general-employee-charged-over-forged-kcse-certificate-and-ksh5-8-million-salary.html",
    "source": "Nairobi Wire -",
    "via": "Google News",
    "published": "2026-10-23T03:47:20Z",
@@ -71,6 +94,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-23T05:02:06Z"
+  },
+  {
+   "id": "2895ca87b480",
+   "title": "From Nigeria go reach Kenya, pipo dey live longer but e no mean say dem dey live healthier",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83NndMNTlrUkJqM05nZUwxcTBESUZrblBsWVk0QWZvSU9jX3NTR0NwVkJUdlRDOFFDdGJrd0VFWE53WXNlRElscHpHMmg0VjlwakxvVnB2dW9GMFhfNlBXdUw4TW5MUEMtZGNodmV2aw?oc=5",
+   "source": "TRT Afrika",
+   "via": "Google News",
+   "published": "2026-10-22T19:03:08Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "first_seen": "2026-10-23T11:50:17Z"
   },
   {
    "id": "5f26b82e4c2a",
@@ -193,6 +228,18 @@
    "summary": "Before dawn breaks over Nairobi’s Kibera sprawling informal settlement, another quiet struggle is already unfolding ...",
    "category": "Health",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "8ec7dd821c1c",
+   "title": "US tells Americans to reconsider travel to Kenya",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdzFqbVFPemtqU3lXR2hJVWRjZUliT0R3WkVqTUVVTGtPei1oS2NRZnR2QkFpa0NfMEZaUjVKOU82QUZRZzZnNXByd3pPdVg4NWlPVERvOEVybVEzT1Z3NmxwUWY5YkVHeHQ2RWJBR05ha0hsYWhST3dfTXJoMHNQYV93eG9sWS1HZ3dVTGtlbmRzNGZlRjJmWXNn?oc=5",
+   "source": "Uganda Business News",
+   "via": "Google News",
+   "published": "2026-10-21T03:52:52Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-23T11:50:17Z"
   },
   {
    "id": "582d9ad776d0",

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-23T11:50:17Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-10-23T17:16:23Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
@@ -70,6 +70,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-23T11:50:17Z"
+  },
+  {
+   "id": "617c1b4705e5",
+   "title": "Ciggie Johnson & Simple Boy’s Cases: Why DNA Truths Must Be Faced From Day One",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0hwLTFIUkUyYkMwUEJfRjNraEprWkZUOUstNXMtbHhZVzhzcWR5UlRyNFJENHc5aVI2cHo3cjZ4dHA0TXhodXVLc2pDT1V0MVdOUEhBV3JNQTVpTnNqLUh4MVhXMGIzQ3ZhMkoyQVBqb010YzJDbGhua21vQWFkRndjejUwaEpLcWRXYU04WGhpck8zdDAxS3FWbEFnMFRONXI2d0JaRUM0UFA2?oc=5",
+   "source": "Mpasho",
+   "via": "Google News",
+   "published": "2026-10-23T09:05:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-23T17:16:23Z"
   },
   {
    "id": "eaee0dfe6966",
@@ -264,6 +276,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "d13d21221789",
+   "title": "Amb. Dr Noah Yusuf is honoured for his contribution to the development of Kenya’s contemporary music industry",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZEJlTjNHdVM4a0FvU3NManU4UGtRYTl5c1J0aWVpTVVIeTBrVzQyQWkzTHd6X09JVGJQN1BHb1J0VC1SVmdMUVNYdjFpMmRHWjVDTlBMZzliU0VuV2cwY3FIT2FVYmNUa3lRYm92dkhVUV9vNXdiTHRSVEp5T1JOM0FjeUtFdzRMbTV6dWVJRjg3VVVZWmlvSTdGSmFnS3dhdko5a3BHaGQ2dzZ0MVFwZ3MwLTJQd3c2QU9WWlYtbjlJZUF4NWFncUpHeGI0d1d2ZFJtaUk3R2p2Yjh5YTlz?oc=5",
+   "source": "Facebook",
+   "via": "Google News",
+   "published": "2026-10-20T17:47:31Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Arts & Culture",
+   "first_seen": "2026-10-23T17:16:23Z"
   },
   {
    "id": "336708e61078",

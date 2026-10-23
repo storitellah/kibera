@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-23T17:16:23Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-10-23T21:31:29Z",
+ "new_in_last_run": 6,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 35
+   "found": 43
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 35
+   "found": 43
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 9
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -35,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "The Standard",
@@ -59,6 +60,66 @@
   }
  ],
  "items": [
+  {
+   "id": "5ade117b1adb",
+   "title": "Tributes pour in after sudden death of Kibra MP Peter Orero’s brother",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ1dyZkZzYXJINTRWZEZPSWxFWGdKQWpYcWNQRnNMd2FtS0VEaW5sOFlMNHFCb0tEc1U4XzQtWWVxR2hhVlgzclNFalRUVktkN0FjaER2YXJ6eGtsbVpWbkQ0a0JkWXRtV1hsLUs2clpua3JnelRHcU1hSm9nUXRpLXo4eDU5cUZCbmRkemVNX0NyWFozMjhLSQ?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-10-23T19:27:50Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-23T21:31:29Z"
+  },
+  {
+   "id": "b58c4fc8be27",
+   "title": "Beyond the Tour: How Slum Tourism Can Drive Sustainability and Community Impact in Kibra",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV2JxZ2hLWGpyX05iVUtqQTF6OUZXZXdvVzVnRWZlTnNxdG9mQTdtd29rUjlEQkkxRXZxbUVYajlfOGFlRTgyeUVXRWlHNzEySkwyVjc3YVFlM0diV01RV1FyV2FMQW05dGJNUUhwYXZrRWM1Y2RpanhSRzVRM3FkNVlJRE9STzlFUE5FNmVxTTNWaF95eVRkbG4xM0NFTENwMzFOTkllNlhQaUNDdHc?oc=5",
+   "source": "Vellum Kenya",
+   "via": "Google News",
+   "published": "2026-10-23T17:56:34Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Community & Development",
+   "first_seen": "2026-10-23T21:31:29Z"
+  },
+  {
+   "id": "3fd87fcc80a8",
+   "title": "Joshua Orero: Kibra MP’s brother is dead, Governor Gladys Wanga confirms",
+   "url": "https://www.tuko.co.ke/kenya/644292-joshua-orero-kibra-mps-brother-dead-governor-gladys-wanga-confirms/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-10-23T17:26:00Z",
+   "date_estimated": false,
+   "summary": "Joshua Orero, brother to Kibra member of parliament Peter Orero, has died, with Homa Bay Governor Gladys Wanga and PS Raymond Omollo mourning him.",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-23T21:31:29Z"
+  },
+  {
+   "id": "e078d4e07af6",
+   "title": "\"Heartfelt condolences\": Kibra MP Peter Orero's brother is dead, leaders mourn",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQnVsVnNsVVY0dmV2LTZlMWwtUmlVRndEOTcya0N6Mm5lMldud2ZvMnBwMTY4aWVuVTZ4NkNuWjZ1ejFscUgyQWt1ajZWVTZvWmpRcUlPQWgwY2lUaW5DVHRBX2ZyRVU2NWRpT0lGU1kyLUczeW1ETEJXejU0cThpUTZwaThhTnlpOWVCekFIVWN3UUl0SmxTTFI0OFF6ZS1ZUFNJcG9B?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-23T17:26:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-23T21:31:29Z"
+  },
+  {
+   "id": "34c040717d3b",
+   "title": "The struggle for toilets in Kibera",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB0ODJ2aXU4OTBMSFVHY2lfY2JCalhzZmZWdmhodjU5ZXZzQW94U3R0eHVnSFdmelZLeWdoVFFZempFTHBIamxJSEVpUnlZUkd3V2c?oc=5",
+   "source": "Sørnett",
+   "via": "Google News",
+   "published": "2026-10-23T10:51:03Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-23T21:31:29Z"
+  },
   {
    "id": "9185fe97d494",
    "title": "Darajani Gogo FC takes relegation battle to High Court, accusing FKF of inconsistent rule application",
@@ -142,6 +203,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-22T17:18:46Z"
+  },
+  {
+   "id": "aa118dc7e3f5",
+   "title": "EACC Arrests Former Auditor-General Employee Over Ksh5.8 Million Fraud",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTl9KYk9COTg3VmRBbHhVUS1ZbXk4TWpLcEhSSWdXVklJTG9EOUU1UzBoa1BWZW1VTUFWZkctclV6RFFDaHZQR1ZEUU1WQ1RCTE5hTkh1aFUyZlBzX1ZXN1ktdXBEVUN6Q2VIS0hmR0xVN0VrbHNaM0ZvdzBsM3Y0Q1JDQnVsOHFaSk9NUDYtYU5LRUZyUlNROXpHdko5NG95eXc2dTNPcFNnS0k5VXRseQ?oc=5",
+   "source": "Kenyans.co.ke",
+   "via": "Google News",
+   "published": "2026-10-22T10:25:31Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-23T21:31:29Z"
   },
   {
    "id": "3c7200b93177",

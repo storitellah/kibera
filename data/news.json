@@ -1,28 +1,26 @@
 {
- "generated_at": "2026-10-22T21:44:31Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-10-23T05:02:06Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "found": 35
   },
   {
    "name": "Google News (Swahili)",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "found": 35
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",
    "ok": true,
-   "found": 10
+   "found": 9
   },
   {
    "name": "Capital FM",
@@ -46,8 +44,9 @@
   },
   {
    "name": "Nation",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "name": "KBC",
@@ -61,6 +60,18 @@
   }
  ],
  "items": [
+  {
+   "id": "62b1518ab135",
+   "title": "Ex-Auditor-General Employee Charged Over Forged KCSE Certificate and Ksh5.8 Million Salary",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUnFUZUlVczlnZ2hKZ3ctMGFNR1p5cUJCMGN1VFd3Z3AzRmZoX0NVZ2Zsc0E5U1Y5UHlmQ2dhTTRqTldIRUtRaTBIZkx4enhLUm9nVmRuM2IxeW9mRmVzLVZBMnZPa1BIUmh0ZXJnbFpobFI4N2ZYcXhsUEZ1azVlYlRSWHExRE91LTVLOHg5YXVNMUZhcERmdFlHS1M0dXItaFAza0dWbmYzLUUwWW5LTGZEbmhrOWJVX25qdFA2LXdZZk5DV2c?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-10-23T03:47:20Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-23T05:02:06Z"
+  },
   {
    "id": "5f26b82e4c2a",
    "title": "Former Auditor General employee charged with forging KCSE certificate",
@@ -246,6 +257,18 @@
    "first_seen": "2026-10-21T14:44:14Z"
   },
   {
+   "id": "679694b37306",
+   "title": "Comedian Nasra Yusuf announces bid for Garissa Women Representative seat in 2027",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY2V5bnJYREluV095SUMyRklvYUlOajhwTEJwa29tZlJpVzRLbExLRmpKbnRHbjV0eThKVkRLbGNsZVhXWE41cjdubkdqWERwckpJMEFFSDBRMWttV2tKazhyYWxSUWRZUTNuVm9yU21lcVAtOUd5c29GMVhVSUwxU2kzOVVUSGFoeHlYclNaVWxtb25RdGNLUktSd3E0c2Y3bksxdEUwWERZOGJ0YVFJTlRxUjk0bVBWSXVLQVAwY094QQ?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-10-20T08:00:01Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Community & Development",
+   "first_seen": "2026-10-23T05:02:06Z"
+  },
+  {
    "id": "0fbdcf8d057e",
    "title": "Red Alert ! U . S . raises travel advisory to Kenya to level 3 over Ebola - Reconsider Travel to Kenya Due to Risk of Health",
    "url": "https://www.kenyan-post.com/2026/10/red-alert-us-raises-travel-advisory-to.html",
@@ -353,6 +376,18 @@
    "summary": "",
    "category": "Housing & Land",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "2609f92ced7e",
+   "title": "Forest is thick, but Madueke knows Arsenal's way out",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemlZM3Zia2pVMk5oSzJ1cGNBTnZnVHJwaTh6cTcxZ1NZRmducUNxUmRFWmp6dGt4SlEzWjhlUGVhNkFVcjdFdGxjZXdueHZ6dnBpbUo1ajJQenhLZy03ZU4yVXdNYVZyV0pvdnhuZEpIaUkzM1FQUGFkRXlZSzZQWEg4d01zTUo1NXV6TmUyME9nV2p2ZlhzOGs5NTlHZU90TXBJ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-10-18T18:02:38Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-23T05:02:06Z"
   },
   {
    "id": "7363f206827a",

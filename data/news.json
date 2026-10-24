@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-24T04:46:45Z",
+ "generated_at": "2026-10-24T11:14:47Z",
  "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 43
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 43
+   "found": 26
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 9
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -35,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "The Standard",
@@ -59,6 +60,30 @@
   }
  ],
  "items": [
+  {
+   "id": "1c87f1ce20b6",
+   "title": "It’s not just about pads: Pain, stigma and the school days girls lose",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWnNKd3lPdTdwWXBNc0lrSmRXX2pTblVBTDA4YlZPUWhzTkpHaEJYbHFPV3hMUXowRl8yVWNsMmI3N2RNcDBscUtDeEZJbUNMZlY4OVMyTXdVN3FwZGJrWGc1OTBjNGh1ajJhb1JBbkVMdTdZcGVoVnZobDZMNGxiM011ZU5rLUlIMTlKS2pHUHV6RWNMR0wtbVJTUUVRUmZ3NTVka0VUNjhheEZkd1dRbUdtODNFZw?oc=5",
+   "source": "Daily Nation",
+   "via": "Google News",
+   "published": "2026-10-24T10:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-10-24T11:14:47Z"
+  },
+  {
+   "id": "4f0b07852b68",
+   "title": "WPL: Police Bullets face Mathare test as Zetech Sparks host Shabana Starlets",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPb1RWd3NtSUc3M0N5LWRSb0JtZW5qUUF1d3kxS2lhWHZtQ0hlME92OFZuQmR4OThDeVJOdXJlaDhGQTYxSlZqRUQ0NDlNMVVPRk9iNE4wNTlPZktqcG1NUkJmODBIdkVQQjI0TjlpajZCR1paQTYzbVlSTUNremNJR1o5Q0FYVWN0VHpIcy1PRUZLajFJQ1VnN2ZXYlYzWEJPSHgtb2phV29wUkdRcE9pWDd3d0RVNU43US1ma1BuOTBaNVls?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-10-24T08:24:28Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-24T11:14:47Z"
+  },
   {
    "id": "f9844bbd63ba",
    "title": "Tuju suffers fresh setback in fight over Sh450m Dari Business Park sale",

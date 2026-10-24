@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-24T16:03:47Z",
- "new_in_last_run": 3,
+ "generated_at": "2026-10-24T20:58:21Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
@@ -677,6 +677,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "82cfbc253b24",
+   "title": "Raila Junior Backs Jalang’o for Nairobi Senate Seat Against Sister Winnie",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaEJaR2dEcHI2dDRObTBvWGZYMXlwSmJUODF2V0Zka1JyX2s5eHhndUFVdEpZSGFCYk9WVVJicWNuT3kxcVdlLWppM3BVMmZZMXkyMzFNaVZ3bDdWcU1zcWFobnY0bjBudjU2V1VxekZwU3VTcmZNWEVsSW9uTE5teDVRUWU2Y05sNGlRbG1DX19NY01scUhzTTdOejg1RGM?oc=5",
+   "source": "Ghafla!",
+   "via": "Google News",
+   "published": "2026-10-18T01:43:09Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-24T20:58:21Z"
   },
   {
    "id": "fe9e03950aba",

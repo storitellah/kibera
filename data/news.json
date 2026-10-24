@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-24T11:14:47Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-10-24T16:03:47Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 26
+   "found": 40
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 26
+   "found": 40
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 8
   },
   {
    "name": "Capital FM",
@@ -60,6 +59,43 @@
   }
  ],
  "items": [
+  {
+   "id": "7b8e8b601273",
+   "title": "Select Nairobi Residents Face Possible Relocation Under New Govt Housing Project",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYkl5QkFiRThsS3pvVHJGbUsyelI4S2tQdjNuVDAtWVEzZUllUmdVQm12M2VqdGZZQ2c4dE9WQUQyU0JyZG5NSy1zcGtMUjNkZUxERzJCWWVsUnpsRFZWZXNMNjlmNUlrWUZkVFpFVDRUdGRNcU5WZzNmbVNlQWlBdmxheVVyOWFjMk1ncEZ2WlBMbjZoSzZCMlo3RXBJaldoUkVlTm9hVU1acUZkQXdscHBoSW92XzlEZ1c0bExYb21Jbm1YYmpvU0wzUQ?oc=5",
+   "source": "The Kenya Times",
+   "via": "Google News",
+   "published": "2026-10-24T14:50:03Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-24T16:03:47Z"
+  },
+  {
+   "id": "58bf2ebbc54c",
+   "title": "Rallycross Race Weekend in Nairobi on 14 and 15 November",
+   "url": "https://www.riotimesonline.com/nairobi-rallycross-rx-fest-kasarani-november-2026/",
+   "source": "riotimesonline.com",
+   "via": "GDELT",
+   "published": "2026-10-24T14:15:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "language": "English",
+   "first_seen": "2026-10-24T16:03:47Z"
+  },
+  {
+   "id": "ff1edac96b40",
+   "title": "Heha movers moved to tears after being gifted land in Malindi",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR3pKaDJ0UWJaU09NYzRmZkoyMHdueEtNbUxvUDJiMjhaZ2lwVWN4eW85SEtKRU92RnhWdWx1ZkRkc1IxdXZlR1o0N0x4SktSb3ZsY2NCR2NuQkk2MzFQWWlveWFUdjV1MTFhWE1mMWF5YWZJbVo4UmR1NmNoTFp6RkdGRFRhMkdrUkgwQlkxb3lNeF9HbkRtTzBuUU5ITG5vOW9XSzhjbUY5d0FaQVg5TG8xQdIBuAFBVV95cUxOZE14dDBEUnU3YTI5YVUzdU8tQlA4R19RNkV6dUE5MVgtQ0F1bFRtMXoySmR0cFFFZGlfalNUc3J5RGNQcWRZRm1vNVc2YjNvYjBvWTdkM1JiR3ZFSGlWc21RUGl5cUhManNTUDE0dWZqNDlxMkQwRXZUS3pubnRySHBNWWNrN3hBM3FWbEhsb3ZaeWJJbkFzY2RSU2Z4eHBqZS00cFNNX2hlVVQzbGlvYk1nYzFEWGtG?oc=5",
+   "source": "TNX Africa",
+   "via": "Google News",
+   "published": "2026-10-24T11:27:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-24T16:03:47Z"
+  },
   {
    "id": "1c87f1ce20b6",
    "title": "It’s not just about pads: Pain, stigma and the school days girls lose",

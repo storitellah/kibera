@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-23T21:31:29Z",
- "new_in_last_run": 6,
+ "generated_at": "2026-10-24T04:46:45Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 9
   },
   {
    "name": "Capital FM",
@@ -60,6 +59,18 @@
   }
  ],
  "items": [
+  {
+   "id": "f9844bbd63ba",
+   "title": "Tuju suffers fresh setback in fight over Sh450m Dari Business Park sale",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ2l5U0pGNVNha0lDNHc1Mnc4cnFfdWRRNWV3N1hOT1k2ODZmRnlTTzhPVEVQOHUzd3FyZ1FPNU1UcElraU1pX2V3aGs1OU4wclpUZVYwbzhfVlQ0N2g1UTdkT2JCVXl5ZlYwczJhQWJhZi04NHB0RjU2Tmh5RnJsV3BYbVBEaTh0RHlBX3JQRVRqU1Bub0JOd2Y2S0U0WGFmS2hNWGE3MURwajQwSjU2aXF6Rk1TV1FWV2s4cjdBVQ?oc=5",
+   "source": "Daily Nation",
+   "via": "Google News",
+   "published": "2026-10-24T03:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Business & Jobs",
+   "first_seen": "2026-10-24T04:46:45Z"
+  },
   {
    "id": "5ade117b1adb",
    "title": "Tributes pour in after sudden death of Kibra MP Peter Orero’s brother",
@@ -107,6 +118,18 @@
    "summary": "",
    "category": "Politics & Governance",
    "first_seen": "2026-10-23T21:31:29Z"
+  },
+  {
+   "id": "de70fa84a055",
+   "title": "After 36 years on safari, Joseph sees changes in the Masai Mara",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUVBsMFFQRHhQSHNzajYxYWFMdVJubEYtWWZHdTdWdVI2ZWFsVVo2Mzhkd2RBNEhXS0k0MlNLUkpiUDBwMkZxMGNFbzJrWnpCRUZZemVIaE9MSUZ2X1VRNlUtYXZZSkt3Z0xBU21PVGdXZE9falBwN0lJT2RlWW5YbGt6TnFLTnVDZzlFQ0FobW1JSkdN?oc=5",
+   "source": "Sørnett",
+   "via": "Google News",
+   "published": "2026-10-23T10:52:42Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-24T04:46:45Z"
   },
   {
    "id": "34c040717d3b",

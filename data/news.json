@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-25T04:54:49Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-10-25T11:45:26Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 26
+   "found": 37
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 26
+   "found": 37
   },
   {
    "name": "Bing News",
@@ -50,8 +50,9 @@
   },
   {
    "name": "KBC",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "URLError: <urlopen error timed out>"
   },
   {
    "name": "Ghetto Radio",
@@ -60,6 +61,54 @@
   }
  ],
  "items": [
+  {
+   "id": "57a49698e322",
+   "title": "Ruto’s mega projects transforming Nairobi & giving the city a new look",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNDZZbWQyWVNRbWJ0N2NsUWp1dThTOFlhVm9MUUg2NnhSR0NsZ3V2SnNieUpxZVlRUUxGLUlaR0RPRmgteXA5d0VyQi1Wc0lMRkluWm9ydzYxNEZLUXRNU0VBSEJWd1Z4blpFaHd1VW5sUEFLT2VMRGVMMFBCTk9IRUk5N3JWQ29XSGNlczMxcXBkWGF4dTVPNFlPMzhrUXc0Tjc3MFlIMm81eXN0WFFhSVRrMHVnZFhzWE5PdU9R?oc=5",
+   "source": "Pulse Kenya",
+   "via": "Google News",
+   "published": "2026-10-25T11:27:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-25T11:45:26Z"
+  },
+  {
+   "id": "a1aa89d18caf",
+   "title": "NEMA seeks public views on 2,970 housing units planned for Southlands, Nairobi",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRElNWUZZbVgxak9GSzZCSzBWSTNnOEoycUR4VE95Q0MwX3lCazNmOF9jcW4zOEpoZjhLeWM5UEFKMEplNnJNa295VllCY3h6c3EzMk1YMFc4RDRrTFJjOTJ0WDJSdDNYdldUbl9Gb193endBdlNMa3FDRVZYaHRQbVB5elB4b05vajdxQjhCRV9aUDliSjYwTFROZUx5aVFKUjZzMHVnSGtNMXBWR0E?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-25T09:37:42Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-25T11:45:26Z"
+  },
+  {
+   "id": "4fc78d8fe31e",
+   "title": "Man,49, stabbed to death by thugs in Kibra robbery",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNM2tvbmtqZXZ6dlNYUzJWSXdUcnY2OFBxbnNLX2JMdVhtaXNGaWxhV3FaYjd5WklmRFJmS1FSWl80MjFna3JRQkUya0FnSDNPVldjUDFZajFlWHBKQm51YkNHLVotakliTGJPWHBlSWlyS2YzYlJ4dGswRjU0aDU3WVZhSl9WbG43dUhPSWU1WkNFSGJtY0ZodVlOc0VORVZhWHQ0Y20xN0NycHg1dFYtQ0xwQktsZw?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-10-25T07:54:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-25T11:45:26Z"
+  },
+  {
+   "id": "771cb19fb8dc",
+   "title": "-The kids need a place to play",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoM1J5RUNPcDVmUG1FNWlXbzZnWHl6US1Nc0xVTHpvT3Z1Wl9OTDdwWlJFZktjQjYwQURKR3QwWFlKbHJKdmttVlc1a0ZmbUk4UUI3MWM5aUdpQ1Z4RWJkRV90Y0FwMlVu?oc=5",
+   "source": "Sørnett",
+   "via": "Google News",
+   "published": "2026-10-24T16:24:27Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-25T11:45:26Z"
+  },
   {
    "id": "c4ac3b9078ff",
    "title": "From cattle to poultry: How Simon built his dream farm in Kenya",

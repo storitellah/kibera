@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-24T23:22:03Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-10-25T04:54:49Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 25
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 25
+   "found": 26
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 8
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -59,6 +60,18 @@
   }
  ],
  "items": [
+  {
+   "id": "c4ac3b9078ff",
+   "title": "From cattle to poultry: How Simon built his dream farm in Kenya",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUDgwZEx1M1BFQU1Yby1vekNhSzdCN2drRTZHOFotdFQzandvQWQ4dzB4b0c2Z3I1c3RlLXJLallTN1BGWHVOZTNDSkNHOTF0WURzMXZFZXM5bDRleTN1SXo5aDQtdk9rMEtaZmZxUVVYYkJIcGtpbm9PSlEwYkV6WVM5UGNGRC10ekZyTG56SGVhZi1q?oc=5",
+   "source": "Sørnett",
+   "via": "Google News",
+   "published": "2026-10-24T16:21:39Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-25T04:54:49Z"
+  },
   {
    "id": "7b8e8b601273",
    "title": "Select Nairobi Residents Face Possible Relocation Under New Govt Housing Project",
@@ -119,6 +132,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-24T11:14:47Z"
+  },
+  {
+   "id": "60a2cc9aa0f7",
+   "title": "Talanta FC v Kibera Soccer LIVE 26/10/2026 | Football",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSzlkazByQ3lVUmhvOGVIbXliVmdUNGQ0SVl3QUNjRE1lUHpiTHNGTzZENkRKdkExNTJZalJmSTVrbGZmZmR6Tm1TYVZxSmdua3lTcjRHQVFma2x4ZEt2a3B1eWR3Nmphc3d3MlJuZlNfOGZmcjh4TGhwVXQwWjZadEFLOWhiUXZOdGFrRl9TZno?oc=5",
+   "source": "Flash Scores",
+   "via": "Google News",
+   "published": "2026-10-24T03:02:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-10-25T04:54:49Z"
   },
   {
    "id": "f9844bbd63ba",

@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-10-25T11:45:26Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-10-25T16:33:45Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 37
+   "found": 36
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 37
+   "found": 36
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",

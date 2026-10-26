@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-26T04:58:21Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-10-26T13:17:04Z",
+ "new_in_last_run": 12,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 34
+   "found": 45
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 34
+   "found": 45
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 7
   },
   {
    "name": "Capital FM",
@@ -46,7 +45,7 @@
   {
    "name": "Nation",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "KBC",
@@ -61,6 +60,138 @@
   }
  ],
  "items": [
+  {
+   "id": "086cb3655453",
+   "title": "\"Played a central role\": Police inspector linked to 2 killings, held for 14 days",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUDFmYXRSdnFzYUZiT1pjZEJJdHhQYTV3WVlsVGJZNlhQRDQ3d2NjTDVOYWJwejhYbWxJN3NEZDlKVWx2MXE2c2VUUjF4cFpHTEJWMlhyUkk0UzhrTkpnbDR1VW9NVVFEczN5c2pHak1ZMXRNUVowQXVqZWFLWUNQcjJpVUVOSkQtSWVQUE9ENFAydU9QSEJNYkoyOFVuV2pGdU90Yk5PZkVEMm9qMWIzMFVVUGpHUGxvUF9RdkRsTGxSVDg?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-26T11:47:33Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "61f9ba480417",
+   "title": "\"It is okay\": Win for Babu as MP aspirant confirms bid under The Mwananchi Party",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZWxlUXVCcVZ0V0wyeHR4WlVIYlRfSlAwTzhKY3VNUHR2Q3lkMWVOYnktMS14cXNUM0s5alBwSnQ3RWNSQ2M4R1hiNnJKajN4QVJ3WHpqVWhYcDd5Slh6VS1YVkhSNnNYMmhzQnhHbFhjZVRyQ010dGIxTjdQVERwX0dhVmJFRGF5RzQzTHNwaDRlSy1lQk45QzBaYnFwZEl1cjdsZXFHSXR6eW5u?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-26T09:03:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "daf9db61bb3c",
+   "title": "Parts of Nairobi to go without water for three days",
+   "url": "https://nation.africa/kenya/counties/nairobi/parts-of-nairobi-to-go-without-water-for-three-days-5645834",
+   "source": "Nation",
+   "via": "Nation",
+   "published": "2026-10-26T08:50:07Z",
+   "date_estimated": false,
+   "summary": "Langata, Lavington, Kileleshwa, Kilimani, Ngong Road, Kibera and Jamhuri are among the affected...",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "fa25ae135a0f",
+   "title": "Nairobi Water issues notice for three-day supply interruption in several areas for pipeline maintenance",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdzRfNlZhY0EySC1nb21NY1BhU1JPNmF3YURERVpya0RrZjFEYkQyZXkzZWRWZTlDOVFZTzBOb1dZYXItY3RXT1A1aHcxRVUtcWRPeTlYNWpsXzFSU2pzTkxUdWVoREM3Qy1NT05kT3FQTVh0UTJ3Y0xwXzcxV0JvanpmVm1mV2IwdEFzTkNubl9CLTlmenBlUTJLcGx6dTIwT2dKV3Q4S016TWJrWnluMXhvNUNwaHRqMTU4VlR0WjNZcDVoYnJ5aE93MHFvTlhpbzJVMWM2ZXlDTFVfQjMwQ0pVVFlOdw?oc=5",
+   "source": "Mjengo Hub",
+   "via": "Google News",
+   "published": "2026-10-26T08:03:17Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "79eb7e044370",
+   "title": "\"You'll have the best\": Ex-Kasipul MP candidate shifts focus, eyes Nairobi seat",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc21Vd0cxelllVERYVjZSYVl6M2dCZTZPWUFPQUhqZHR5bTlHRzB3YnJuS2tVeHRITDFlTDZKT0FaSE53b0JHaC02RWMtMHJFYmE0MFBUY1hLZDNfUkhsS2tGY0REalBwRmR5NGs1RklWQjltUE03WWR3STJrckN1bHdTUU1tOExwWEVkdFVHaWZrUFRjUVZxdmpWRS1NNENDbmhET2IyVEt0aHlSaXF6NGVqWGVKMk9m?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-26T07:57:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "596667e7091f",
+   "title": "Talanta FC - Kibera Soccer",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUWhuRGpRNjFfcU5zbFRIQ1Fuajh4U0d5X2dQRzVocGtxQlhKNHdJNi1PWDdac1hsSGJVdVpCNlk5S25LNmVxX1N6b3hmcmU4NVR4OFRYUFdJS2ZEaGRCYXJrZkFoSW5UY3V4N3REVFJMRU5SdnZkNDY5VWhjTlk4WTdRRE9Vc0hWZzg4bi1NWkNSSlQ4U3UzbFpHaU1NTW8?oc=5",
+   "source": "Flashscore.com",
+   "via": "Google News",
+   "published": "2026-10-26T07:23:11Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "14706637ec2b",
+   "title": "Nairobi Water Shutdown: Three-Day Rationing Hits Major Estates Amid Emergency Pipeline Repairs",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVmp0NW5tNWozWGIycUNjR1pPbjFNbmFkdUphWV92NEVndkxocThvdlJ5YWl3NTJDZFRVYXVpcDlfRUQ0bFZfZ20tOTNtTHM2d29uYXBXNEpJME1nSXZSRnNELThUSXBpRzBxRTJSMWVBMm5hQXN4QmtzUUJUWVg4Umhxdk1vbTk0aHdTb2drazFFRFV4cUhrWnJfcjlSYzFpNGJ2RzZIUmtqZHpsRXJxazdpQU1hQWE2T2pZMDd2ZUpZeDBTbkE?oc=5",
+   "source": "https://streamlinefeed.co.ke/",
+   "via": "Google News",
+   "published": "2026-10-26T06:42:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "399f960aedd5",
+   "title": "Nairobi residents face three-day water supply disruption across multiple estates",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeWxtT2tFMlNlVzJGczFUZkhJZ3lHVE10VW5EVG00bnZqQjlQTklaeG9xRnVmVkNrQUI4VlhSVDNoNEhUcFlwRW1takFjOGZ3Mmp0NWM2eWpRblRwNEFUZmc5d3VkUDRnLWczWVhiN0RSNlIzNlNNUGdZVndscmRDS1lwY2VGa0h1bGtiZk9KZmRuTHBBbFIxTVNqOWpKem1ORXhHQkVuYTF2ckhYUW51OWNPM2xUeFVIYTdNeUo3bWpSR3B5c2VDUGFOaTcxUU9D?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-10-26T06:00:33Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "e6b63425a59c",
+   "title": "KPSEA, KJSEA exams kick off with 3.6 million learners registered",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaUxjTzF0ejZkai1vWHNESk1wc2ZZUHdKd2lWZGtURjNaWHlPNlJRR25hN1ZrT0FrYU94N2pJSDAxUmZ4Wm5peUctejdYeGtmcDFHRHlxX0hfaXhuVXNybE1vRWFYTHBYbjlXQVA1YThvU0tBQWppTFZEZzdFY0NmczRNRmFkbmljUnF2R2QwU3ZoeDdiS00tZHNPcWQ1bmNpRzBkWQ?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-10-26T05:39:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "ffe718840bb2",
+   "title": "Living in Kibra, Nairobi: Rebuilt Homes, Rail, Water, Floods",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSUJYVEpNY0gxTThwU3NYUlRhVlhzbGZxZlhNclZhWGRidFlZVWwyS0xCNF9YemN2UHBwN2VWV1hPQ0tVdURqdmcxUDc2SUV5cTFnY0J2TGRROE80bFpGcUVLTGVsVlk1LWtRb2xKVXFONlM4RzVaWmpIYTMyTDlSVWZGdnRDUGhEOHd6ZzYzQnIwMHM?oc=5",
+   "source": "streamlinefeed.co.ke",
+   "via": "Google News",
+   "published": "2026-10-26T04:16:27Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "795c7bfc60f0",
+   "title": "Philip Aroko: Former Kasipul MP candidate shifts focus, eyes Kibera parliamentary seat",
+   "url": "https://www.msn.com/en-xl/news/other/philip-aroko-former-kasipul-mp-candidate-shifts-focus-eyes-kibera-parliamentary-seat/ar-AA2g4Ej1",
+   "source": "Tuko News",
+   "via": "Bing News",
+   "published": "2026-10-26T00:57:10Z",
+   "date_estimated": false,
+   "summary": "Philip Aroko announced a bid for Kibera MP, pledging to tackle water shortages and school resource gaps after exiting the Kasipul race, shifting local politics.",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-26T13:17:04Z"
+  },
   {
    "id": "57a49698e322",
    "title": "Ruto’s mega projects transforming Nairobi & giving the city a new look",
@@ -96,6 +227,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-25T11:45:26Z"
+  },
+  {
+   "id": "832034a5d72c",
+   "title": "Heha Movers Break Down in Tears After Receiving Land and House-Building Support",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV0ZKcFA1a3ZjSnB5dWcxVXJTVVk5UVZYeU52NDJnU2JkaG1FWTNMNC1YMGsya0ZyTUtkb05WZFprUzFnY0ZnbmZZQzlRZ3dDRWpjRUNVaXVtd2M2SWJlZWVQc0EzTnR0RGtoQjZlUzVFRFpxU3FVdWE3MzBZNV9sT25maHhaSmQwanNHYWFUQzlNaWRRSXBTUFpZSEd6a2xkaVRaRFotLWpwb3ZI?oc=5",
+   "source": "Mpasho",
+   "via": "Google News",
+   "published": "2026-10-25T05:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-10-26T13:17:04Z"
   },
   {
    "id": "771cb19fb8dc",

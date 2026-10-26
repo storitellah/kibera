@@ -1,26 +1,27 @@
 {
- "generated_at": "2026-10-26T13:17:04Z",
- "new_in_last_run": 12,
+ "generated_at": "2026-10-26T20:36:06Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 45
+   "found": 43
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 45
+   "found": 43
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 7
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -60,6 +61,30 @@
   }
  ],
  "items": [
+  {
+   "id": "0b3d98a210c9",
+   "title": "FC Talanta vs Kibera Soccer live score, H2H and lineups",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYndTcEhtUjdhdnQwVzVXeW5teTBmY1lHNlJqWkFaUWFaZ3dkRk5sNktGbng3ZXh3amtCd0JnZkpZOFI5TlJTQnY1NG1CQkZOeFM4bnhXQ1JjQUx1SHdzRk5SYkh5TEQ0R3k2QkZRTHJyLUU2QW04eV8tLVZnUjY4ag?oc=5",
+   "source": "Sofascore",
+   "via": "Google News",
+   "published": "2026-10-26T17:16:39Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-10-26T20:36:06Z"
+  },
+  {
+   "id": "a54bb3f35842",
+   "title": "Kibera Hustle: A fun romanticised view on surviving in a slum",
+   "url": "https://www.msn.com/en-xl/entertainment/movies/kibera-hustle-a-fun-romanticised-view-on-surviving-in-a-slum/ar-AA2g5NyZ",
+   "source": "Business Daily",
+   "via": "Google News",
+   "published": "2026-10-26T14:00:00Z",
+   "date_estimated": false,
+   "summary": "Let's answer a few questions.Where can you watch this movie? Because it's an important question most Kenyans, even when they know in the back of their mind they are not going to watch the film, will ...",
+   "category": "Arts & Culture",
+   "first_seen": "2026-10-26T20:36:06Z"
+  },
   {
    "id": "086cb3655453",
    "title": "\"Played a central role\": Police inspector linked to 2 killings, held for 14 days",

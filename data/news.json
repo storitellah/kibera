@@ -1,31 +1,32 @@
 {
- "generated_at": "2026-10-27T15:26:23Z",
- "new_in_last_run": 13,
+ "generated_at": "2026-10-27T22:23:55Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 50
+   "found": 27
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 50
+   "found": 27
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 4
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "Kenyans.co.ke",

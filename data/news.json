@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-27T00:34:26Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-10-27T09:09:45Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 27
+   "found": 47
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 27
+   "found": 47
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 6
   },
   {
    "name": "Capital FM",
@@ -74,6 +73,30 @@
    "first_seen": "2026-10-26T20:36:06Z"
   },
   {
+   "id": "2fc24c5e41eb",
+   "title": "Utumishi Academy murder case shifts as two accused children consider plea bargains",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdi1rbndWSXgxNVRBdzR6ako1RlFrSHBJSUoyUkxnTmNRZkxpdEdlU1ZGS3V4QUZqMXZSS2M4SGRKak9wXzZUbEN1QXdacXU0TGUwdzZacmFVX0l1Yms1clNzYW5wblBEcnBxQldHNlc2WDB4ZkxXTmRBRllqQzdXNVp0aldMTGdXMmF2SnVET1pCdC1FaHViU0w0M2hTLVZzS29ueEpPVHdUSVFLTldFeEthZlJ4ZUN4SEZJSHhrWVRwVnpGSDdLbg?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-10-26T16:45:30Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-27T09:09:45Z"
+  },
+  {
+   "id": "5efcd451abc6",
+   "title": "Parents of 8 Utumishi Academy girls accused of murder allowed to visit them",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHZvR243MXJ3RkVDTUFYVWo3QkhGS1hOTFhkU2ZicXZBcmU0RUlieU5VMjVXc1ZtWm5uNGVUX2NKWVE3VE9ia2xvalllQXFnQkZCczI0MWZIUy1jbFRQaDhEdm4tWWVCUGtuaXI1WWZYVFZLdHZxLXlmckhsY1RxOUNrQlhZQkpNLTVPRGVRX3Q5Z2pPNDVmRjR2bjBVR0dnVDc4SlVhYll5TWJv?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-26T16:12:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-27T09:09:45Z"
+  },
+  {
    "id": "a54bb3f35842",
    "title": "Kibera Hustle: A fun romanticised view on surviving in a slum",
    "url": "https://www.msn.com/en-xl/entertainment/movies/kibera-hustle-a-fun-romanticised-view-on-surviving-in-a-slum/ar-AA2g5NyZ",
@@ -84,6 +107,18 @@
    "summary": "Let's answer a few questions.Where can you watch this movie? Because it's an important question most Kenyans, even when they know in the back of their mind they are not going to watch the film, will ...",
    "category": "Arts & Culture",
    "first_seen": "2026-10-26T20:36:06Z"
+  },
+  {
+   "id": "0898f688fd75",
+   "title": "Nairobi residents face three-day water supply interruption",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORUFROEFuLXk5NHQySEluRTU0X1FnRmduQjd4bEZYWVF6T2o2NmdOQnAzNGhDSWN2OHh5TGFKSjFBY3Z5bG80aXd0NmdzWEVWbUh2YXBfNm9ZVEFmOExNOWpwSVBGbjh3OXlQV0U0VC1nLVBSUEYxVXpIcTY1MHdFOFdVa1BpSlU?oc=5",
+   "source": "Sifa FM Kenya",
+   "via": "Google News",
+   "published": "2026-10-26T12:49:11Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-27T09:09:45Z"
   },
   {
    "id": "086cb3655453",
@@ -156,6 +191,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-10-26T13:17:04Z"
+  },
+  {
+   "id": "7c7cd03028e0",
+   "title": "Kenya: Nairobi Water Shutdown to Hit Parts of Nairobi for Three Days",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93WlFDamNaeUxBbXhDRUlla0dtRTNfd0FpM0dYTWhtLVR0dWtBMmNVM2R2ZlhuRDhiY3hQVEF4cm40VXd5MHZ6N3JTc3l0S1RqNlZnYl9tTjJtbHc?oc=5",
+   "source": "allAfrica.com",
+   "via": "Google News",
+   "published": "2026-10-26T07:23:05Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-27T09:09:45Z"
   },
   {
    "id": "14706637ec2b",

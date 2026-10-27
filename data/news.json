@@ -1,31 +1,31 @@
 {
- "generated_at": "2026-10-27T09:09:45Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-10-27T15:26:23Z",
+ "new_in_last_run": 13,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 47
+   "found": 50
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 47
+   "found": 50
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 10
   },
   {
    "name": "GDELT",
    "ok": true,
-   "found": 6
+   "found": 4
   },
   {
    "name": "Capital FM",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "Kenyans.co.ke",
@@ -60,6 +60,162 @@
   }
  ],
  "items": [
+  {
+   "id": "837cd8e7bba0",
+   "title": "Raila Junior, Simba Arati meet Nairobi ODM aspirants over party unity",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaV9QbkpBWldRaGtiVjR0R19HeGFoVGlaWnd2U29sTUpYQm5qU2hFWVRkNjBOa1MwdkJqWmpPU0xTTkJIc0pjdzhVczNoYXR1bVJGVWtESFdFMUxGM2dLdEZBc0tpX1N6dm9WYlhMMGotWVEtSkNleUcyV0s5eGgwclZuWGJoQmVfWmxLT1k2VTkxaUdmWTFtVk5FVThyd0VhSXgza0c4UE5VRURLX2c4bQ?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-10-27T15:16:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "41a57b7fd108",
+   "title": "A 'Green Army' is out to thwart El Niño flooding",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQX0NRYkNLeHFqLWlhckJkaHBSRVhZaTljbG50bEZBa20zX2dUcktGcUkwWmdzR0NGc2R0R2FOVlVtNXVGQ24tX1BpN3VlUlkxVTJkZTAteTFiVllaQlE2ZHZnRUI3TU1wSHRuczU4MzU2R3dfdmd1bXFfM2Z3WWgwY1JTQzQ?oc=5",
+   "source": "NPR",
+   "via": "Google News",
+   "published": "2026-10-27T14:12:35Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "5025caf478a6",
+   "title": "Kyalo Mbobu murder case: Judge orders Rose Mbithe’s lawyers to leave court to cool down tempers",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNR3lCX1lmd3lOclUzNlJsZXB4YVVjb3hJbVNNWDJraXp0X0NRUzdvUWdIbDlWbmRqOXpTZ1E1dlpIektEc1RIOWpiZ0RjMVN1TG9sQ2lqeHowTzVrR2ptc2wxWmd3OGJELWx0RHg5ZE5TekE3UllmNlhqazNRWlVhVGtNc3NEMEhZUTRFTDE5V01HQ09fdVNZNlV1MjRqV2J1MFFCM0gxQWFaOWFZZEJZMzdzSTUtWHNNSlVjdFUzWXpqdTlh?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-27T13:57:17Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "de3b327b8209",
+   "title": "How murdered Multimedia University student’s phone ended up in church offerings",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUFFrdTFIb2xHOGdvRFVYNjdnOHlxRlQtSUlDNG1iT3kwTFowZzJEZkRxWjRiMnF5UE9BempuamhKOExCNjJWRUswbFREMnRDTTJuc3J5UVZSc0g3bnJuMGE0cWhkNk10MU5ZV1NtaVYwTmZnYTBDZ3VrQkVKTUkxTjhENWphWGJEQ0xYbVo3aTlVckV4VDROOUNzRkFkMjZhLXl0Wm1vLTZyYi1WYW5MTFZkaw?oc=5",
+   "source": "Radio47 - Hapa Ndipo",
+   "via": "Google News",
+   "published": "2026-10-27T13:53:02Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "db65ea6280b6",
+   "title": "MP Peter Orero reveals Mariga was a water boy at Kamukunji High School before stardom",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ2o2eHM4UWpzbHM2bWxyQ1dkMzlNdVk2aFBEX0dMZW5GWE1XM0kzZlZrV3V2ejBEcnYyTFVGOE5qengtZWt2SnRsYzRnRWRSZTl6VEx5RjBrYmNDUjZuUklFaXdnNUozUWlNUkk3bU5jQ2M1VHo0ZHpCanNxVVNiQ0V5ZE0xZUVQMGNHZTRDZHRzZ2Rtd0dmUDU0ejdSbTA4aWQ2SUJhTkNKd093NDJnc1N3?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-10-27T13:43:22Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "5c936d0b8440",
+   "title": "“Tulimfunga na shawl”: Mum painfully recalls ferrying late son’s body in matatu",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdmx3Ukd1ZDRmQTc2OU8zYkpGSFVOV2Z3ZWpRcl9MZFgzdHBBaFVHUnZDcFJZT3JuTVQ5Wmhqa1Zzb3o2bkpKZW02WWlzT0hoOE42bDY1eUhValU1MEJiRXliNjhncEl2MUtrOEhvc0hQTzlKZDhOWWVaWFR2UWE0a1padm5yTjRBNllUWHEyNl84emlnMFVmVEVYc2ZoclpqWTJobk5naVZtY05ORDBTVzNkbTRrcDFQcTFr?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-27T13:33:24Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "848627819bec",
+   "title": "Pastor Tells Court Murdered Multimedia University Student’s Phone Was Found in Church Offering Bag",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR3JYTjk3WWFZa0NzZjgwTmZ2U3dSRDlzOEpIbEt5d29rMDNiaHpQQnJwaDJMSVR1VWdSdmRLeTN0NFplbXA4WUlGVFBRVGtfR01LbHFETkZKVGdaZHJWSmN5UVBNeU9LV0l6LUZvcFRWa3Qza245Tlg5Tm9tX0RyMHZyNWRmaDl5RXFIQzhTeGp5QWtfU0h5RWt5cmxteUdYbldEdFFWR1pMQ1o1WTVKczg5UDV6aGlCdXNGZDQtMUlWQQ?oc=5",
+   "source": "Uzalendo News",
+   "via": "Google News",
+   "published": "2026-10-27T13:10:15Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "04de7fcae04c",
+   "title": "Rose Mbithe, her children and 2 others charged with murder of lawyer Kyalo Mbobu",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdHc0UFFFRy1jaEVHZlJKRlJvQy0wdnZTbnkwaWFURDZGM0kybUVBN1c5cnVpUHFjdHZlU1gzQ3JRbjJUSUdIQmpzTTh2cFhJUWo4cXF4V1pqMTZCUG1jaTJ4anZIakxENnlNc01CUGpwMkl1dm9Mbm1GT1U0UDBXeG5XWlo0NXNpSFg3U2ItT1lnMXpXWVZpQVRpZWxUeElKdVUyN2RabUdlZk0xZ2N3ZlVn?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-27T13:03:48Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "ab0c5139d9c5",
+   "title": "\"Pleaded not guilty\": 3 relatives, 2 officers charged with lawyer Mbobu's murder",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQakwyVmpwOHNKYWctdHBiSWRfNjQyX1I5b2kzVVRaVWdLR2ZGT1N4SU9BUDlkSzBBOG04ZlpqVnBwcldmTDZ6MEEyX2tJLThQdlRQTmhlVERtMVhZTFE2YW94RnV2eEE4YlZzT3pfTEhKOHNFbEJ0ODJlNEZ6Ym1FV3dLanNsZWRaT3FZWW04SWxUSkZsdDRLcFYxRDlIaHBuVWF5THg5Vzh1RWtoaHBkQlRja1daTWs1bWx6ZVJ3?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-27T12:29:37Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "13e00a790772",
+   "title": "Court allows parents of eight Utumishi Girls fire suspects to visit them twice a month",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObWxlbGtUSmpQa2FjNzNhYUd2U3NPRG5sZTgyMlUzNHNQMC1RSzBqQ0dwSjhaYTd0S1NVaVZjLVU2SXBwNTIwNDZyOWQ5Wk96QUItM2lBQk5PR01Edld5NXVwb0ExdzVzdVo2d3VUUmNmTWhPWi1oeTl4UF81eFB5dGM0Z09YWDFxVXR2MWhBRFZxaXBnUTBTUmFOOW5ZeDUtMHNhSUxpb3d3YnU1MjRZTnhJUHZ3endPY2Zj?oc=5",
+   "source": "Education News",
+   "via": "Google News",
+   "published": "2026-10-27T11:32:40Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "1bc726165c6c",
+   "title": "“Walinifukuza bedroom”: Woman heartbroken after hubby dumps her for househelp",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2FRaENXOXcxVUdPaTAxT2pvdFhhTHhWdEZ0RXlsOEkwOVIyanFqWVFNUl9aZUdMYUQ2OWwzZU5tX2o3cFltQm5DRTNLR2Z1NmlacV9KNVp6NTFHcHhTVnVjWVdHWnVveXJ6VjI1d21BSmJPZ1dVcGotZkdtdUpQbHpvZzg2MnZ5OEZfUWY5OE1PejVrX0VUMmdONEdqckVOMWc?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-27T11:03:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "f11381f0356e",
+   "title": "Raila Junior visits Oburu as ODM party leader recovers at home",
+   "url": "https://capitalfm.africa/raila-junior-visits-oburu-as-odm-party-leader-recovers-at-home/?utm_source=rss&utm_medium=feed&utm_campaign=feed-news",
+   "source": "Capital FM",
+   "via": "Capital FM",
+   "published": "2026-10-27T11:02:00Z",
+   "date_estimated": false,
+   "summary": "Kibra parliamentary aspirant Raila Odinga Junior visited ODM leader Oburu Odinga at his Nairobi residence on Tuesday, days after the Siaya Senator was discharged from hospital following a two-week admission.",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
+  {
+   "id": "6c2f45dc83d6",
+   "title": "Raila Junior visits recovering Oburu Odinga at home",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY1RlS2hTN2xzS3hDb1RzeDYtOTJ5VF9LSzRIM29tX3k2YVVjaEVKbUk2bmpmaXNyRUlqTHl6aE5ISUxxUzM2X0t0ZW5xZ2o5ZUJXVkhLMkZFOGpScmRLcUFURkpyTTdCaFFrMmhYb1N2OV9OWU40Y2F5UUsyc1RKdHFZaGFqYzBLdnFmd090SQ?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-10-27T09:25:24Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-27T15:26:23Z"
+  },
   {
    "id": "0b3d98a210c9",
    "title": "FC Talanta vs Kibera Soccer live score, H2H and lineups",

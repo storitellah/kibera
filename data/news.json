@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-28T05:54:42Z",
- "new_in_last_run": 3,
+ "generated_at": "2026-10-28T13:11:53Z",
+ "new_in_last_run": 5,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 27
+   "found": 46
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 27
+   "found": 46
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 4
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -35,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "The Standard",
@@ -61,6 +62,54 @@
  ],
  "items": [
   {
+   "id": "956dc9685694",
+   "title": "Utumishi Plea-Talk Requests Go Before Kibera High Court",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOblJIUmFiaS1CdVFldWR5UVRSU0NkdEJhSnBpZnBDMjhNUFBqQ0Q1Vm4xd2wyNk9WVWFPOXpoYVVWUm9fMkRlLTVIdl9BaTBPMGs0VzFEN0s3WGJacnhIYWxoaWlUS1pkbFgtaDZobkVPOFhENzd6QTdHcjhDdjhpa0haX3lTVG5JS2tCakZn?oc=5",
+   "source": "https://streamlinefeed.co.ke/",
+   "via": "Google News",
+   "published": "2026-10-28T09:37:32Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-28T13:11:53Z"
+  },
+  {
+   "id": "ae010d787ed6",
+   "title": "Phone of slain MMU Student Sylvia Kemunto found among church offerings, murder trial told",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXh0UEtDTXEwZ0RsRlQ3WmliUC1sc0JfS1dnckU1ZGRYRE4yUWtBdk1UdEUydmQySUJXZkxtZ0VuckpkNXF5SzNJQ1VQcEVyLVVsUTNieERHNmNwWVJPOVlvNHVBbHZVU040Nk1vcHo3QWdrZG1yUlJBZzV6cXpMZmZJSm02VGlsbjgwV3pMWWkzT0ZyTVZ6eUZNMERXOU1fMEJLMUZyRWdMejBhMlhpZVNLM1k5anZkSHJrLXJR?oc=5",
+   "source": "Education News",
+   "via": "Google News",
+   "published": "2026-10-28T09:14:27Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-28T13:11:53Z"
+  },
+  {
+   "id": "7ad3841bb58e",
+   "title": "Beyond the Statistics, Kenya’s Teenage Mothers Reclaim Their Stories",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85Y0cwQ1FaYjRuOEQ5cEc1OGEwUjlxamZWcTMwYjFZcEVkREU5aVJIUW1GclI2Mm5JR0s0Y3Q4Tkw5dDFwUjd0Mkg4eVZrX3RVMnZ5UXdtQVhfSUxMR08wRmlxbkNmRVhsZFNZMzE4Q3Q1VFFudk9YLXlHbw?oc=5",
+   "source": "AfricaBrief",
+   "via": "Google News",
+   "published": "2026-10-28T06:05:49Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-28T13:11:53Z"
+  },
+  {
+   "id": "e783aa161e31",
+   "title": "Sylvia Kemunto Murder Trial: Student’s Phone Found in Church Offering Bag",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMDUzcjh5RGFjSHotZUFJMFNBSFQ4OU9QR3J2UU5VSWlrNW4xT0h3c0lvRVRHOG9VbE5qT3k0emRZbU5jRmN4aExyTTVKcTBBYnRDMlM4TUt6Q3gtTWwtcHVsbGVDZjBULUdUZWx2eFpqSkI5emJrY3Q4MHRfQS05MWlzMHpERVNVdWdDVVg0SG5DSi01SnBNR3M4ZHdTUQ?oc=5",
+   "source": "Capital FM Africa",
+   "via": "Google News",
+   "published": "2026-10-28T05:55:21Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-28T13:11:53Z"
+  },
+  {
    "id": "efe820cd127b",
    "title": "Mzungu woman living with boyfriend in Kibera takes him to Switzerland",
    "url": "https://www.tuko.co.ke/entertainment/celebrities/644690-mzungu-woman-living-boyfriend-kibera-takes-switzerland/",
@@ -83,6 +132,18 @@
    "summary": "",
    "category": "Housing & Land",
    "first_seen": "2026-10-28T05:54:42Z"
+  },
+  {
+   "id": "af9f40d4a119",
+   "title": "Police fire tear gas as fresh protests erupt in Kenya despite ban",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdjRLMzNKcnJIODhuVUlJeXhRTUk3b1lWX3I1WWloM1JidW5Fek9xNDBGNzEwWTNTcHJZMUlndTF2aWdHVUM3RkN0YVo3VFQ4bHRuQ2FTd2UydmZtWDdlSzlHNUV3TTNIZ05jOGxISWNnTlJJYUx0YmxwYU5kUy1hQlZPNW84SFJrSnFjcVlNY3bSAZYBQVVfeXFMTlQtUXJfZm1fbG9jdGZQNzdDY0E0UmljRlFZcHpHOVNDWTRUYWtmYzVEYkNIZm5FWDdoRlBVUFpDR1dXa0hmX19vTEptX1p2WWlmVEhqaXhXME9YZUlSU2ZqdlVzVzdjbDFHWjJHYVpucU1BVG1XUW9Ta1pLT2ZvS3c2YVdCbzdSdFJSYjFCcUUxOFFXdGFR?oc=5",
+   "source": "Eye Radio",
+   "via": "Google News",
+   "published": "2026-10-27T18:35:57Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-10-28T13:11:53Z"
   },
   {
    "id": "2c537cba7313",

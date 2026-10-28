@@ -1,27 +1,26 @@
 {
- "generated_at": "2026-10-28T13:11:53Z",
- "new_in_last_run": 5,
+ "generated_at": "2026-10-28T20:21:50Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 46
+   "found": 47
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 46
+   "found": 47
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 2
   },
   {
    "name": "Capital FM",
@@ -36,7 +35,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 0
+   "found": 2
   },
   {
    "name": "The Standard",
@@ -61,6 +60,30 @@
   }
  ],
  "items": [
+  {
+   "id": "74a79a497eb0",
+   "title": "Gachagua warns Winnie Odinga, Raila Junior after joining Nairobi politics",
+   "url": "https://www.tuko.co.ke/politics/644866-rigathi-gachagua-warns-winnie-odinga-raila-junior-joining-nairobi-politics/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-10-28T19:12:30Z",
+   "date_estimated": false,
+   "summary": "Winnie Odinga is seeking the Nairobi senatorial seat, currently held by Edwin Sifuna, while Raila Junior is targeting the Kibra parliamentary seat.",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-28T20:21:50Z"
+  },
+  {
+   "id": "04902e13f2f2",
+   "title": "Sylvia Kemunto: New twist as missing phone of slain MMU student found in church offerings",
+   "url": "https://www.tuko.co.ke/people/family/644859-sylvia-kemunto-missing-phone-slain-mmu-student-church-offerings/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-10-28T17:41:41Z",
+   "date_estimated": false,
+   "summary": "Sylvia Kemunto's missing phone was found among church offerings, a pastor told the Kibera High Court as witnesses testified in the MMU student's murder case.",
+   "category": "Education",
+   "first_seen": "2026-10-28T20:21:50Z"
+  },
   {
    "id": "956dc9685694",
    "title": "Utumishi Plea-Talk Requests Go Before Kibera High Court",
@@ -108,6 +131,30 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-28T13:11:53Z"
+  },
+  {
+   "id": "984b6a88b8c6",
+   "title": "KE High Court: Sylvia Kemunto Murder Trial Hears Student’s Phone Found in Church",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRjlYbll0WDg0VXVoMW5abnh6QXZZbFBGWmg0ZUM5QmFRM0o4OWJRLUIzTnloWEpxSmNsVldmY0g3ZWFhWUt6Rjh3LVZhMDR5LXpES21sdk9kQlJ3akxOVWQwQ2NyQzFvSkN5M21wLUpyYTVnMlcxQ0NiTmpoMXE4RkkxN0hBODJpV21OcXk2LUptU2xuU0RHWlZ0cEFjSUxYWTRRRDFfb0x2VHo3a1pLOUxmQWRPdy01ODdib213?oc=5",
+   "source": "Wansom AI",
+   "via": "Google News",
+   "published": "2026-10-28T05:55:21Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-28T20:21:50Z"
+  },
+  {
+   "id": "5e827c709788",
+   "title": "Kenya: Rose Mulwa Denies Mathew Mbobu Murder Charge, Pre-Bail Reports",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZ3VKZkRfU09aWXRaU1paNTZ2RkY3aEE1QjM2X2Joc19od0FJMkFKOHExNXFBdXRtckt0cUtBZVQxZ3A4MVZBZE96TE9NSkh2amhyRW1FMzZKU0JDak1MYzFWcHEzdm1paVB1dXpQa0s1b1MzV2FuR1A3SDU2eGJqSS1qcUFUVGtGdUllXzRpS2d3TUtlZEZsRkIzQzd6b1hNYzFUam1WVmY4RGd5bEJaUzREWkN2QURkaktBYzJaT3BKQQ?oc=5",
+   "source": "Wansom AI",
+   "via": "Google News",
+   "published": "2026-10-28T05:42:12Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-28T20:21:50Z"
   },
   {
    "id": "efe820cd127b",

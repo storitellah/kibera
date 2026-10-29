@@ -1,21 +1,22 @@
 {
- "generated_at": "2026-10-29T10:10:59Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-10-29T18:33:32Z",
+ "new_in_last_run": 7,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 26
+   "found": 27
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 26
+   "found": 27
   },
   {
    "name": "Bing News",
-   "ok": true,
-   "found": 10
+   "ok": false,
+   "found": 0,
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "name": "GDELT",
@@ -45,9 +46,8 @@
   },
   {
    "name": "Nation",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "KBC",
@@ -62,6 +62,90 @@
   }
  ],
  "items": [
+  {
+   "id": "a0117f430807",
+   "title": "\"We are coming as equal partners\": Orero warns UDA over ODM mistreatment",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNclpPTzZYMzFUUXI2QkNZbWt0NzBPWW1QdGtuNjVpLVdQVDMxcXhYWHZ3cmJLSmdIa3FweFVsQWlHZTJod1NndEdDT1lsNTg1NVBMczhnNmkybEJnOEFjaEFFRWNtOEZkbFJpTHZiNVppREZITnpmUE80S2IzUVY0eGhERDAzUDZwSnFCMWZ6SUVTOE5HRzVFWWYydVFWSGRjNkw4MEYwWTNKR2ZQQlYyZGZn?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-29T13:24:11Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-29T18:33:32Z"
+  },
+  {
+   "id": "eaabec92f769",
+   "title": "Kibra Stabbing and Murder Suspects Arrested",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pZC1kRHR4ZTR3M3ZFWWdRMnQ0MDdkTGxuS3lkQWdIZlNzaU9OZ1J3blVDN08wZVlxYXZDTWJiREViUEJ4MGRtbmxzWXBsV2J0SnUzYjQtSUl4YjBSYXZDY3ZQcEwxU09QbklJMnhHaGQ2azdYOUtOUUFn?oc=5",
+   "source": "Uzalendo News",
+   "via": "Google News",
+   "published": "2026-10-29T12:52:05Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-29T18:33:32Z"
+  },
+  {
+   "id": "0302c851e6ef",
+   "title": "Two suspects arrested over murder, stabbing incidents in Kibra",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYUs0YkpnbVIwaTVWZ1FmbXducUhYZ3hqbVlNY2FXVDhjVXRlX1pkMElDRmtjdlVoUmpTVTMtWlZKM0x3SUx0QWNDTUQ2MkZNWGpNRXRXRGNPcmU2Mks4UnhTYXlEZW10MG11d19ScHFUamZka1pUSXRUa0JvLWZnN1ZFd1VQeThINVVtY1FSMWZkYjdvWkt0ZnJn?oc=5",
+   "source": "TV47 Digital",
+   "via": "Google News",
+   "published": "2026-10-29T12:06:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-29T18:33:32Z"
+  },
+  {
+   "id": "6b373de53518",
+   "title": "2 persons of interest arrested over Kibra murder",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRzBPamZlZ0pObkYtaWFlWjV3MFlUTnB0MUo5YmRvMmdxSHR4NVFVaHJvNTNnU0psNVk4VWZ2QllhZnc2V1RUd0N4OFNZeHR0V1AxZ3JWelVzMHlwQ0VkSmZwTHNPOEdobkk5WE1pY0JiQzZaYmhYNHo2NlBuUjd1NlVFejNYRHVF?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-29T11:40:40Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-29T18:33:32Z"
+  },
+  {
+   "id": "94914405a607",
+   "title": "Detectives arrest two over murder, stabbing incidents in Kibra",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWUlCanAyRHh0NEgtRUpTb2NwNC1DQzFreWQ0Q1FOMkRyLTVFQkxyQ2xmVnFGQ2xBRHpCYTJ4OHFFQmF5SXh3WF9Ea2d3ZjRodTBKelFRNGxtakd3RFhJdUd4aVh1dFhqdTdYWEg2Z0pnZGFzcEF3SVU0dE81OG9LV3MzYmUyamJpRU9TdzNERF9zSkdSNXRkSzhlS1p6d2hZbXpXY01vbEZWZw?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-10-29T11:07:19Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-29T18:33:32Z"
+  },
+  {
+   "id": "8a535a9a13e9",
+   "title": "\"Intelligence-led operation\": 2 suspects nabbed after Kibra murder and stabbing",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeV9ZcVJaY1k0Q1I1U0lmMy11V1NjczlONXFpX0NKNjJycXNZOUE5Z0w1M2FQckhibHY1ckZla2h5aGEyQk1PM0RMVFRLWVJ0bnlQdC1LRXM0aFhtOFJ1bU5STGRXZFdONGVLXzhRM1JKSzZTb3IxMXhsc0pTdFVRNE9vVXVKYlRmN0VwNW9fbnpYT05WSWw4NDllQURJQk5GVHV6cXNJNFk?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-29T11:05:59Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-29T18:33:32Z"
+  },
+  {
+   "id": "fbb4f8e0f556",
+   "title": "Detectives Arrest 2 Suspects Over Murder, Separate Stabbing in Kibra",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblNscndrWWJ3aVJLVHBJQkpEVmNoSFJpcDM4NWktMy0xckVDcERoRElMSjE5NUFBMW15NnY2S0Zzd2RBVzdleS1xelZJR202d0R3cGt2RGNhR3ozcHFWekVQaGtBNFNDUTlBN2VVVGFJWEZHOFlNTG41b1BVem03WWhCLS1SeDc4eHgxRkVUMHdEWk5YYVRfT19nbzFwbUJRQ2xLNktMS2t2UDhNT3lpYw?oc=5",
+   "source": "Nairobi Leo",
+   "via": "Google News",
+   "published": "2026-10-29T10:51:05Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-29T18:33:32Z"
+  },
   {
    "id": "6f10bb0c5182",
    "title": "MP Orero warns UDA against treating ODM as junior partner in Broad-based govt",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-29T01:03:09Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-10-29T10:10:59Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 27
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 27
+   "found": 26
   },
   {
    "name": "Bing News",
@@ -36,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 2
+   "found": 0
   },
   {
    "name": "The Standard",
@@ -45,8 +45,9 @@
   },
   {
    "name": "Nation",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "name": "KBC",
@@ -61,6 +62,30 @@
   }
  ],
  "items": [
+  {
+   "id": "6f10bb0c5182",
+   "title": "MP Orero warns UDA against treating ODM as junior partner in Broad-based govt",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQlFHVXdpLTdQWG0yRzNYeDBqT1V5SmVyU0RHU3U4eDhBLVVKbGJoRFZXWWlBUGlqaTI2eG5NNE4wWHh1NnVYYUFvNHAtSXFOano3NHJicU5RcnhCTXowQ3FiVHgxN1Q0bnRGR2dHTzZXb2NNTG5YNDA0MkszX2JNU2YzdTA1RkxHcDlxRzY0S3FyUllxVmFfdnRQV3hFVW9VODY4LVh6SHdZU0VKcnd1MTEzMVp5WmZkNnF6TWdR?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-29T06:25:38Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-29T10:10:59Z"
+  },
+  {
+   "id": "c9c6def156f5",
+   "title": "“Justice Is Not a Concorde”: Judge Tells Lawyers to Calm Down in Kyalo Mbobu Murder Case",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ3J4ZkxSS0VHU2JXcTdQamhZTEVfLVJpOXF3TGpvZXBBcWNsWlhkenNyLVNRY01IbjIzOGlVS0k5ZWMxWVFtaVQ4QkhVYkJfOWRVXzZjNWl3MlNOMERiWXhSOWV5UHVWQURSbnhXVk5KOVAwY0oyTWJIZlRoVkVkeGdOMlY?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-10-29T03:45:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-10-29T10:10:59Z"
+  },
   {
    "id": "74a79a497eb0",
    "title": "Gachagua warns Winnie Odinga, Raila Junior after joining Nairobi politics",

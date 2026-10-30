@@ -1,28 +1,26 @@
 {
- "generated_at": "2026-10-29T18:33:32Z",
- "new_in_last_run": 7,
+ "generated_at": "2026-10-30T01:08:10Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 27
+   "found": 49
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 27
+   "found": 49
   },
   {
    "name": "Bing News",
-   "ok": false,
-   "found": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "ok": true,
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 2
   },
   {
    "name": "Capital FM",
@@ -109,6 +107,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-29T18:33:32Z"
+  },
+  {
+   "id": "b8bd643c6430",
+   "title": "Mombasa magistrate reports threat after ‘RIP’ painted outside chambers",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVHZpTnJvbjZMNmp0RGw4dlY0d3NaaERpdkhXVkJWb0NfLVVRaU9uZElzWU9HeEJKemZ3ZWlINGlUYlNzUlhaLXY0TW9vTWlpVVhvSzlGS0N5LWR1OEpPS0F5M3RPT0EtWmRsdjE5R2ZhcU9DUGdYRVBDUHNreEl3djBDZ2hRbncwei10aXc1MWtaemQweFBSYngxR18xVkQtM3k2bXVNWnNWUnNHX2dHSUhZYVRJUQ?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-10-29T11:16:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-30T01:08:10Z"
   },
   {
    "id": "94914405a607",
@@ -878,6 +888,18 @@
    "summary": "",
    "category": "Politics & Governance",
    "first_seen": "2026-10-23T21:31:29Z"
+  },
+  {
+   "id": "adb9f05642ce",
+   "title": "STORY ZA WANAJOREE ( OFFICIAL EPISODE 13 ) GOODLIFE KIBRA",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBOZHlyTlJKNXhQZEt0a0dkX05aOTRYc0hfazhFaXQzUGVpWmx0V0pFQ2d0ZkN0NlNzcktPRHRkM0RzMGVSaFJZa2RDZUFNbnU2RVEyM19RQlFlUncz?oc=5",
+   "source": "YouTube",
+   "via": "Google News",
+   "published": "2026-10-23T15:05:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-10-30T01:08:10Z"
   },
   {
    "id": "de70fa84a055",

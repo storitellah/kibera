@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-10-31T05:55:38Z",
+ "generated_at": "2026-10-31T12:46:32Z",
  "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 49
+   "found": 47
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 49
+   "found": 47
   },
   {
    "name": "Bing News",
@@ -59,6 +59,18 @@
   }
  ],
  "items": [
+  {
+   "id": "35f053fc0e45",
+   "title": "Sakaja, Raila Odinga Jnr attend ODM’s mega rally at Jacaranda Grounds",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHlZYW9FX3pLSElWb0V1Y3o1czZiaGZUdlJOdU93cXY0clJJZ1lhbVphdi1RbGlHZk1MbVVCcUwwLXRWWENVZnU0UHhDalhPZXcyNFNZTndnc0lOZG5iR2pKdXZWMjMzME03Xzh4VnV0dkNPSmVSck5yZGhpSUZRTnYtWHlRM3ZjSElkOHRHT3JBX0dGckxZTV9jUndPbjhGdHZjTE1MYTE1eHg0aW5ibQ?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-10-31T12:26:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-10-31T12:46:32Z"
+  },
   {
    "id": "32103801000d",
    "title": "Recycled plastic chess sets change lives in Nairobi",

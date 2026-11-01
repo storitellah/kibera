@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-01T16:07:53Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-01T22:10:46Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 41
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 41
   },
   {
    "name": "Bing News",
@@ -60,6 +60,30 @@
   }
  ],
  "items": [
+  {
+   "id": "32f4691c29c7",
+   "title": "Kibera Soccer win down Kayole Starlets to claim Slum Derby's bragging rights",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMGI4alNtUHkwdV9CbkZhUWg2QnlVaHg5Yi10LURKT1BCbzNlRldBd05pNk1MRzZOSUFoWVNHMmVtMEx4UzhvV21YTkxDa2VJRlhqaFhZUWlmY0dTb09DTXU5UGVFanRFM1RMcnZuUkFnY0t2Q3JoSjFsLUktWU9Hbl9NSnVzd2VsZFduVlJkcWZGVDJqRlhPX3I2V1lPczdYRDdnSndLa2IyNmtFZDl5VGY1VjFsZjJVWjR0SVhKamVTaHpz?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T19:13:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-01T22:10:46Z"
+  },
+  {
+   "id": "1212a84ccf85",
+   "title": "News Comments WPL: Kayole Starlets, Kibera Soccer Women set for Slum Derby showdown",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORllwNy1hTTJ2YWVPMERtWmtVWmNUZzdYQ2xmUzJPWVJQTkRfdkxBdDRVWFhIdFhvU2g0Vmd5bFJMcnFWckFoN3lSR3puX0Vxek5MT2hLMDJ6S1VySG5fTzFLS2kwOGM2VTIwd3BmUEV0SXdWbmdSXzR4T0JVM1VJSGw3QWg0TmJXdHh3b3RGeUZUeHdQUXpJa3d6QlJhOVJabkhfbHJlUmF3Q1IwcXp1TVhrN1FENG50TkVXSWpxQ1dUOVA5NGc?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T06:23:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-01T22:10:46Z"
+  },
   {
    "id": "939ca11abd11",
    "title": "WPL: Kayole Starlets, Kibera Soccer Women set for Slum Derby showdown",
@@ -227,6 +251,18 @@
    "summary": "",
    "category": "Politics & Governance",
    "first_seen": "2026-10-29T10:10:59Z"
+  },
+  {
+   "id": "1e2dfcc739dc",
+   "title": "Utumishi Girls Case Takes New Turn as Accused Minors Seek Plea Bargains",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX1FIMXNRTVFNNkxWQlU4RHctR1ZUeGZCMTFDUG1GSWNyRTc2Qk44NUlleDRNbmpKOHUzMWtLc0xJUjFqN21uM2JWcHRGMk9oamdkNm5MNFVMZkJEV1BrcF9FUWVQQmhHdURwTnAwXzhqdlVZelpocG12b0FBMVZJT3dBVW1oZw?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-10-29T03:50:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Community & Development",
+   "first_seen": "2026-11-01T22:10:46Z"
   },
   {
    "id": "c9c6def156f5",

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-31T19:22:47Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-01T00:12:27Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -60,6 +59,18 @@
   }
  ],
  "items": [
+  {
+   "id": "f300efef97f5",
+   "title": "Ulinzi whip Police Bullets to take women premier league lead",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkRfck8yN3BxcWhqMDhaaGQwRjlEVEdfMi1TMnY4V1JRWERjODJlZnA2Y1hnOTdqbHlCTlVYdi1UTzBDNHB5QkFkS3hkN3k3MGJqZTlYVWxLUGdSX0U3X3UyYXhjcERQNFkxeGVPa3p3REZZelBSMzItVXo3eVpPbHlIT1FaQ1IxR2dERWl5NA?oc=5",
+   "source": "Dailysport.co.ke",
+   "via": "Google News",
+   "published": "2026-10-31T19:46:06Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-01T00:12:27Z"
+  },
   {
    "id": "35f053fc0e45",
    "title": "Sakaja, Raila Odinga Jnr attend ODM’s mega rally at Jacaranda Grounds",

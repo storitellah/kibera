@@ -1,21 +1,22 @@
 {
- "generated_at": "2026-11-01T00:12:27Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-01T06:22:12Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 25
+   "found": 24
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 25
+   "found": 24
   },
   {
    "name": "Bing News",
-   "ok": true,
-   "found": 11
+   "ok": false,
+   "found": 0,
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "name": "GDELT",

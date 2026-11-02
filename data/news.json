@@ -1,28 +1,26 @@
 {
- "generated_at": "2026-11-02T06:24:07Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-02T19:35:42Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 42
+   "found": 22
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 42
+   "found": 22
   },
   {
    "name": "Bing News",
-   "ok": false,
-   "found": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "ok": true,
+   "found": 10
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -61,6 +59,42 @@
   }
  ],
  "items": [
+  {
+   "id": "7461e8c389cc",
+   "title": "Court grants police 10 days to detain actress Regina Re, three relatives over 86-year-old mother’s murder",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV1dUVFl6R1BKUjk5SWtUeVQ3Z0ZTVEtGR3A1Y3NRaUZyQWFzQnFwOEV4NlJmamtmZFhFSUdQZUVZdXgwaVFiVFU4M0JabjFhUmU1aGo5Y1dQMDNadWdmeGRQRk9tQUZGV09KeVFxVHdjd2pvYnd1Tl9fOHlweTBEQ0NkOFUzYWpldXFQSER4SHRYZ1YteVdpa0pxalA5bHJBRzBacjA1bGowRUxGanQwbEZTTHlQdG80TkZ3c2RVaWRpNFlpeU9rWmh4a2ZGemlvYmJjMjRBZ1hqVkFB?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-02T15:04:50Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-02T19:35:42Z"
+  },
+  {
+   "id": "360c570c3e8c",
+   "title": "The Rebound Girls: Kayole Starlets eager to bounce back from Kibera defeat",
+   "url": "https://www.msn.com/en-xl/africa/top-stories/the-rebound-girls-kayole-starlets-eager-to-bounce-back-from-kibera-defeat/ar-AA2gzQkU",
+   "source": "Capital FM Africa",
+   "via": "Google News",
+   "published": "2026-11-02T08:07:41Z",
+   "date_estimated": false,
+   "summary": "Following a hard-fought and frustrating 2-0 defeat to Kibera Soccer Women's Team, Kayole Starlets head coach George Kimani has remained defiant, pointing to missed opportunities in the final third as ...",
+   "category": "Community & Development",
+   "first_seen": "2026-11-02T19:35:42Z"
+  },
+  {
+   "id": "dccc1d18a006",
+   "title": "German, French ambassadors turn art evening into a celebration of giving",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLTVIUTgtTWJucDdkN3VXcS1HYV9IampscHE0N0Jhak5zVDhzb1BvQ0gxdC0xcUFEcGMwX1NwdjhFcFFyNWdUVHdfVkJTQVJFaVFaQ0ZYc29pTXVqV09tcEdwMEZoX1RuVGluN0lSOFFpWjZ4NFpWcVhWdDhSNWpYOGU2cGQzQ1Y3ak5rOGRHM0NNMm52MzY2bGIwY18xbE5Ja3VLLURzeWtxczFScldUQjhYX0xub0JhWENSNnluNFdubXgwZmc?oc=5",
+   "source": "TNX Africa",
+   "via": "Google News",
+   "published": "2026-11-02T07:02:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Arts & Culture",
+   "first_seen": "2026-11-02T19:35:42Z"
+  },
   {
    "id": "32f4691c29c7",
    "title": "Kibera Soccer win down Kayole Starlets to claim Slum Derby's bragging rights",

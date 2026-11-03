@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-03T11:01:53Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-11-03T19:36:17Z",
+ "new_in_last_run": 17,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 21
+   "found": 46
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 21
+   "found": 46
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 9
   },
   {
    "name": "GDELT",
@@ -35,7 +35,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "The Standard",
@@ -59,6 +59,30 @@
   }
  ],
  "items": [
+  {
+   "id": "9652d032b9b8",
+   "title": "“Around 20 wounds”: Autopsy shows how Regina Re’s 86-year-old mum died",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYjllVzBNSmZocEhza1RTRVgxdDJHMFQzUFlSNXkxMzdaQVBicUg3QmE4ay1kOUVhU2Q3TjcyMndZWWlzc0Q2RHZ1bGRNMXNJMGE0aFRlTFVZUGVnNjNWUm1KSjJxZndVMG1mZXVkMTdkX1JXOUxCZFFXcXBxVEJTbG01SnZWZXRNWi1Qa3Z6d3plbGhmdGhQVFlqRkd5dFloZXg1MEhOdlU5OGVRVXdZQ3plVjY4a2NzS01r?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-03T17:02:55Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "fb5a0b1ef596",
+   "title": "ODM or Linda Mwananchi? Winnie Odinga in catch-22 over 2027 election vehicle",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcm1JV0U5X0FqMUtyYVNlOExkWkZZLXVCelJickZTcF9VbVp1eTJjU0hNSE1nWjNIMkZEdEhfX293aXhtdWZkcW4tYk1tV2pzX19zMjdOUHUyeHZpYW5XbkVLMWM1am5RYnRvQnFoRlJnek9PR1A4YkZOd29JVk12VnV2eC1ZSmh4Q3Ruc29ELVNIY25MVVZlQ1MxbnRWNWx2c3YxUUphUFdTTl9kS2Y4X1FTTF9id2lwSEdTVm9NNkpHNHZjaU13?oc=5",
+   "source": "Daily Nation",
+   "via": "Google News",
+   "published": "2026-11-03T14:15:15Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
   {
    "id": "d7185cfe15a8",
    "title": "Kibera woman abandons Saudi Arabia dream to care for mother diagnosed with cancer",
@@ -96,16 +120,28 @@
    "first_seen": "2026-11-03T11:01:53Z"
   },
   {
-   "id": "7d6e0b35f630",
+   "id": "7c3d813a127f",
    "title": "German, French embassies unite to nurture Kibera’s young artistic talent",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdmNlT3ZFNEk4WEV5ZW1pZlp5ODlKVEFLYThHRW5nMndtYlFobUtYUkhCd0ltVTdiQWMwR0Nsek1uY05fbEVGTXplU3JCSnZUb1Vnam9haGlFX3ZFRTMtQ1I3RDhlWjc0MlhrWDlESm9QV0Vxby10bFpmZFFNX2JtcHlLZlFvZHdfekRvb2RRcTNtbWx1N1dwZlJoc29fWDNRY3NfMVJrZzVPc2lhQnBSQzFEUUxZMGRJX1lyVVhzNS1pUUE?oc=5",
+   "url": "https://www.msn.com/en-xl/africa/kenya/german-french-embassies-unite-to-nurture-kibera-s-young-artistic-talent/ar-AA2gGtS1",
    "source": "The Star, Kenya",
    "via": "Google News",
    "published": "2026-11-03T08:53:00Z",
    "date_estimated": false,
-   "summary": "",
+   "summary": "The German and French embassies joined forces to support arts education and nurture young talent in Kibera through a charity art exhibition aimed at raising funds for Anno’s One Fine Day.Held at the ...",
    "category": "Arts & Culture",
    "first_seen": "2026-11-03T11:01:53Z"
+  },
+  {
+   "id": "3b2a9aca8f78",
+   "title": "Police launch hunt for suspects who attacked officers, stole AK-47s in Ruai",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaWQxcGJONzBJZG5hVGxwRTFIdkVsUm5PZUhBbURYemx2Xy15d2E0enRkWExqbUdJVURTeVFla3E3WU9sSFozU3VRVTNwUHZjSmtTRVA4M1p0bEtlWE50ZWxubGNNbmZYUVBSOWRyS2diT1NKTHN4M19SdXpDOWM5Tl9Cb1g0NlNvMHh3WGdaTlNfLUFPSVJEOVNOYjRXNnZYMEpFOFpDTnpwbHZSaVUwQldjMkVFYW9SWC1rdkl3?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-03T08:34:16Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-03T19:36:17Z"
   },
   {
    "id": "7461e8c389cc",
@@ -144,6 +180,42 @@
    "first_seen": "2026-11-02T19:35:42Z"
   },
   {
+   "id": "07e514c9fdcc",
+   "title": "Sheila Chepkirui regains New York City Marathon title as Kenyan men fail to make podium",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN0E3bUg3d3lTSE4yTlkzUDZXRFZ4WUVYd1cxV0xrRG9yOHlHVVptVTIzNjVLWTROYzFkYm83QlowR2xKYUwtWV9DUmVLREdCWkh4VUdsTzNkeUd5WnFBbHVzdUx5NnZKa2ZSSkJyWUZucDFKOUQtNmFRUDdTYmt1V1lNREw4VmlqbWkwT3dmRzRTaEFXY0F5XzRQVzltdmQxZnFuOWFBRmktV0I0QmJwcmgxaXcxX0o0dWVwZzJtUzhmbkNlY2Z3QkxZUlNqVFVhZ0lSdDh3?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T22:27:08Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "de2ee487d503",
+   "title": "Arsenal conquer Anfied after 14 years",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRkVCNG5ndlhJRVVHbXR1T1RaM0hnNWk4REZlWW5wLXVSNG1zM2tGOVplVDBERW5LN1FqSi1DTngxV3NYdmFqZzgxQ2FDRU0xYUZ5Rmw2Y0RuVGZvWWFwS2dZQ2psdnVGWUNHNDRzbUI2bFFnMFhhYjZRcVdnVEJKaFltTFhuNnN3TDdfbFVYQnp4dw?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T21:34:03Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "75a2d8aaf6eb",
+   "title": "BETTING GUIDE: Atalanta vs Parma, match preview, team news and prediction",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUTBwVmVDM19udWk1MmRmTU8wTEFTVnpNT1BoRGlROFVZZ0d1TVh1SHhvYkU0RG01dVZOUUx5VE8tTlVKalJUa09Nd1lrcEs3cWExSGFLR0xoclNzWTdTUGo3eFNlaTJsVDJKX1RYWHVYenduM0hpZzVPTE9GLThiNkEwUHgyaDdTWjFreGpjUXI0V0oxeUt2V2JOQjdWMVRFTVJGZ2lkWnNIMDdfNmpOcWFDOHkzV3NFRGY3RUxR?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T19:48:55Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
    "id": "32f4691c29c7",
    "title": "Kibera Soccer win down Kayole Starlets to claim Slum Derby's bragging rights",
    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMGI4alNtUHkwdV9CbkZhUWg2QnlVaHg5Yi10LURKT1BCbzNlRldBd05pNk1MRzZOSUFoWVNHMmVtMEx4UzhvV21YTkxDa2VJRlhqaFhZUWlmY0dTb09DTXU5UGVFanRFM1RMcnZuUkFnY0t2Q3JoSjFsLUktWU9Hbl9NSnVzd2VsZFduVlJkcWZGVDJqRlhPX3I2V1lPczdYRDdnSndLa2IyNmtFZDl5VGY1VjFsZjJVWjR0SVhKamVTaHpz?oc=5",
@@ -154,6 +226,30 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-01T22:10:46Z"
+  },
+  {
+   "id": "81288516849c",
+   "title": "Real finish the job in the first half",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbFRwZ2R3bE1VblZFMWFXS0wzMC1GNnZkdmJDNGZlbk4wWEFET2N0bmd4QldWNnRDOE10Z3cycjVRWFlQRVZYcmVmN0pYRjUxak9TcU9fb3lXVGtaeUR3NGJMMU5DYXY4Qm5zRVhxXzVKTWZEU2IwYlU3eWplWWNQYUtsQ0ZzZzJqQWhhcmVzR3pFUQ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T18:23:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Business & Jobs",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "ca975f1fdaba",
+   "title": "Robert Matano's KCB condemn Gor Mahia to first league defeat of the season",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYVpjakJrR0piZW5TWlFleHFxYUEyOW5nTXEyN2gtSm1aWGYzclEydFo2YkdGaHlTWmY4aDlIa0N5cW9DZkhwZkV4VzIwc0xhZ1VvZFFPUXV2a0RqNXZUWFNxQlc5c1NmbG1GMVItMVM3Sk9LcWl1dDBKR0E3dnJBMElVM1g4VUVCYlJsS2hNTWU0TVB6VmUxRVVTUlpLWDJ2Q0JfLU1IVTBpRWlEYi00b0Y4cms0N3V2S1JGV1lMTk1kQQ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T16:23:44Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-03T19:36:17Z"
   },
   {
    "id": "1212a84ccf85",
@@ -180,6 +276,18 @@
    "first_seen": "2026-11-01T16:07:53Z"
   },
   {
+   "id": "bf1a7a8fc1cf",
+   "title": "From Nigeria to Kenya, people are living longer but not healthier",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9COW1nV3pRelV6UGdSZHFwWnpTN0l5SDRvbU0zYmRtcl9XbjdRb2pybFB3bE1kY0FWMWlQZ1ZORFQ1Z0ZuTnZ6YkxvNGptYnlhbUpReWlZOWZUWTZLN3RlUllGd2g?oc=5",
+   "source": "TRT Afrika",
+   "via": "Google News",
+   "published": "2026-11-01T04:10:30Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
    "id": "f300efef97f5",
    "title": "Ulinzi whip Police Bullets to take women premier league lead",
    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkRfck8yN3BxcWhqMDhaaGQwRjlEVEdfMi1TMnY4V1JRWERjODJlZnA2Y1hnOTdqbHlCTlVYdi1UTzBDNHB5QkFkS3hkN3k3MGJqZTlYVWxLUGdSX0U3X3UyYXhjcERQNFkxeGVPa3p3REZZelBSMzItVXo3eVpPbHlIT1FaQ1IxR2dERWl5NA?oc=5",
@@ -192,6 +300,18 @@
    "first_seen": "2026-11-01T00:12:27Z"
   },
   {
+   "id": "ef9181821397",
+   "title": "\"Very heavy\": 44 counties face rain, storms and winds above 25 knots tonight",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYU5kUm5VZkdOdGNUNWkxal81anRpNVpUWDBsNTc3OFV5c0ZCWi03bGxsajY3YUVJR1ZMYzhvQkVHLXJHVVdHSUIwSTVqWTNjaHh4cEVWVWIwRHAzd18xbmVtV1FZaGMteGQ4VkRNWEtTZGlLYmJMMjE2YjRYbXhFcFVJUFNZYnJIUExITHNvNng2d2lhanNsQ3BqSFFDSkFTTjRGVHNPTXJhTU5OVS1KNnN3?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-10-31T17:58:26Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
    "id": "35f053fc0e45",
    "title": "Sakaja, Raila Odinga Jnr attend ODM’s mega rally at Jacaranda Grounds",
    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNHlZYW9FX3pLSElWb0V1Y3o1czZiaGZUdlJOdU93cXY0clJJZ1lhbVphdi1RbGlHZk1MbVVCcUwwLXRWWENVZnU0UHhDalhPZXcyNFNZTndnc0lOZG5iR2pKdXZWMjMzME03Xzh4VnV0dkNPSmVSck5yZGhpSUZRTnYtWHlRM3ZjSElkOHRHT3JBX0dGckxZTV9jUndPbjhGdHZjTE1MYTE1eHg0aW5ibQ?oc=5",
@@ -202,6 +322,18 @@
    "summary": "",
    "category": "Politics & Governance",
    "first_seen": "2026-10-31T12:46:32Z"
+  },
+  {
+   "id": "95c690f5fee8",
+   "title": "Overnight rains sweep across Nairobi as Kenyans share footage of aftermath",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOM2tnWEE0MkM1aXlzcUtHbXlWcEhoY3Y1QXlyeUx6allQMmJJTlM1cW5DOTUtUDIyb0M5ZnNFaEVlQWRVVWJleWFDam9IMlVwZDV4azdMTjd2ampqcGJDa2pXQnRrek9zRXpzeEJmWm1UUUVzcnVRSGZ2Vmw2ZVVhanIwUHZrazhKX0QyVWQxdmNNUjY5T0xTVWVLQVB6UjI1U0pDSUxKbmItLUhESlk3VFF4OUQ?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-10-31T11:13:16Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-03T19:36:17Z"
   },
   {
    "id": "32103801000d",
@@ -226,6 +358,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-02T06:24:07Z"
+  },
+  {
+   "id": "06ede4a018b9",
+   "title": "Husband, farmhand held over murder and secret burial of Kajiado woman",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWDVQUjdrSnB4TUgyNHJvM0x5aS1GSFdwcFlOWXpxc1hTc3k3ZnptT0VybmREeFdoRTBPcmZjam40Wm52amowN3Z5QTJfcGs2ZmtwTmY5WmF4UEhvNjB5ZmZGUmNQeUhpZ0R5bkx3WFNJUzlpbmhHQlZFSWFFRGpZTjNyNFBGamNmdVlkMXBoUmpkSjVhMTJ2WEpodkZZcVlFM3N4UXdGSjVGeHFDcDVSY1FvTDREZw?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-10-30T11:17:18Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-03T19:36:17Z"
   },
   {
    "id": "ad28f8e824c2",
@@ -372,6 +516,18 @@
    "first_seen": "2026-10-29T10:10:59Z"
   },
   {
+   "id": "a0a7aaf0c2ce",
+   "title": "Slain Multimedia University Student’s Phone Found in Church Offerings, Court Told",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNekFIbkF3RURIUVZncEtJSmE1bGJnUVdqSGFOX3FLSDVmSDB0LTg1QzhWTk82SmpLUDNOZFBzbGV5THNXRlEyVlNDWmVZdkhrYUU0TUdGT21VdDQ3TjhJNWZZV3BKUGdKVGNMWTc1TmYwVFItenRLSEZhTDhmdFkzMGV4OVc4WnY3WXhyNXlldlc?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-10-29T03:45:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
    "id": "74a79a497eb0",
    "title": "Gachagua warns Winnie Odinga, Raila Junior after joining Nairobi politics",
    "url": "https://www.tuko.co.ke/politics/644866-rigathi-gachagua-warns-winnie-odinga-raila-junior-joining-nairobi-politics/",
@@ -420,6 +576,42 @@
    "first_seen": "2026-10-28T13:11:53Z"
   },
   {
+   "id": "4a7df642b036",
+   "title": "KNH nurse recounts final interaction with patient found dead in hospital ward",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdnVKQzh3N1lSNmUyU0t0YjA0bk14WkhhX1FTM2tqRXVQcjVKRmRRMjhReGJ2a3ItaTVLUFRyT2ozQ3ZSUlFiYkFabW51SWRxVk1MMkRmajRjMGlWTUYtUkZLTjREQzJjOE9OZmMxYlB5d3o0MjFsX2U2RmpGQXN3LXJmeTNmQU8td294TG13dE0ybUVMUXYxcEdmNExjMVVlLVZrai1uSzBRbHZyZjZBZw?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-10-28T08:57:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "f3c9853692cf",
+   "title": "SHOCK as it emerges that a phone belonging to murdered University student SLYVIA KEMUNTO was found in the offering bag at Jesus is Alive Ministries Church - Pastor testifies",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NSkd6c2htRTgzWk1ZeHp5aXphUFBJLWE5NGZmS00zM253WFlUSHRUc18tNGpGMWxoeUR3YXN6M05zTEhhdVpSall5MWpUZGMxVkE0a2dlSy1SdW1kNW55RzhoYmtjNm5UV3VUVmR4QzhQY3dzU0VZRExXOA?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-10-28T07:38:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "78fd0ce1fe2a",
+   "title": "Two Utumishi Girls minors seek plea bargain in murder case",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNkJkOUpRT1hIdzJVQkdTaGJnLThpbVF6VWViSkh0Z1ZFZVJOd0JSOTJ0YWRQVkhlZ0c2bnJhN0hmMzFUQmFJTFhoS1MxSnU2TVVJWURxaHl1ZlJwR05wM1UyNlA4OTZtNFZyeE1KZGczZ1J2cTdvcFVLMGtfVi1Sbk9qWGwteXZoampyOG50WVMwMmtjVjgyRjNkWHRxTXM?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-10-28T06:30:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
    "id": "7ad3841bb58e",
    "title": "Beyond the Statistics, Kenya’s Teenage Mothers Reclaim Their Stories",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE85Y0cwQ1FaYjRuOEQ5cEc1OGEwUjlxamZWcTMwYjFZcEVkREU5aVJIUW1GclI2Mm5JR0s0Y3Q4Tkw5dDFwUjd0Mkg4eVZrX3RVMnZ5UXdtQVhfSUxMR08wRmlxbkNmRVhsZFNZMzE4Q3Q1VFFudk9YLXlHbw?oc=5",
@@ -466,6 +658,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-28T20:21:50Z"
+  },
+  {
+   "id": "e774db4d0209",
+   "title": "Rose Mulwa, Children and Two Police Officers Charged With Lawyer’s Murder",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb0VzR1RzZkJSTFNweGVmVDNNN1VXbjNKY2NCUFNMWng0MnVnY0xxdHJBUHlja1d2dC1mLUlpRzJndzJHZVc0QWRVOUxaaUVQdVQzc0JqU19PcVFfamxsRHJIU3FXSFF5eEVtbnF5RFI2am0xbEVpcTlNMlk2cWJpX3VSbzZicHJRS01TaXVnemxWdDhLWTFxeGliWW9qZw?oc=5",
+   "source": "Capital FM Africa",
+   "via": "Google News",
+   "published": "2026-10-28T05:42:12Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-03T19:36:17Z"
   },
   {
    "id": "efe820cd127b",

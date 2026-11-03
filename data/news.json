@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-03T02:58:00Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-03T11:01:53Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -36,7 +35,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "The Standard",
@@ -60,6 +59,54 @@
   }
  ],
  "items": [
+  {
+   "id": "d7185cfe15a8",
+   "title": "Kibera woman abandons Saudi Arabia dream to care for mother diagnosed with cancer",
+   "url": "https://www.tuko.co.ke/people/family/645421-kibera-woman-abandons-saudi-arabia-dream-care-mother-diagnosed-cancer/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-11-03T10:34:42Z",
+   "date_estimated": false,
+   "summary": "Yvonne Atieno abandoned her Saudi Arabia job to care for her cancer-stricken mother, Rose Akinyi Onyango, who has sadly died weeks after her return.",
+   "category": "Business & Jobs",
+   "first_seen": "2026-11-03T11:01:53Z"
+  },
+  {
+   "id": "04b640aa8d66",
+   "title": "Sad turn: Kibera woman's mum dies weeks after leaving Saudi job to care for her",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUzZTTURYS0Y1V3h0eTFXaEc5cDhubWN3YVY2UF9ydlNCSlhnal9GcjRHYzc1Q0pJb2hXYzczY0psTHdlcG1hdDRXTXJJcmlNbUZwSUs0a01mSm85Y3NmUWxKMExHTnNzaUVCTHluMnFjSkFBSUFOR3hjd0FNYy1IUUxZWk9VakEwRGtpMXhSVVRicjVzYU1VWWdKQ2FGSVg0SWlzWUdDTDdYVEE2YVZyVkdrRm8?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-03T10:34:42Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Business & Jobs",
+   "first_seen": "2026-11-03T11:01:53Z"
+  },
+  {
+   "id": "0a627e116dd3",
+   "title": "\"Haijakuwa rahisi\": Woman quits Saudi job to care for ailing mother, seeks help",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM2ZUYnhHV2o1UTVnVTdMMVI1WEoxWGNqUGtLLXVIZV9JR0hRYlJCSGJHa1RYOHVuMHVxMkhjWVpCZ0tkbkszZU56ekMwdXNmU3JvZDhwdFJTcUpJLWpsbTFMSmpXbkpUbDdBd2lGXzJ6Q0RNQ0tidzVkSmpSVW1XZG1BVTZmWi01SktuaHVLWWxVUTc5dVFQNE5sTTRhU0h3amJHSWM1VE95RE5XTG1TdjZ3a192Mk54aVBFdDNR?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-03T09:06:27Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Business & Jobs",
+   "first_seen": "2026-11-03T11:01:53Z"
+  },
+  {
+   "id": "7d6e0b35f630",
+   "title": "German, French embassies unite to nurture Kibera’s young artistic talent",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdmNlT3ZFNEk4WEV5ZW1pZlp5ODlKVEFLYThHRW5nMndtYlFobUtYUkhCd0ltVTdiQWMwR0Nsek1uY05fbEVGTXplU3JCSnZUb1Vnam9haGlFX3ZFRTMtQ1I3RDhlWjc0MlhrWDlESm9QV0Vxby10bFpmZFFNX2JtcHlLZlFvZHdfekRvb2RRcTNtbWx1N1dwZlJoc29fWDNRY3NfMVJrZzVPc2lhQnBSQzFEUUxZMGRJX1lyVVhzNS1pUUE?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-03T08:53:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Arts & Culture",
+   "first_seen": "2026-11-03T11:01:53Z"
+  },
   {
    "id": "7461e8c389cc",
    "title": "Court grants police 10 days to detain actress Regina Re, three relatives over 86-year-old mother’s murder",

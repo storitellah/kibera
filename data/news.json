@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-04T11:09:36Z",
- "new_in_last_run": 7,
+ "generated_at": "2026-11-04T19:52:35Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 24
+   "found": 27
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 24
+   "found": 27
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 9
+   "found": 8
   },
   {
    "name": "GDELT",
@@ -44,14 +44,13 @@
   },
   {
    "name": "Nation",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "KBC",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "Ghetto Radio",
@@ -60,6 +59,42 @@
   }
  ],
  "items": [
+  {
+   "id": "6af2d6eb9c12",
+   "title": "Improving Access to Sickle Cell Care in Kibra, Kenya",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPblp3RUNNbk9rcl96MzJ2ejVUTFhLc29WVzYtQjFFT2JmX3duOXdBTWNaSjJsU0o2UzhKVWpsd0ZYRWtxU0dpS1Qta2EtQ0N1aHVkcVRCODlBRkdCYnRJZVlqZ3dtQVNsSk5POVFyU0hLWUtpbTRWeWlKUlhwNzlPRFN3bm9pcTFS?oc=5",
+   "source": "Talk Africa",
+   "via": "Google News",
+   "published": "2026-11-04T13:32:33Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-04T19:52:35Z"
+  },
+  {
+   "id": "08e17f9b77a8",
+   "title": "Supreme Court Rules on Eviction of Kenyans Living on Public Land Without Title Deeds",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbktQTkJ3WndGTkg4VGlBSUFXMWZmbDhWdkVpaC14eFRsODNSaFZlNVR3UGU1aHo3ckhMdzl6RHRscExHQ3QwTzE4NTNhOW4zLW9xWmh0T3BxT3N5RzdrUHc4MWNSNXVVYXRxZ0tYLU8yNThUelQxakY5Wm5lSWFuSkFlRHZ3ZkcxV3NsT2Itc25JdHRVaDYyOXc5SXFlQnM1c1M3VlIyRDJoVkJQdlh6U2laMA?oc=5",
+   "source": "Kenyans.co.ke",
+   "via": "Google News",
+   "published": "2026-11-04T13:18:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-04T19:52:35Z"
+  },
+  {
+   "id": "b257076bee33",
+   "title": "Couple charged with 41 counts in multi-million-shilling pension fraud case involving top firms",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTVJVZnJ0NGlVUEpIZk83RlBmZ1hlSVAwV0szQzBacFk4WkI3QnJrM1JiZm12S2VWZ2FhYndWdUNQd2lEMUVoTHNFRDFOSU9PbW12Q25wWGs0cHRjRGVFSHhnR2pNZGJoT2hyZEZWeXJpWmd6VlhtZV8wY0I2aExTWE5rQkFJOE05NHFMSXNsLXJUU2cwRkNJdDNwc1VSTGFzQm9GclNfZjhyZlVUUWhTUVRtVEpncWNELTZXZ2xKS0k3dHFNUWVqWU1HRVFONXF0YVpmMjk5TzQ?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-04T13:02:34Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-04T19:52:35Z"
+  },
   {
    "id": "8a2b3860e17f",
    "title": "KCSE: Three deaths, arrest, absenteeism reported across the country",

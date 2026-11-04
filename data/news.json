@@ -1,27 +1,26 @@
 {
- "generated_at": "2026-11-04T01:28:42Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-04T11:09:36Z",
+ "new_in_last_run": 7,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 26
+   "found": 24
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 26
+   "found": 24
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 9
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -45,13 +44,14 @@
   },
   {
    "name": "Nation",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "name": "KBC",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "Ghetto Radio",
@@ -60,6 +60,78 @@
   }
  ],
  "items": [
+  {
+   "id": "8a2b3860e17f",
+   "title": "KCSE: Three deaths, arrest, absenteeism reported across the country",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMERCTXQ2Q2NDYXE2TTc5bWVvYlV6cHNIYmR3a1cwR1BwcUlkc0o1LXVMZktPMjdvdFptVXY4aDRYWmIzSmk3a1h6VVQ2OU43MnRrT0ItVnQ2N2I1VU9HR19VSVZNaFJSNHF3ZTJ4d1IyODc4X3ZLTk1IWXJfbDJaRVdicVJjX3g5eDhzQnNXTFBzTG5UR3hBNXZ2Nmt5R0xpLUl0M2xpZ09uMVV2QTZuSDM1ZkVCRVk2ckE?oc=5",
+   "source": "Daily Nation",
+   "via": "Google News",
+   "published": "2026-11-04T09:58:31Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-04T11:09:36Z"
+  },
+  {
+   "id": "836f2ba594ac",
+   "title": "Ogamba assures candidates of secure KCSE examination administration",
+   "url": "https://www.kbc.co.ke/ogamba-assures-candidates-of-secure-kcse-examination-administration/",
+   "source": "KBC",
+   "via": "KBC",
+   "published": "2026-11-04T08:19:45Z",
+   "date_estimated": false,
+   "summary": "Education Cabinet Secretary Julius Ogamba has reaffirmed governments commitment to strengthen examination oversight. Speaking Wednesday when he inspected KCSE examination preparations in Kibra, Nairobi the CS noted that the Education Ministry will address emerging challenges, facilitate special…",
+   "category": "Education",
+   "first_seen": "2026-11-04T11:09:36Z"
+  },
+  {
+   "id": "19b0d91de5bc",
+   "title": "Government steps up security measures as KCSE exams continue",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMFFmLWxQSGxxRkJnbDkyZWN3akw1bHNabXdvWGVkZTJ5ZU5vR05uU0R3SnRwczE0aGZIZmhyMkU1SlpCaTd5SGhxT3ZWTFZJMkJvVFd0VzktSlpjTGQxWGx1N2pHUHpjMVR2RGZCS3ZheGZZY0ZIbmJJQzl1S3VsNnVUbk1YVGlYdDhacjJhUHFodVlMVWlrTw?oc=5",
+   "source": "Education News",
+   "via": "Google News",
+   "published": "2026-11-04T08:13:43Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-11-04T11:09:36Z"
+  },
+  {
+   "id": "05765e5687fc",
+   "title": "KWPL: Kibera Soccer Women target top spot against Elim White Ladies",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQXNUT3Q4d3Zjc2V3YzNmUFdzcVdZR2EyTndNbVlkQy1tUzJNNHg2TF9tWEt1SkNQT3I1cFIzNzFNNkVXdXFEdWdzMVF1NXlndGgzNGU0aGZXMXptR0g3UXVmNU14bS1zT0kyR0lLVy10Wld5WnNxVXpfaEx5dHB2Mno5MXc2OGJRYmpFRHJNMWxxeERkc2ZkdEtrc2V4aFlPcmR2Z2RiVjE0dw?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-04T08:12:27Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-04T11:09:36Z"
+  },
+  {
+   "id": "4974db38235d",
+   "title": "CS Ogamba monitors KCSE exam distribution in Nairobi",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVl9HUzBrbWtyVm8xRXF2R0dpNVdHQUd2T3lVQ3k4UHFEQ1JxVloxZzc0b0w2RUVzMnhwV0NJU1I5X2tGUEJ6dmhtcGdIS2hsaHZHaXRzVFo2LWRhWlNURDgtb0hBYTE4OTZ3eDJtRVBSdlRRc2dDd3JRR2dNZWNDekxQTlhTc0Nyb3B1SW9n?oc=5",
+   "source": "Education News",
+   "via": "Google News",
+   "published": "2026-11-04T07:41:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-11-04T11:09:36Z"
+  },
+  {
+   "id": "bda8b94ad578",
+   "title": "“Should be named Moses”: Kibera boy discovers abandoned newborn while playing",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSlpVeExGc280ZXFZQVNRVVN0bE9DSzFTTnIxTjNqWmREX2tYVkdzQzBRbG05N3FDSlpwaHpHY2NTcU9vMWRIdDVlZHZMdDFTd2I2LXJRalF5Qm5RUGlrdHN3VzVJNWZlMWxRVXlCcnAzcDFsUFQwMUtNS3F3eE1OTDBPRGNiTnRNVFNNVmdvc2dJWGhnNlYyT2pGMW40SHRJdVpMVkxpOWxtcE9IQUZGWmRQd0Z3U29CQUNoSEVMdlJnNU0?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-04T07:00:16Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-04T11:09:36Z"
+  },
   {
    "id": "9652d032b9b8",
    "title": "“Around 20 wounds”: Autopsy shows how Regina Re’s 86-year-old mum died",
@@ -335,6 +407,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "c6dc8e064048",
+   "title": "Businessman charged with threatening Kibera magistrate",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZXVRbXplZ01oOTdVbm9Sb0thUFRZMzg1RGhBWUZKWGd3Y3lhUVVIaERqeEZBNmR0ckx4aWRwUkVQX1RIdXJLRkFzYnFGdnhfUnhYa3BWajJqZGtrZW54Qm11dTZMNHpYdWN3QzU0R0pQTU41SzJ3QTl3Mmh2cnRUOGZRMUZxaklfeHN6R0pvdDlOU2wtMzh6ZUZtLW14azdST1ZjNDFCUkFVYk1uSzFtaDZtd3NTa201MUxfeEh2b1M1c3M4MUJwT2NFT3A?oc=5",
+   "source": "The Standard",
+   "via": "Google News",
+   "published": "2026-10-31T07:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-04T11:09:36Z"
   },
   {
    "id": "32103801000d",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-05T11:09:17Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-11-05T20:05:34Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 26
+   "found": 25
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 26
+   "found": 25
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -60,6 +61,18 @@
  ],
  "items": [
   {
+   "id": "638f876e8aea",
+   "title": "Lorry driver electrocuted along Kibra Drive Road: What we know so far about the incident",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdGpWMGlfMVJtMjhfNTJmV2tkNFk5Zk8wclZtMUJaanprazMyZFpta1VxSW5iVjN0ZjlSRkxidHVQQTQwU1ZBdTVkV2M5R1FWZ2lQSGp0VG03UGl1RWg1OEFVY0x2ZU5yaHdmd1A5LWJuV19UNDBZWUVBMWFnZnpfbUhxeVQxNzllZENTenJUZ0htTUF5ZVREZXhud3oxVHVnZTgwT3JLR2FhSWNpTXhBU2xB?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-11-05T11:58:38Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-11-05T20:05:34Z"
+  },
+  {
    "id": "d9f866aa32c9",
    "title": "“Was still mourning”: Grief as Nairobi woman killed 3 weeks after mum’s burial",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYldOcGhjdFJlTWdYbDZfVF90dWZSc25DMV9YYjVBU0pqV1hMNXg5UDctM3piRjZ3YTlBSDB1Nm80eVkyWlpVbHNGWVQ4dEdkMVZkN3RTYWNvRHVTaG9ud1BOdE9wVUlqNnhFUXY5V080aDVueTJZd283OEM4azBnVGRGWlJBRDFoWjJTdUhpRE5HaHB3ZC1BbDQ1LTEzUXpZN2c?oc=5",
@@ -82,6 +95,18 @@
    "summary": "",
    "category": "Fire & Emergencies",
    "first_seen": "2026-11-05T11:09:17Z"
+  },
+  {
+   "id": "dff361608b64",
+   "title": "Couple released on bail after facing 41 fraud charges",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNU9GMk5TaGR5UWhmSzNZeTNSTHI1TUlQR0FicDFQeDNnNHByZGZhNDAtYzRGOUVva2NJb1ZfcGgtYXNpaHR2Y2pNTHBOX2lBMjdBWGZic09HWkxnR2k5WU5sR3ZhS2U5RUFYZ0Y1cmxWc0hFNTlZV0hMenJ5XzRBU0lWMlPSAYwBQVVfeXFMT3NiWW1fd0RiODY1cGZuS0JKLUZINWRQM2Vid2RQY0dhTG9mU2ZDNHVMMl9yMGFud3ZWUWVLX19jcWt3dHF6Vk1GQkJ3YVRCbnpfdUxlYlVrR1ZUQ0d6OXJmQjVCUkdoVFVLMHJ1MWVmTnl1eTBsYkNtOWtOZ0hNT19aeV9lQjBTWHE5TGs?oc=5",
+   "source": "Kahawatungu",
+   "via": "Google News",
+   "published": "2026-11-04T17:21:39Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-05T20:05:34Z"
   },
   {
    "id": "6af2d6eb9c12",
@@ -202,6 +227,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-05T11:09:17Z"
+  },
+  {
+   "id": "9796394d4563",
+   "title": "Nairobi boy discovers newborn baby abandoned in woven bag while playing, helps rescue him",
+   "url": "https://www.msn.com/en-xl/news/other/nairobi-boy-discovers-newborn-baby-abandoned-in-woven-bag-while-playing-helps-rescue-him/ar-AA2gIt2G",
+   "source": "Tuko News",
+   "via": "Bing News",
+   "published": "2026-11-03T23:00:16Z",
+   "date_estimated": false,
+   "summary": "A young boy in Kibera found a newborn in a moving woven bag. A passer-by took him to Usikimye, and the baby received emergency care at Soweto Hospital in Nairobi.",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-11-05T20:05:34Z"
   },
   {
    "id": "9652d032b9b8",

@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-04T19:52:35Z",
- "new_in_last_run": 3,
+ "generated_at": "2026-11-05T01:31:38Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
@@ -15,7 +15,7 @@
   {
    "name": "Bing News",
    "ok": true,
-   "found": 8
+   "found": 9
   },
   {
    "name": "GDELT",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-05T01:31:38Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-05T11:09:17Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 27
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 27
+   "found": 26
   },
   {
    "name": "Bing News",
@@ -59,6 +59,30 @@
   }
  ],
  "items": [
+  {
+   "id": "d9f866aa32c9",
+   "title": "“Was still mourning”: Grief as Nairobi woman killed 3 weeks after mum’s burial",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYldOcGhjdFJlTWdYbDZfVF90dWZSc25DMV9YYjVBU0pqV1hMNXg5UDctM3piRjZ3YTlBSDB1Nm80eVkyWlpVbHNGWVQ4dEdkMVZkN3RTYWNvRHVTaG9ud1BOdE9wVUlqNnhFUXY5V080aDVueTJZd283OEM4azBnVGRGWlJBRDFoWjJTdUhpRE5HaHB3ZC1BbDQ1LTEzUXpZN2c?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-05T08:38:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-05T11:09:17Z"
+  },
+  {
+   "id": "4e657ce03dc6",
+   "title": "Lorry driver electrocuted while offloading murram at construction site in Kibra, Nairobi",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZkM3WW5HVUptTzVRenFCYmlLalVOaUJUOEFLMkNUbHFpNjJtYjgybWVwZEtnR0M5enlGRm5fYTZ3YngtbmNfVU1qYkNRd2EtMlRYazVNdGZzSlV0eGcxX0NYZUE5aWJ5b0NJNjBOeU1zSkM0UjI2ZUN5Q3NPclNmSXNQRWpidjNJUjdsOExEcFMzZjZsWGs4?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-05T06:35:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-11-05T11:09:17Z"
+  },
   {
    "id": "6af2d6eb9c12",
    "title": "Improving Access to Sickle Cell Care in Kibra, Kenya",
@@ -166,6 +190,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-04T11:09:36Z"
+  },
+  {
+   "id": "b04a3e56aa97",
+   "title": "Regina Re Murder Probe: Detectives Reveal What Happened Before Mother’s Death",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLUFxdFRfZHpnX2VLXzBzUVQ1SFRjZDZuaHNzbkRyMVVMMHRnMmYyaFN2Z3Z4eHdHWFVzME42b2ZBSm1vUzd1aXltb19femg2cXVLN2F6Nkg0aXhxeXl5SkUydlV0Zmx4MFhKSzZxNlV1Ri1mUndTZjhfa2szalVFOTBiUDF0YnRBdGtiUg?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-11-04T03:49:20Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-05T11:09:17Z"
   },
   {
    "id": "9652d032b9b8",
@@ -334,6 +370,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-01T22:10:46Z"
+  },
+  {
+   "id": "33041d701298",
+   "title": "News Comments Kibera Soccer win down Kayole Starlets to claim Slum Derby's bragging rights",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdkJ3STBEYUhuVTFxeDVRUHBFQVljSV9KYnFua3puNjdPd3pBdjFaSUxBZ2tXdjNDUVV1aEMxU2xqVEoycTBfUmcyZFB5WGhUV2RkclFTV1FTMlNwQVJpZWRKT1hFd0RWS0RmVG1fSmxZNEY4WW5wcDVlZXdabWV3N0dRZ01EUDlkSl9vanhkaV9FNHpkTlR3XzBtcGNjMHJQdWtMRUxHNkwxNWxIUmdqeW1KZkhaczRsb1JRdlF3WERVcnpQNmJKRDdfMmlYLUlf?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T19:13:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-05T11:09:17Z"
   },
   {
    "id": "81288516849c",

@@ -1,26 +1,27 @@
 {
- "generated_at": "2026-11-06T11:07:25Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-11-06T19:31:26Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 25
+   "found": 24
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 25
+   "found": 24
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 10
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -44,8 +45,9 @@
   },
   {
    "name": "Nation",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "name": "KBC",
@@ -59,6 +61,18 @@
   }
  ],
  "items": [
+  {
+   "id": "876cc0b73278",
+   "title": "Raila Odinga Junior Would Lose Kibra MP Seat If Elections Were Held Today, New Poll Shows",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON1RZM21JVW9ka3hPNlZzWm1IMWJuOGNCNFNkWGJ1cmYtNUF1YVlmbEJ3OXVpOC1iRmxpbWhVenhsb3N4OEU3cHFMUDU3cjcyaktDTEVVOUh2dWFUelY1WG9rdllxT2tBVW95TVY1S0JidDhnR2JtYjZFM3JaaVZiV18zdzNTaGZoM3oxUW9FZGt2cFBLM1BGQlFRZnByY01jTHRRY2xFcEtaUlJvLWZULQ?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-06T11:37:02Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-06T19:31:26Z"
+  },
   {
    "id": "7722718535fc",
    "title": "Man dies after stepping on live wire outside residential building in Kibra, Nairobi",
@@ -490,6 +504,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-03T19:36:17Z"
+  },
+  {
+   "id": "9b403022a58c",
+   "title": "Kibera Soccer down Kayole Starlets to claim Slum Derby's bragging rights",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQejBhS2xqSTc5VF95UlNjaGF4MkpYbW1QTnZXRW1NeDJ0VUtxNG1oTkVpb1FEdk15TVZBTkVVNmJLYWtLaFEzbDVjeFNaVTVkU2JNN3YzQXB1MDZxUEdVdGpMNktFSkFYN3hBdjJRb2FRRmQ1bVdpa3kwVUEzSnc4TEdyVEp3ZGw3aGdWRVhfc1U2UlhCa21JNFNKeUhiSk5VTFZtYXFKTHR0Z1dycDMyOUwtRXo3SWRQRHRvMkl0RQ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-01T07:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-06T19:31:26Z"
   },
   {
    "id": "1212a84ccf85",

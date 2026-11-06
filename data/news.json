@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-06T01:37:48Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-06T11:07:25Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 22
+   "found": 25
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 22
+   "found": 25
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 9
+   "found": 11
   },
   {
    "name": "GDELT",
@@ -60,6 +60,42 @@
  ],
  "items": [
   {
+   "id": "7722718535fc",
+   "title": "Man dies after stepping on live wire outside residential building in Kibra, Nairobi",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa3F5cHNjeEpWSm1uMm0yZURHRHl0clI3T0RLVkt5VExZcktJbnBrWHloaW5ZUlltQkZ0Y3NSNXlzV3FCVmZFaDNZTDJzRW41N2lpMFZNWmxBcjk2SnRxQlUyOEFDVUlvemw5ZHVmcnNfSzc3b0JyWHh2M1Frb1hzcVJIOGtYcmJZdVBqT1Bya0RoUENQaDR4VkhWdnY?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-06T09:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-06T11:07:25Z"
+  },
+  {
+   "id": "7a2adecd5feb",
+   "title": "Ulinzi Starlets target seventh straight win against Bungoma Queens",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWDY1OHR1LWNNYVlqTzVGUE1TRG9fS1J3WVV3b0V2NWh3YmtyWjRUVnB0THdHOVJNeEtTVDhhaEFLVE1UeDF2TTVMNFJnVUlMQ21UQXJNVFVkc2FpQTdZbGg3aWxUamp1NS1LOG8zd3hpRjZzVEVlV3c0YndJbi1qTWVOT2xBVWdKb3ZKUW56QVlQendWa3BqelZ5ZnhwQ1dleFV5MEExRDRrZw?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-06T08:13:14Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Community & Development",
+   "first_seen": "2026-11-06T11:07:25Z"
+  },
+  {
+   "id": "4031f3955469",
+   "title": "\"So disappointed\": Sister of Nairobi lady found dead after mum's burial speaks",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSjJjSlFnRUhIbm1CUmVBd05QYWExdXJpS1lSUWctb0FDb3llejFkdGl5WndtWkNxaGlzN0cxcE9XcWhXMXJMX3ZzV1huMWlrUVFQaDdURkJkWjB3cEJfaUFFcGJHRy1sZkVzRnBtZzlTS3htM05zNEFnc1JWTXlIT29XSzltUHhSUHNBTlowMHVsMHlHTTladnc5S29WRHdhTTByQ2hlam01dGkzT2tJ?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-06T07:50:16Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-06T11:07:25Z"
+  },
+  {
    "id": "638f876e8aea",
    "title": "Lorry driver electrocuted along Kibra Drive Road: What we know so far about the incident",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdGpWMGlfMVJtMjhfNTJmV2tkNFk5Zk8wclZtMUJaanprazMyZFpta1VxSW5iVjN0ZjlSRkxidHVQQTQwU1ZBdTVkV2M5R1FWZ2lQSGp0VG03UGl1RWg1OEFVY0x2ZU5yaHdmd1A5LWJuV19UNDBZWUVBMWFnZnpfbUhxeVQxNzllZENTenJUZ0htTUF5ZVREZXhud3oxVHVnZTgwT3JLR2FhSWNpTXhBU2xB?oc=5",
@@ -70,6 +106,18 @@
    "summary": "",
    "category": "Fire & Emergencies",
    "first_seen": "2026-11-05T20:05:34Z"
+  },
+  {
+   "id": "bde2aa339e4c",
+   "title": "1,800 dead from cholera in Ebola-hit DR Congo: WHO",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMDlURi1WeDBRcmgydW4waGk0MkwyZmdzU1BVNUZpNTJ0Z3BFcl9Vd2k1blRZQVlzR1dFaWdMek1sNWp3Q051NEhqRGpsaVVERnoxQ2VZRjlud293R0I0ZlBjenR4bmpHd1lSZTAzR0FIMzBNbGlSbUJIc05zYk9adVNkT2VHa2RVWl9VemNESVpKNXhoMEc2bmFR?oc=5",
+   "source": "Big News Network.com",
+   "via": "Google News",
+   "published": "2026-11-05T11:19:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "first_seen": "2026-11-06T11:07:25Z"
   },
   {
    "id": "d9f866aa32c9",

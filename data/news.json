@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-07T17:46:34Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-07T21:58:42Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 21
+   "found": 19
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 21
+   "found": 19
   },
   {
    "name": "Bing News",

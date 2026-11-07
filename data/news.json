@@ -1,21 +1,23 @@
 {
- "generated_at": "2026-11-07T00:58:30Z",
+ "generated_at": "2026-11-07T10:25:46Z",
  "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
-   "ok": true,
-   "found": 23
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   },
   {
    "name": "Google News (Swahili)",
-   "ok": true,
-   "found": 23
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 9
+   "found": 11
   },
   {
    "name": "GDELT",

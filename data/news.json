@@ -1,18 +1,16 @@
 {
- "generated_at": "2026-11-07T10:25:46Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-07T17:46:34Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "found": 21
   },
   {
    "name": "Google News (Swahili)",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "found": 21
   },
   {
    "name": "Bing News",
@@ -61,6 +59,18 @@
   }
  ],
  "items": [
+  {
+   "id": "6caabe999478",
+   "title": "Kibera explores drugs underworld in new self-published thriller",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1l2aEJJTzR6YUtGWXRzLVh3UjRfYmNFak9sRGktMWZaQzNqYzJRVXA3RTc5dE16V0VVTThHVWtIa3lFTTlaRUpzVGplcms5WTg2Z0ZJNWU3V1lLYjRQanJDdmUxcEpzdnNYekxqcHFsaGVpTXYxRjJ6dkJmWTdlaW9xNGpqZU80dDVuLTh5LUd4aC1zSjZoZDU0Q0VKdk5wZXdReVBtUVE1LWFWV2FRYkF0ZUg1U1UzNE5Bc2lrOV8xRTg?oc=5",
+   "source": "The Standard",
+   "via": "Google News",
+   "published": "2026-11-07T05:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-07T17:46:34Z"
+  },
   {
    "id": "876cc0b73278",
    "title": "Raila Odinga Junior Would Lose Kibra MP Seat If Elections Were Held Today, New Poll Shows",
@@ -132,6 +142,18 @@
    "summary": "",
    "category": "Health",
    "first_seen": "2026-11-06T11:07:25Z"
+  },
+  {
+   "id": "5fad357f4c53",
+   "title": "23-year-old LATIFA AKUMU brutally murdered and her body dumped in Nithi River, weeks after burying her mother - Her jilted boyfriend is the prime suspect (PHOTOs)",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JOXpDODEtaERiVWgxNkhZNU1IVk9JbnJyN3JodE1IVlp0aVRZdl9EN01Ra3pmQnc4bG5lbHpwT0QxTkVDYll2SW5DRGIyallPekhkdEYzZmFLdXEtX0NuM2RrcGtyVFBNcGttUWpnSkJ2bERzdXI0djVnSjFLVms?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-11-05T10:25:04Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-07T17:46:34Z"
   },
   {
    "id": "d9f866aa32c9",

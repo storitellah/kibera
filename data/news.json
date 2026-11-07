@@ -1,27 +1,26 @@
 {
- "generated_at": "2026-11-06T19:31:26Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-07T00:58:30Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 24
+   "found": 23
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 24
+   "found": 23
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 9
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -45,9 +44,8 @@
   },
   {
    "name": "Nation",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "KBC",

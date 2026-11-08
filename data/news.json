@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-08T06:17:03Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-08T13:40:52Z",
+ "new_in_last_run": 5,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 17
+   "found": 19
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 17
+   "found": 19
   },
   {
    "name": "Bing News",
@@ -20,7 +20,7 @@
   {
    "name": "GDELT",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "Capital FM",
@@ -35,7 +35,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "The Standard",
@@ -59,6 +59,67 @@
   }
  ],
  "items": [
+  {
+   "id": "9208f39adbe5",
+   "title": "Nairobi Water to Shut Supply for 24 Hours Across Multiple Estates on Nov 9",
+   "url": "https://kenya-today.com/report-nairobi-water-to-shut-supply-for-24-hours-across-multiple-estates-on-nov-9-23725/",
+   "source": "kenya-today.com",
+   "via": "GDELT",
+   "published": "2026-11-08T10:30:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "language": "English",
+   "first_seen": "2026-11-08T13:40:52Z"
+  },
+  {
+   "id": "0364c90c0aa4",
+   "title": "Kibera Soccer Women FC vs Elim Trans Nzoia White Ladies FC live score, H2H and lineups",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWTlGWXdzTmNTZWJ6OTF1X2NmeExqYVNsQ1NuOGVPUTV6OEJ0UVowTTJmVWQxci04M1NaNkN5WHJWd182SGlXdUEtZm13bEpkWHRuMm1JV3dXbEtUbk9Wb1VtM0o1dWZna2w0T2dlbjZqZnAyQ25qUEt5SUREcTRfVWNidzFYYmhac0tZQmF0TWlaNklGZW1BcmpmaHRXeWFjRUVBenpyZlczQQ?oc=5",
+   "source": "Sofascore",
+   "via": "Google News",
+   "published": "2026-11-08T09:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-08T13:40:52Z"
+  },
+  {
+   "id": "9cf916d8c71d",
+   "title": "Nairobi Water announces water outage in 28 parts of Nairobi from Monday to Tuesday",
+   "url": "https://www.tuko.co.ke/business-economy/646049-nairobi-water-announces-water-outage-28-parts-nairobi-monday-tuesday/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-11-08T08:54:24Z",
+   "date_estimated": false,
+   "summary": "Nairobi Water will cut supply to 28 areas, including Westlands, Kilimani and Kibera, for 24 hours from 9 November during new pipe connection works in Nairobi.",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-11-08T13:40:52Z"
+  },
+  {
+   "id": "fec51445fb69",
+   "title": "WPL: Ulinzi Starlets, Police Bullets, Kibera Soccer and Shabana in Sunday action",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQlpqN3d5M2FpaEVXSzFjQnVtZThKYTI5R1BpTk1iMmU1SW1UTEs4cTdZdnM5UUZVbmxZUTVScjRNTjNfbG56VXp5enF1ZUM2UmxUSjdGRlc0NG5IelpTX1BoTkZLNWo1RjVDVWwzNWZYQW5WbEVaRUhuS0VjcFc1ZmowQWhYU2NyUlVjdmduZ09PM1Q3Z1dsdUx3UW0tb0pBa2Juemh1akdrcElxdUdKUURDZk5WVmRlSjFkV0NjX3BaVWNZR1RN?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-08T08:02:17Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-08T13:40:52Z"
+  },
+  {
+   "id": "082b6e065647",
+   "title": "From viral TikTok trend to real-life adventure",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORHlGb2o2UFB1aVNFWk1GMUdldGtCYWN3NWYycUlraFM3cEpZSDZzY3MwRUtIenNLNTdkRl82cjVhUC1hLW5kLWQtT3hveWpRM2g5ZmlzdExxWHZ6ejRITUFWMXdlTl83cDZYaE90YXZiTm1RaEZQSDd4cHBINHdRMUZPLXY0QWRRVGhWWU1nUnRkUURNcFViRE10ZW5rQ1hqOTB1VC1rOVp1bWlHMzlXYw?oc=5",
+   "source": "CGTN",
+   "via": "Google News",
+   "published": "2026-11-08T07:58:24Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-08T13:40:52Z"
+  },
   {
    "id": "6caabe999478",
    "title": "Kibera explores drugs underworld in new self-published thriller",

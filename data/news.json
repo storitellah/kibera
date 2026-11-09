@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-09T00:59:29Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-09T11:48:18Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 19
+   "found": 23
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 19
+   "found": 23
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 2
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -59,6 +60,42 @@
   }
  ],
  "items": [
+  {
+   "id": "9d208216ffb4",
+   "title": "Pitch, politics, and FKF ouster: Rise and rocky journey of McDonald Mariga",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNM25vcVRRaWtvMi13WDRwQTJqQ25aN3U1bVVmLW10Z0hKcl9jbGh1TFBjMUVSRWtHVkhfMi03MXE3X002WGkzaHk2WlZMRU9SbG9pMm9ReUNnVzBQcmV0SGN6RkI1V1ZWM1d3aDVxTjJUUGhOZ0ZkdlhwcWREMW9pNGktVGVYRGZ4Vnp4emF2a3dBcDE5ZllJY3Jva29SVjg?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-11-09T09:37:12Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-09T11:48:18Z"
+  },
+  {
+   "id": "61d0dffaad61",
+   "title": "The Kenyan slum fighting back against poverty tourism",
+   "url": "https://www.irishtimes.com/world/africa/2026/11/09/the-kenyan-slum-fighting-back-against-poverty-tourism/",
+   "source": "BreakingNews.ie",
+   "via": "Google News",
+   "published": "2026-11-09T06:10:29Z",
+   "date_estimated": false,
+   "summary": "T ourists travelling to Kenya typically come for wildlife safaris or for coastal resorts overlooking the Indian Ocean. But every week, small groups of tourists passing through Nairobi visit Kibera, a ...",
+   "category": "General",
+   "first_seen": "2026-11-09T11:48:18Z"
+  },
+  {
+   "id": "b7fe5ebb9d8a",
+   "title": "WPL: Ulinzi Starlets, Police Bullets and Kibera Soccer win as Shabana are held to a draw",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaW5vTlR0c1ZOUkpPNE13OUY1cHVkT2swZFNtaE1Ha0djZ0RkY2JqZjlha1J0RVMyQXc5SXZZUk9FVm5UcVFiMzF3RzVMTnFHMGh6QXhMc2dUYkZuUW9tOXlhWmJHYXd4S3k5UHdkYWJ6QXoxcUlObzM5aWhVcVRacWREUEV2cXJSNldZbkpFa0RIRnotamZBU3llTXIxTmw4QjFoajRqUDNPcURXTWYxMGdIaV9KcVdLWV9oRHJPUmNRbkxhSUc0V2hmTXRJZDNTWU13?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-09T04:50:17Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-09T11:48:18Z"
+  },
   {
    "id": "29bb799c9f36",
    "title": "Dry taps in Nairobi for two days from Monday",

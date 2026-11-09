@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-08T19:46:34Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-09T00:59:29Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 20
+   "found": 19
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 20
+   "found": 19
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 2
   },
   {
    "name": "Capital FM",
@@ -36,7 +35,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "The Standard",
@@ -60,6 +59,19 @@
   }
  ],
  "items": [
+  {
+   "id": "29bb799c9f36",
+   "title": "Dry taps in Nairobi for two days from Monday",
+   "url": "https://www.standardmedia.co.ke/counties/article/2001561830/dry-taps-in-nairobi-for-two-days-from-monday",
+   "source": "standardmedia.co.ke",
+   "via": "GDELT",
+   "published": "2026-11-08T14:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "language": "English",
+   "first_seen": "2026-11-09T00:59:29Z"
+  },
   {
    "id": "9208f39adbe5",
    "title": "Nairobi Water to Shut Supply for 24 Hours Across Multiple Estates on Nov 9",

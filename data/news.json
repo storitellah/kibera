@@ -1,26 +1,27 @@
 {
- "generated_at": "2026-11-10T07:29:24Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-10T17:08:40Z",
+ "new_in_last_run": 7,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 21
+   "found": 22
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 21
+   "found": 22
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 2
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -59,6 +60,90 @@
   }
  ],
  "items": [
+  {
+   "id": "85dcd21f123d",
+   "title": "Construction News and Project Tracking",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYU5PeFptT05maFlnaHpUc0dSOTZXcmtEbU5vTElfZ0l4R0tMOEpDUnAtNG01aXo0SnAtODdMRXRqSzBraGdxYTVRM3NMRmN1aHZTMFA5XzZ4UkxkWXJSeVdrRU80YVlpc0I2SDFQTWZjX25CT09rNnF2YlNZeTlQTGpPY2syOUZKWElFcGRKOFNFS2VYUXhNdg?oc=5",
+   "source": "Mjengo Hub",
+   "via": "Google News",
+   "published": "2026-11-10T15:10:07Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "ab8ec4389c3f",
+   "title": "Govt sets completion date for railway line to Raila Odinga International Stadium",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNml5SC1LaGNzZEtrd0pUaDE4YUdOT3JMMjRsd0ZMR2MwT2ROTW1XNjNjS0k3YjZhellqVTd5X0xlNzZRdThycDRxbTI2ZkpRRnpGTkRkdnRMLTc3LVhmVWIwdldpOS1BbTdEWnhValVJa2xZYk5zR2UtbWJPWGpHRGt5YnRiLUFfYUtoRldqQVhUREdudVVtUmlQTFdEbk9UYjlhMm9ZS0FUNldDaEh1NnQzbw?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-11-10T13:31:34Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "722fe1b500a7",
+   "title": "Raila Odinga Stadium rail link to be ready ahead of Bayern Munich-Ajax friendly",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMGlXTV9JVkltdUg2MGthR0dHZmR3RVZoV1lzX2RJdUlUMUNrMFZzcWprenZxeTJ0T0tBTlpaeVRKTDRTYUtZZXVrbVZkN1lORkRlZ1VvZWVxV3FHcXZyWFFPOWNoZ1E0R2VHT1lzbE1jTkRqVDAtdld6NUE3NkJwcWE5NkRSTjNXemh2OWdna0ItVkk3c0pEMGpNUUc3MmkwS0twX2dkUm1WM0lVWWxsbFJ1R3hxY1F0V282d2FQOA?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-10T11:40:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "fbd80fb77a8b",
+   "title": "Kenya Railways Introduces New Routes, Revises Fares And Timetables For Nairobi Trains",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbEpNT3BGQ1M4b3B6LVZTcWNuTXJrbnBwWWJtOEIybll4b1dsY1JUWHZROVpDRjdpYnZGam5HTS1ibF9rMmVEY2ZkcUdIUHZqZV9QSGtKTUFqeUtmN0dzMGtZd2NBVmhmM24tTEN0dUFGWnhGTUZXOENJaEY2RzdJVC1JOF9fa2VrWWk1SGF1ZGFjc2lDVUh0SjZDUkp4T1pVRTl1WGJhbnpIdTBTU1d0Y3JYdzhQMHJ5RUJn0gHAAUFVX3lxTFBHZ2s4Nlg4MFlHY1loNUJQOUtQSU1SbDFvVFdQcjJQS0Q5TDNvazNJQVR6Xzk4dTdwdF8tUkFuelFCQ0ZSbU5GdDJUdHR5el96RGVSQmFibXJTMDFweDZrVkp4TUZVd0RjZEJickpMbmtGRkRUaUVPdlN5UUIzUXNDcnA2RVFjVHo1ZUE5aU9CZExtRnpOM3BSR0lDeFo3cFNORjBtakkzWGdxUjhOWEFqRFIycll3YWhuRjFURnVZYQ?oc=5",
+   "source": "Soko Directory",
+   "via": "Google News",
+   "published": "2026-11-10T10:50:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "8cf526f85647",
+   "title": "Kenya Railways announces temporary changes to train schedules",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUkMyclJ5Y0Z6NHFOczN1bXRMNlowa1JMWjA0b1A1dFpPSVVLRUtjcDhxS2lWWGdHWmVFTU5oVTczcUNLWllpaWdQeFhmSldLWVNpNHQ1VEsyUDllZXdHNy1uV2JXUUNZa2V5bkhiQlJtcGRTRm9udURjMk9zTHpkcFdkc21WdHM1Q2RTdg?oc=5",
+   "source": "KBC Digital",
+   "via": "Google News",
+   "published": "2026-11-10T08:59:01Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "e6d336a669eb",
+   "title": "Kenya Railways Unveils New Routes, Fares & Timetable for Some Nairobi Trains",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcmVXZ296X3BwdVl4N1NnaXdRRk9tZXJYdG1fdi1SVGxZTTA4WFJMdjVEMVR1SHVCVmJ4Ul9OYXRQTDNMaUJKb3pwc09US2RXQ2pLeko4amJQanFOa0RuNlBHalJkYXN1THV6cUxsZ1lBN1VSRC1GUl9EX0F1RWxuQ0xiYWI4Wlg1eGJheXJKVk1GU19ZX0hBM0NjNUxhdzhRSHEzdXNFZFZUYnRrenlLendRa1htZw?oc=5",
+   "source": "Kenyans.co.ke",
+   "via": "Google News",
+   "published": "2026-11-10T08:27:36Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "93ae042c7544",
+   "title": "Kenya Railways announces major changes to Limuru and Nyahururu train services",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQ0R3QkZuTzUtLXhTX04yMWFjdjZEdXF3azhTVzk4N1hDZWtGdjdPaGxiVjNST2FxQU9KMW1xRWMzaXFnSVVwLTF5MjJLXzNPSFRENG12X2Z4d2VQWWZNbTltZnRvYjcwYnFKTGRFTThlR3dpZlpORHVwa2ZuZkxiT0hQdlA3dUtNejZNMllwUXJraXlLUkhtdjdUTGFzbklnU3Qwb3FRb3lkUEF4Vkdn?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-11-10T07:58:04Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-10T17:08:40Z"
+  },
   {
    "id": "eb00b27e9eb4",
    "title": "Two suspects detained for 14 days over murder of woman whose body was dumped in Nithi River",

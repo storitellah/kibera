@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-09T22:30:09Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-10T07:29:24Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 2
   },
   {
    "name": "Capital FM",
@@ -60,6 +59,18 @@
   }
  ],
  "items": [
+  {
+   "id": "eb00b27e9eb4",
+   "title": "Two suspects detained for 14 days over murder of woman whose body was dumped in Nithi River",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdmtmR21pakxHdjY1Q0hYM3dJVXE2ZHlLUjhjQ056Zmh2RXE4SjloV3VEWHBMVnMyRGhIUHhrWXhldGVJT1RJbl9sVXhKbXkwckVKZHlnWXZxU0d5N2tMVjg2NVZHMEcyNk5mY2tEb1p4VU5uanMzb0I5QlVsTzN0MUF2ZlluY0RTMm5GUS1NbGE1U2xHMFNJeGh6YUVKeDRzRW9IREFNM2xmakdsTUFHeDhseU9oa0NGcGl0UUhOSktsc3NubzY1WnN3dVcyemNPYkpaSQ?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-10T05:41:30Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-10T07:29:24Z"
+  },
   {
    "id": "9d208216ffb4",
    "title": "Pitch, politics, and FKF ouster: Rise and rocky journey of McDonald Mariga",

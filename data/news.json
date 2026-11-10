@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-10T17:08:40Z",
- "new_in_last_run": 7,
+ "generated_at": "2026-11-10T23:30:47Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
@@ -15,7 +15,7 @@
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 10
   },
   {
    "name": "GDELT",
@@ -46,7 +46,7 @@
   {
    "name": "Nation",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "KBC",
@@ -61,6 +61,30 @@
  ],
  "items": [
   {
+   "id": "4be086715d5d",
+   "title": "PS Daghar: CBD-Talanta Stadium rail will transport 1,500 people every 10 minutes",
+   "url": "https://nation.africa/kenya/counties/nairobi/ps-daghar-cbd-talanta-stadium-rail-will-transport-1-500-people-every-10-minutes-5665994",
+   "source": "Nation",
+   "via": "Nation",
+   "published": "2026-11-10T17:00:00Z",
+   "date_estimated": false,
+   "summary": "The rehabilitation of Nairobi-Kibera-Talanta metre-gauge railway line is expected to be...",
+   "category": "Sports",
+   "first_seen": "2026-11-10T23:30:47Z"
+  },
+  {
+   "id": "7d974185196a",
+   "title": "Nairobi-Kibera-Talanta Stadium MGR line set for completion by December 15, 2026",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQRGVyeUN6d2Mtc3IzTmUzSVdtVHJSRTdXWDF4b2pFOWZMNHRhQl90NWVrem0xaUdYM1JOUVZROHpVQTA0ejlPYTBJcUttbmZyQlQ4Q1hzQ1gtN2JfQk54X1c1WUVhX1ZFR0V6VVl1Zm5Ud1pVanFCcEsySFNMeFY0OWJDOWo0aVZlc3dyMUktdk4xbUhCa2lidzRLNkRFM2pkVmJrcWNJb3d5a1VzUXRoUzBxUFlieFVhd2dZQ09TU2pOOEJlQnBTRGlfQmtpTGN5SUs2Wk9pSThpQXZUcEpock1ENkMzb1JDSjJDaF9xTHRZOVRyc0lGdzg4RGlTYUN4QjVQdC04ajVybDdEdldn?oc=5",
+   "source": "the-star.co.ke",
+   "via": "Google News",
+   "published": "2026-11-10T16:04:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-10T23:30:47Z"
+  },
+  {
    "id": "85dcd21f123d",
    "title": "Construction News and Project Tracking",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYU5PeFptT05maFlnaHpUc0dSOTZXcmtEbU5vTElfZ0l4R0tMOEpDUnAtNG01aXo0SnAtODdMRXRqSzBraGdxYTVRM3NMRmN1aHZTMFA5XzZ4UkxkWXJSeVdrRU80YVlpc0I2SDFQTWZjX25CT09rNnF2YlNZeTlQTGpPY2syOUZKWElFcGRKOFNFS2VYUXhNdg?oc=5",
@@ -71,6 +95,30 @@
    "summary": "",
    "category": "Infrastructure & Transport",
    "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "b030cdf82441",
+   "title": "Work underway on Kibra rail extension to Raila Odinga International Stadium",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQVm0tN0FfVHhMVkw1dHY3bHhyaTlkbF9DYTJNQ2swbmlIRUFPVW5mcHlhNFJxSzNsb0ZjemNUTDFSSG1TSnc3clVRS0tHZlAzWHNSYXlHSTNOQkl5bmdoclhIS3JDanVkZjVFcDMyN1NSei1ienlOZG1hS3k5Q3ZoWmV4eEhtY29VODE3YUV1T3JjbjRUREgwbV92MngyU1djMHJuYjdvb2pfSE5jSnVyeVFFSnR2ZFlXOHhYU3ZncTlFenVwSm1FcENfS3JzbE1XWEwtMGx5MXAzRXBMM3BkMjlKSkVQUjU0Ukk1M3I5cVNoMElJdmo3NmczMVlwQlI1TEw1NVc5Q0NERFk?oc=5",
+   "source": "the-star.co.ke",
+   "via": "Google News",
+   "published": "2026-11-10T14:24:46Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-10T23:30:47Z"
+  },
+  {
+   "id": "a0ecfbdd707d",
+   "title": "Joseph Kibera Karanja (JKK) Formerly of Barclays Bank of Kenya",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY1NPVkdRQU1OYmw1YlNZWDdOM3RUS1dhcFg0cVZMU0VwWEhzQzkwbk93emtackhsSGo3Zy1lRTVMN19KUDk0cU15d3JJcVFsWmtWRU5TV0cwZEw2WkNLOElvOUQ1QXZiMllLYzhTRWFycWRpR0VKaWt4TUwzM1gyeFZGWmlpdGZCUnBpUjZGYURydWM?oc=5",
+   "source": "Obituary Kenya",
+   "via": "Google News",
+   "published": "2026-11-10T13:42:18Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-10T23:30:47Z"
   },
   {
    "id": "ab8ec4389c3f",

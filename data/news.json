@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-11T06:43:16Z",
- "new_in_last_run": 5,
+ "generated_at": "2026-11-11T17:16:12Z",
+ "new_in_last_run": 4,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 9
+   "found": 11
   },
   {
    "name": "GDELT",
@@ -36,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "The Standard",
@@ -46,7 +46,7 @@
   {
    "name": "Nation",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "KBC",
@@ -60,6 +60,42 @@
   }
  ],
  "items": [
+  {
+   "id": "1e5ef042c422",
+   "title": "\"He'll be back\": Wairimu told police missing Cohen was in the Netherlands",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVEJKMkxtM0tYU0J0bDdRZUxPRG0yc0hPTnh6TS1CQ0hPVmR2QXB0bnMxajdCbU5Ob3RYaFdNZG93dWM3eVZ1dGhZMEV1OEc4Um9FTHJnZEFFbGFValdzWEJUREt3VDV0bjJ6WURUaUJaN25PMXZIMkFiX3ZhajRDY1BaZDRmMzVmV2FnWmVoZ2FmWExnd3R0eUk1NFY5RHVRY0xNaU5lUTQzQ0kyV3loOWVR?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-11T16:16:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-11T17:16:12Z"
+  },
+  {
+   "id": "3c0193afb9e5",
+   "title": "'Way na dili kartaa': Dadka Kenya oo ka cabsi qaba saameynta El Niño iyadoo la saadaalinayo fatahaado",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DeDExQi1pNkZoejdpc1M5cy1xLVVqUU14QktoUEF0RDhHUTVPeEkwTGcxN0l4SEhSVG1adG5zLXdkQTh5NXM4SHd3elNXenBBdDF0NENHWXY0WjVaVzBfUVp0Y9IBY0FVX3lxTE9DeDExQi1pNkZoejdpc1M5cy1xLVVqUU14QktoUEF0RDhHUTVPeEkwTGcxN0l4SEhSVG1adG5zLXdkQTh5NXM4SHd3elNXenBBdDF0NENHWXY0WjVaVzBfUVp0Yw?oc=5",
+   "source": "BBC",
+   "via": "Google News",
+   "published": "2026-11-11T15:24:49Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-11T17:16:12Z"
+  },
+  {
+   "id": "701c3213892a",
+   "title": "JOSEPH KIBERA KARANJA (JKK) – Funeral & Burial Details Kenya",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wZ2ItS2hyTndUZW1pb0pOSlJiLXo5dHZERUV6YTdVUnp1U2NJNE1SYnJtdkdkRFVidkRjZ0RHY0ptSktfQXpmYnljSVdwcG9vRUs2X0VwaEJMZlhxcXRhbU9IaktsSFFJNXc?oc=5",
+   "source": "https://ripkenya.co.ke/",
+   "via": "Google News",
+   "published": "2026-11-11T09:28:40Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-11T17:16:12Z"
+  },
   {
    "id": "35fcaff2934d",
    "title": "Kenya Railways Suspends Limuru Commuter Services Amid Corridor Maintenance",
@@ -2712,6 +2748,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-10-21T14:41:27Z"
+  },
+  {
+   "id": "ca2a5dc860c3",
+   "title": "Kibera group Heha Movers become internet sensation with their funny skits, memes go viral",
+   "url": "https://www.msn.com/en-xl/africa/kenya/kibera-group-heha-movers-become-internet-sensation-with-their-funny-skits-memes-go-viral/ar-AA2aIAI4",
+   "source": "Tuko News",
+   "via": "Bing News",
+   "published": "2026-08-22T08:51:47Z",
+   "date_estimated": false,
+   "summary": "Heha Movers, a Kibera-based moving company, steals hearts with a viral mock-interview skit blending humour and a genuine call for Nairobi’s youth to unite.",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-11T17:16:12Z"
   },
   {
    "id": "69b5cfcfbdca",

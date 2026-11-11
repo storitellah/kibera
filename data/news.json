@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-10T23:30:47Z",
- "new_in_last_run": 4,
+ "generated_at": "2026-11-11T06:43:16Z",
+ "new_in_last_run": 5,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 22
+   "found": 23
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 22
+   "found": 23
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 9
   },
   {
    "name": "GDELT",
@@ -36,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "The Standard",
@@ -60,6 +60,66 @@
   }
  ],
  "items": [
+  {
+   "id": "35fcaff2934d",
+   "title": "Kenya Railways Suspends Limuru Commuter Services Amid Corridor Maintenance",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTURTSkpmcmN4U0sxVG9QX25oSms5aHhKZFdkb0ZPQUlRLXNuUU1Qcnk3ZXVHcXRoR1czc1VYaTBUdWI0Q25JNEktX2JnQ3BZR1hQalRpNnRaOE5BSDBndXNfWTM1SDk4Zmhlekd2OHRQWU9PZHhUQlViQ2VoVGdfdWFaRkV6a3Y0VnVNVEt1VGJkWXluNVIwMl9JVzQ1MjVxbGNfTmVJQTZ1dk90?oc=5",
+   "source": "streamlinefeed.co.ke",
+   "via": "Google News",
+   "published": "2026-11-11T05:36:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-11T06:43:16Z"
+  },
+  {
+   "id": "34e67cfa91a8",
+   "title": "Race against clock: Viral photos show progress on Talanta railway, what remains",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZDVPLXVCUExTM2otYUJiYmtDQUNxN0tmMUxJZzdJa2xrUmRJQThieFZfeE13WTUtbkVqcUNyRkdVMXNKQnV2NUZVWmpCSmg5YXpHeEt5cGFtTlV2Qlc4TjRuSllMU1VKaFk3S2RsektfYjBHbk5Qa0toUHhHelE5RERlZ1J0bmEyOGpHNEt4Znl2X1h2emotTlBlWmRpLUxhWlRpc3Nyd2lSaEU3aFdmdTd3ZTNUZHky?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-11T05:34:38Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-11T06:43:16Z"
+  },
+  {
+   "id": "85c250b44114",
+   "title": "Kenya Railways issues update on construction of Nairobi -Kibera-Talanta Station MGR line",
+   "url": "https://www.tuko.co.ke/business-economy/industry/646322-kenya-railways-issues-update-construction-nairobi-kibera-talanta-station-mgr-line/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-11-11T03:57:58Z",
+   "date_estimated": false,
+   "summary": "Kenya Railways has issued an update on the construction of the Nairobi-Kibera-Talanta Station Metre Gauge Railway (MGR) line, providing details on the progress.",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-11T06:43:16Z"
+  },
+  {
+   "id": "7c83577e1b5c",
+   "title": "\"1500 passengers per trip\": Gov't issues update on Nairobi-Talanta railway line",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObXZfVm82OXVJNVVfRWFfVGQ2M0MyY3F5WFBOcGJYU1pYNlVBYVRxTUMzTE4tRFBoMkM1eHBJemwxTzEyMlpKLVJNSFBQRVRNeXhYQlJjZ3hyTkVEc3NPd2UzZVQ2NFhWOHNBLVU0TGdPTE5PMlpBdEgtS3NWSWVyYi1ib2FXWVV4ZHdJa2FyOG9hRGtKVmpBTWI0YlhnVXRpUjFVbTRvb05nak9GVk1TQS05by1UMWhEblhjMWtMOFpJUU1tQklycHdCTk0tRmdBZGs1bg?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-11T03:57:58Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-11T06:43:16Z"
+  },
+  {
+   "id": "8b3e7cc90994",
+   "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3N0dXcHlUVzNCZG9CLS1JSVZXSkJFNktMZEJwRGItV2pQWTFYSUl3NjU5SHA1TjdxNlFtVURUR2h0eUlzTENRcjRhRDZfcVdFWTR1MFlWc0c5azdjNlE?oc=5",
+   "source": "BBC",
+   "via": "Google News",
+   "published": "2026-11-11T00:18:07Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-11-11T06:43:16Z"
+  },
   {
    "id": "4be086715d5d",
    "title": "PS Daghar: CBD-Talanta Stadium rail will transport 1,500 people every 10 minutes",

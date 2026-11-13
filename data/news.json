@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-13T01:56:11Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-13T11:13:14Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 19
+   "found": 23
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 19
+   "found": 23
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",
@@ -60,6 +60,30 @@
   }
  ],
  "items": [
+  {
+   "id": "0b5e01bd1e9a",
+   "title": "2 arrested after undercover police officers foil machete robbery attempt in Kibra",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaDEwcVphMGVIejN0dk5hQWNVd3hBTDhLaXZad1c2UHYxOVYzY3A0dFg1M0FLTjVDU3ZURmlOMFF6b2wzMUV6cUlsOXQtS3V0YkNsV1FvVzBDQ3Z4T1pNZ05TMFVUbHBkaVFkM2pWTlhYbmtmUjJZSlBxdzdTVmpxckVvYkc5Q0s3LTctelZRSlFSVmxRalRjN2xqYkhxNXpMbkl5S2ZyaUNvUHZhV2ZYVHNMVGE?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-11-13T09:26:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-13T11:13:14Z"
+  },
+  {
+   "id": "c144c6facc2b",
+   "title": "Kenya Races to Complete Railway Link to Raila Odinga Stadium Ahead of Bayern Munich-Ajax Clash",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZFpCVWl1M0lQOHZqVTJtbzBpaThwNFdxSjROeE1zNWtHcFRCLWpsa3hnMTBaUGM5YW9SU20zZHpQdWlWZlloZXlqaXV1ckFSQV9qUGJBQTdtZUNUeWVvYXZkZ1ptblgwV2Z3ckY2VnlNYUpxdDNUZ2VqOVBGNGphQS1ERHhLbkpRWEtOY0F2TlJqbHhLT2tQX29mSmppRUpobDhiZFJxSTZQSmpXdk1yWWdaTFJyWjUzcnZvTQ?oc=5",
+   "source": "ChimpReports",
+   "via": "Google News",
+   "published": "2026-11-13T07:57:20Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-13T11:13:14Z"
+  },
   {
    "id": "f4d8e566b5fc",
    "title": "Police Inspector Kenneth Sang charged with murder of lawyer Kyalo Mbobu",

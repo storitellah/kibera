@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-13T11:13:14Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-13T19:51:31Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 9
   },
   {
    "name": "GDELT",
@@ -45,8 +45,9 @@
   },
   {
    "name": "Nation",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "name": "KBC",
@@ -60,6 +61,18 @@
   }
  ],
  "items": [
+  {
+   "id": "92226fb06607",
+   "title": "Undercover cops blend with members of the public and arrest a machete-wielding gang that has been terrorizing Kibra residents - Hawa Ni Vijana Wadogo Sana Lakini Hawana Huruma (PHOTO)",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQLTJDdmxnQmFKb2NidkFwUHphRmkyQ1dIaDBWLWJKeUVuVFRVQ2xXbzhSYllXLUdwZTZia2ZVeXl4UzMxZzdNdDNkQldpQjBQX2paVlMtYTB6cElsZnpRTW1CREhoNGFUcUhSWk52R2E1ejY1c0ZLVmZ0Tnp5RVJxMF9tYlE?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-11-13T11:13:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-13T19:51:31Z"
+  },
   {
    "id": "0b5e01bd1e9a",
    "title": "2 arrested after undercover police officers foil machete robbery attempt in Kibra",

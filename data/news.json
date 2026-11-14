@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-14T18:16:35Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-14T22:37:07Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 21
+   "found": 20
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 21
+   "found": 20
   },
   {
    "name": "Bing News",
@@ -83,6 +83,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-14T10:39:40Z"
+  },
+  {
+   "id": "70cdd1bdaccf",
+   "title": "Kenya Police Bullets vs Kibera Soccer Women FC live score, H2H and lineups",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQclgyUnVpeXl0ZEtldWZRdUFGRXJaR2RMVVVCTE9Cd2Y0anVzVWhWQk01N280U0Z3R09lNnY2WWhLVzVDZ29lbnVfYWlMQnB4TlFnM21tVFN2MXViNUFrZ0FSWVJoNnplVFc3Mlozd3laSG5rUmhWX3U1d3h1VEl3aHNWbW5IQjl1QnhERDhjSlRTU2hhSV91ME93?oc=5",
+   "source": "Sofascore",
+   "via": "Google News",
+   "published": "2026-11-13T15:27:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-14T22:37:07Z"
   },
   {
    "id": "92226fb06607",

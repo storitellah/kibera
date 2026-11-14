@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-14T10:39:40Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-14T18:16:35Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 21
   },
   {
    "name": "Bing News",
@@ -26,7 +26,7 @@
   {
    "name": "Capital FM",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "Kenyans.co.ke",

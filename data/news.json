@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-13T19:51:31Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-14T01:29:50Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 21
+   "found": 20
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 21
+   "found": 20
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 9
+   "found": 10
   },
   {
    "name": "GDELT",
@@ -45,9 +45,8 @@
   },
   {
    "name": "Nation",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "KBC",

@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-15T16:26:51Z",
- "new_in_last_run": 3,
+ "generated_at": "2026-11-15T22:57:50Z",
+ "new_in_last_run": 7,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 26
+   "found": 25
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 26
+   "found": 25
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 12
   },
   {
    "name": "GDELT",
@@ -59,6 +59,30 @@
   }
  ],
  "items": [
+  {
+   "id": "06666c2cafc5",
+   "title": "Imperious Ulinzi Starlets maintain Women league lead",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPa1RXQnk2bDR4eWhwOFdXVmJzZGJLdzlLOTYtdVI5NnZ3WGxlOXM0akRVM0JlelNIYzRWZktoYmlkUFpDektYdDJPVXRmOWNJX0E4MHFnNE8tUEVWelN0SmhDbUhjTGt6TExOczFXODVSSi1USG9Ia1ZnS1JwMmk1Z1Vob0Q?oc=5",
+   "source": "Dailysport.co.ke",
+   "via": "Google News",
+   "published": "2026-11-15T21:17:18Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-15T22:57:50Z"
+  },
+  {
+   "id": "c467065a69fd",
+   "title": "WPL: Ulinzi beat Zetech as Police Bullets down Kibera Soccer in Sunday action",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbnpUNlZ1eU9mTF9BcVpwbUFSZ0E3WUxQTmRPMFh0SVBXUmQ1YVZxbEwxdjVKcHJONXVTOE1CWFI4LTNJb1RhczZxU2ZDWU4wNGc2RGRxaFUta0w0OUJTdVhHcnY0d1RfU094Q0h5Wl8ya285aHFHR0FRNjAwUFVwRlRIaHQ5Qm1qM3hZaHVsZ25lZ0traVpRN2h5elZhMURaa3ZZaFZlbXUwUUhTbFpiUnZDSWRzRnRlMXo5MTVFeTlWdnBjaHc?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-15T18:12:43Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-15T22:57:50Z"
+  },
   {
    "id": "32869ae514b8",
    "title": "Birth Registration Is a Fundamental Right, Not a Government Favour – Allan Otieno",
@@ -168,6 +192,18 @@
    "first_seen": "2026-11-13T11:13:14Z"
   },
   {
+   "id": "20936094f1c3",
+   "title": "Zetech Sparks target clinical edge against Ulinzi KWPL clash",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWMwa0FRMDUzWXB6MzY5LVpIREZOR01HOFRGTnFMWVV5Mm0tZkZHcmpwdWFTNHhuZEZyUjVlckkwaDV0QTJ6bUNOMXZfYU9MZWJPekpBcUFCRjZ3akRfamd2M0p0WHkwd0UtTzQyM3h0X09iT1Rla1dTRlVGcHZ6WUVrVXdZbjVrWmo3OEhaQlF4UDRVaUQ1QlFMTGZ2YUY2dnc?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-12T18:00:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "first_seen": "2026-11-15T22:57:50Z"
+  },
+  {
    "id": "90aca265099a",
    "title": "Court detains actress Regina Re for two more days over mother’s murder",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONVJOa2FETmhqUXVyaFl2OW5Ja3B5SXNWVHV0MG92dERMalBMZjl3ak1icDdybDdITlN0Nkh0MzZBOEJCV2czZGZVNHhWMVpRNWs2Zk5FWjJzbFg5ektJWVpvc1Rpd3p6cU1fNFRkemd0S1JqOGVubWxacWtNajljM2tzdndjSnktQVo2aFNBaFhIQmVqTjJLV0t2MXl0Nm9Icnc1YkhoWQ?oc=5",
@@ -190,6 +226,30 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-12T20:06:15Z"
+  },
+  {
+   "id": "f0e5dfd7cbf4",
+   "title": "\"Emergency\": Nairobi Water announces 23-hour shutdown affecting over 42 areas",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTlhMUXA0Z1J3aldGcVF1LTFFVE1lV3dRQVlKNlBPTDNNTTl4X2haT2FCVXdVaGVOWVJ3dWNta1lQcDdYZGJrSkNFcUxaU09GVkxiZ1RzV25oeWFTSDJDY0pNcjFhV2xRRDVmc3hBWElMN0lqLVZ5ejlFRGthQXlvUXlkUGF2QVYtQ2YxeWc1akZrRHJyUHlUdXZKTWhkejc4U1FtVUhJSVVMZEFOd2Q0SV9MSQ?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-12T06:04:27Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-11-15T22:57:50Z"
+  },
+  {
+   "id": "c8275c41222b",
+   "title": "Lang’ata, Westlands, Lavington Residents to Go Without Water after Vandals Damage Major Pipeline",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOREdMVUFtQTdQT2IwNUNrd1ZuTEZRUTBWTW05eEVpaTlFaFhYZ0dOM3VsOGNqelltenQ3T25zOTFzUHJXZkh5aVlVT3RHMVNKdkJsaE93VnF1bVJ2eHJYNjg1dzM0cUVDWTVvYW56eXkwQnJTUUx3QVFIWWhVa3BzZjRjMXBRQ3hjTEFPUHp5WDJiVTJsNzhKaGU0dlgxb0lidzhiTDJqU1BqMURiSURaSEpuWE9aVjZIb2xOa3pIR2RmX0xtSmZKTDEzSmx5VmJySEtZZlpqTzRrTjQ?oc=5",
+   "source": "Pulse Kenya",
+   "via": "Google News",
+   "published": "2026-11-12T02:44:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Housing & Land",
+   "first_seen": "2026-11-15T22:57:50Z"
   },
   {
    "id": "1e5ef042c422",
@@ -288,6 +348,18 @@
    "first_seen": "2026-11-11T06:43:16Z"
   },
   {
+   "id": "afb3db5c7b3e",
+   "title": "KWPL: Ulinzi Starlets cock guns for Zetech Sparks",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTGNTQWJqYVRvRXM5X3A0RlNfd3ZuWkpXcnhGYkVKRTR1dFpQN0ZzRnpWRTUtVDZCT0N3dGNLVEZpYlVTSVNHeWpMZGFGMHBvaHlNVzBYWHpuMXg4N1huREU0UzRwOFhuNDBudGpnNlN4WDBjLS1TOUNzeTBoTkNnVEItazZ2UzBmYjQ4WWVGeTJYZw?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-10T21:14:33Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-15T22:57:50Z"
+  },
+  {
    "id": "4be086715d5d",
    "title": "PS Daghar: CBD-Talanta Stadium rail will transport 1,500 people every 10 minutes",
    "url": "https://nation.africa/kenya/counties/nairobi/ps-daghar-cbd-talanta-stadium-rail-will-transport-1-500-people-every-10-minutes-5665994",
@@ -358,6 +430,18 @@
    "summary": "",
    "category": "Politics & Governance",
    "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "5081e85e0037",
+   "title": "Ministry Sets Deadline for Completion of Talanta Stadium Railway Line",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdmZWVmtFaHNyc0REd3NpQjEzTmJHZ1hfa2l6ZDFyRHpCUmVXakhCYVBMUW1MZTdiTG1hUHpwRDh5dGpVR1VTeUZDMmQzX29BWTlUSmhPR3VfMElJTkxMT0VHeUlIVWhqdzZBZGhuTmlTWGhSeDhtTERRMTNrSE5PZXRQM1NqRlNRVFpRX1ZtbFVyeGFXcmxvbTJZdmEwejBWQ0U4?oc=5",
+   "source": "Kenyans.co.ke",
+   "via": "Google News",
+   "published": "2026-11-10T12:06:42Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-15T22:57:50Z"
   },
   {
    "id": "722fe1b500a7",

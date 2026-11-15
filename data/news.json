@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-15T06:47:05Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-15T16:26:51Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 25
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 25
+   "found": 26
   },
   {
    "name": "Bing News",
@@ -20,7 +20,7 @@
   {
    "name": "GDELT",
    "ok": true,
-   "found": 2
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -55,10 +55,34 @@
   {
    "name": "Ghetto Radio",
    "ok": true,
-   "found": 0
+   "found": 1
   }
  ],
  "items": [
+  {
+   "id": "32869ae514b8",
+   "title": "Birth Registration Is a Fundamental Right, Not a Government Favour – Allan Otieno",
+   "url": "https://ghettoradio.co.ke/birth-registration-is-a-fundamental-right-not-a-government-favour-allan-otieno/?utm_source=rss&utm_medium=rss&utm_campaign=birth-registration-is-a-fundamental-right-not-a-government-favour-allan-otieno",
+   "source": "Ghetto Radio",
+   "via": "Ghetto Radio",
+   "published": "2026-11-15T12:17:03Z",
+   "date_estimated": false,
+   "summary": "In Summary Allan Otieno Oluoch says birth registration is a constitutional right that should be accessible to every child without discrimination. He has warned that continued challenges in registering Nubian children in Kibra could expose future generations to the risk of statelessness. He has…",
+   "category": "Community & Development",
+   "first_seen": "2026-11-15T16:26:51Z"
+  },
+  {
+   "id": "a248aeb30ddf",
+   "title": "WPL: Dandora hosts Super Sunday triple-header",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaFpBSE4xM05BLUo4M3YyNTYyR0p4eHVhUXduQmFWSVBqNzh1T1FFUzlDSGpOQklMYnQ0TDNqdlBNeFVFOWVMaUs2dndwWmVzRVdWQmFGUTdwSENzNEdzdmZBczMtbmRtQlRKdUxhdnVnTDAzb2xkejgtREVycGNjaFdrbFNObDJTdkNQQU01Tm5DUFFNQmFLbWdlYw?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-15T08:36:35Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-15T16:26:51Z"
+  },
   {
    "id": "e9a9e3ea1224",
    "title": "Litmus test for ODM as it picks candidate in Kibera",
@@ -142,6 +166,18 @@
    "summary": "",
    "category": "Politics & Governance",
    "first_seen": "2026-11-13T11:13:14Z"
+  },
+  {
+   "id": "90aca265099a",
+   "title": "Court detains actress Regina Re for two more days over mother’s murder",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONVJOa2FETmhqUXVyaFl2OW5Ja3B5SXNWVHV0MG92dERMalBMZjl3ak1icDdybDdITlN0Nkh0MzZBOEJCV2czZGZVNHhWMVpRNWs2Zk5FWjJzbFg5ektJWVpvc1Rpd3p6cU1fNFRkemd0S1JqOGVubWxacWtNajljM2tzdndjSnktQVo2aFNBaFhIQmVqTjJLV0t2MXl0Nm9Icnc1YkhoWQ?oc=5",
+   "source": "Radio47 - Hapa Ndipo",
+   "via": "Google News",
+   "published": "2026-11-12T12:40:11Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-15T16:26:51Z"
   },
   {
    "id": "f4d8e566b5fc",

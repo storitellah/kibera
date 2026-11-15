@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-14T22:37:07Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-15T06:47:05Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 20
+   "found": 25
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 20
+   "found": 25
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 2
   },
   {
    "name": "Capital FM",
@@ -60,6 +59,18 @@
   }
  ],
  "items": [
+  {
+   "id": "e9a9e3ea1224",
+   "title": "Litmus test for ODM as it picks candidate in Kibera",
+   "url": "https://www.the-star.co.ke/news/2026-11-15-litmus-test-for-odm-as-it-picks-candidate-in-kibera",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-15T04:00:00Z",
+   "date_estimated": false,
+   "summary": "Raila Odinga Jr hopes to be elected the constituency’s next MP against the incumbent Peter Orero, who swears allegiance to Odinga legacy.",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-15T06:47:05Z"
+  },
   {
    "id": "e5a20bad347e",
    "title": "Two Machete-Wielding Men Arrested in Kibra",
@@ -347,6 +358,18 @@
    "summary": "",
    "category": "Infrastructure & Transport",
    "first_seen": "2026-11-10T17:08:40Z"
+  },
+  {
+   "id": "b3d080a40439",
+   "title": "For 2 days weekly: Kenya Railways suspends services between Nairobi and 3 towns",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN0FkODBBZFVmS3BKeUxNTVZTelNCc01FeUt5a2dKb3k1RW5tN1hzQ1gwOVdwT2ZNZ0lwZV82NXcydTlUcTZzUVV2X3kteWxvSUxTMGRHYndjcGtobk5qVW90MGhfMHBoam9nMW82Rkx5amQ3Q0RyQTlHVjhKeERTZHRHT3VlZXItXy12OXJ5N2RQeXltaFJudGFTVE1DT2pRVUxV?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-10T09:54:38Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-15T06:47:05Z"
   },
   {
    "id": "8cf526f85647",

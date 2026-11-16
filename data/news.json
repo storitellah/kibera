@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-16T06:45:58Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-16T19:42:18Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 24
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 24
+   "found": 26
   },
   {
    "name": "Bing News",
@@ -56,10 +56,22 @@
   {
    "name": "Ghetto Radio",
    "ok": true,
-   "found": 1
+   "found": 0
   }
  ],
  "items": [
+  {
+   "id": "820d4a995922",
+   "title": "Law student takes birth registration campaign to Nubians in Kibra",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOXzFOVE5RTjQ3WHFYeVlmaHFDa3ctdmpmVkx3cmFqU3haeGtpSWh4LUZVM2o2aFlSeHFzTm1BLU0wVWpaM29LQVhHZC1hTHJzVzI5aHpkVmZISjg3R2pvcGp3ekFvVExOUVZFbnd6Y1pXVmdTc0I4U0JEajVtMldiYkpuclh6eE1XU3VxTDB0R3RkMTNWMnpndmhPdTlPMWRwSGI2RTQzWXRVbGNidlo0TVB4SllQZXc?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-16T11:58:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-11-16T19:42:18Z"
+  },
   {
    "id": "06666c2cafc5",
    "title": "Imperious Ulinzi Starlets maintain Women league lead",
@@ -95,6 +107,18 @@
    "summary": "In Summary Allan Otieno Oluoch says birth registration is a constitutional right that should be accessible to every child without discrimination. He has warned that continued challenges in registering Nubian children in Kibra could expose future generations to the risk of statelessness. He has…",
    "category": "Community & Development",
    "first_seen": "2026-11-15T16:26:51Z"
+  },
+  {
+   "id": "293a3ca2d9ef",
+   "title": "Kenya Targets 15 December Completion for Nairobi–Talanta Rail Works",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNVIxNVRkTlMwcWtRdV80RlFSMkZ3UlBUQ0lnSEpaV3hSSFQ5ZGJVeGpUdkU2QmRUa2duWFhsaDgtYlB6MTBCaUdUdG9qUWZrcl96NUNGMXZTZjdrRjNVbDYxMmJHTWF1bG1YOVRNcTR5eWpZc1VOWjlXTXE5UnNONTR3eUxfcHM0Q0hPQ2ExTi1LcTBlZ3liaW80N1EzOFRqSkczSDB3?oc=5",
+   "source": "Railways Africa",
+   "via": "Google News",
+   "published": "2026-11-15T10:58:38Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-16T19:42:18Z"
   },
   {
    "id": "a248aeb30ddf",

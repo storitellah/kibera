@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-15T22:57:50Z",
- "new_in_last_run": 7,
+ "generated_at": "2026-11-16T06:45:58Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 25
+   "found": 24
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 25
+   "found": 24
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -238,6 +239,18 @@
    "summary": "",
    "category": "Water & Sanitation",
    "first_seen": "2026-11-15T22:57:50Z"
+  },
+  {
+   "id": "ee46da6c048b",
+   "title": "'Muna fargabar El Niño za ta iya kashe mu'",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OdEVub3RLb0I3RXlaeEg0UHZWVFhQLVpLblY2M2FHR1lUZ2tDTnNKazNyR2l5U21pM0k0NERzaG9EM0lMUFlHN2tCcnpIMXlqUVE5YlJGSmNpdUpH0gFiQVVfeXFMT0pxTWdIa3VwZWpNeE5qOUZRbE1ZOVZ3Z3pmSlpTLTlfRTFwYmpyOTY2RVE2TnBTUHo0RnNMYkdqYTVoMkdiRUFrbFBxOWpPNE9ZYnV2R2xWSlM4WU5ObTFaWmc?oc=5",
+   "source": "BBC",
+   "via": "Google News",
+   "published": "2026-11-12T04:01:38Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-16T06:45:58Z"
   },
   {
    "id": "c8275c41222b",

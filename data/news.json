@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T03:59:22Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-17T16:14:05Z",
+ "new_in_last_run": 5,
  "sources": [
   {
    "name": "Google News",
@@ -26,7 +26,7 @@
   {
    "name": "Capital FM",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "Kenyans.co.ke",
@@ -36,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "The Standard",
@@ -60,6 +60,66 @@
   }
  ],
  "items": [
+  {
+   "id": "3d9350c487c3",
+   "title": "Court denies Regina Re, daughter and brother’s request to attend her mother’s burial",
+   "url": "https://www.tuko.co.ke/people/family/647069-court-denies-regina-daughter-brothers-request-attend-mothers-buria/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-11-17T12:58:41Z",
+   "date_estimated": false,
+   "summary": "A Kibera court denied Regina Re, her daughter and son, permission to attend Dorita Macharia’s burial as murder and accessory charges loom before Wednesday pleas.",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-17T16:14:05Z"
+  },
+  {
+   "id": "e51857a1969a",
+   "title": "\"Remain in custody\": Regina Re, daughter and brother barred from mother's burial",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQXBqaW9BeE81c0hnV3h1WndhUzFJRm1teXJPTF81UEk0aXhERmlRekZXOUdrcmhMMEphcGpuRTM2T3lTNG1la3N2MW5sU0J6aDEtNTg2REpDTVpleVJUdEJQSVZPeHkzOW00TWxxMUo0LTNuVnQyQUswcDh1YUpqZFNwQzRpZ3Q3Q1AxV1k5ek1zZzhsc3MzQTNTcFpXdGJqZzAyYVlsbjdyUU0zZkJZeg?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-17T12:58:41Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-17T16:14:05Z"
+  },
+  {
+   "id": "54988af5bdf2",
+   "title": "KWPL: Okallo tips Kibera Soccer Women to overcome Police loss",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZnhDYkNfWmhnUDBYcnl2d3ZZYVJIXzJ3RWltc0lucnlBUGkzV2hBUFJ2T2MwM3hiYnkzdTZraFJ1RzVybV9aUklSV21pdVFzMmhXWVZGMDBCUkUwdENIOUl3OTBCb0gtYjFIZ2FQMjlsQjBVNWRFVWsza1VVdFRTRDJManktYTA2VGxadHdXeWs1UXJYSlF0MXRiMUZJSFBtM0E?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-17T10:52:18Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-17T16:14:05Z"
+  },
+  {
+   "id": "69e4d0937790",
+   "title": "DPP to charge Regina Re’s daughter with murder of 86-year-old grandmother",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ1FQNFlWdHpQcmdwaTlCcWhBaUsybk9BR0lNeXpXdFhFRGhpamNCWlV6eWVicVFUWjNnYVc1dDNkM0FZcHBIVGNkeHRyb21fcWc3MDk4dTlsQkxDOHNjT1l1bjVuR1MtbXo0OGR2THk4aTRYTExLdUpwMXFITWpQUFQ4UnBpMjEyMWluTkoxRFBEbU5iMm41STczYUpsZGxXM1JQQUNhVFlkMUFIUUJ4NjBzYUdNZGc?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-11-17T10:16:33Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-17T16:14:05Z"
+  },
+  {
+   "id": "227adfe88de3",
+   "title": "Regina Re’s daughter to face murder charge as actress faces accessory charge",
+   "url": "https://capitalfm.africa/regina-res-daughter-to-face-murder-charge-as-actress-faces-accessory-charge/?utm_source=rss&utm_medium=feed&utm_campaign=feed-news",
+   "source": "Capital FM",
+   "via": "Capital FM",
+   "published": "2026-11-17T10:00:30Z",
+   "date_estimated": false,
+   "summary": "Thandie Malaika Wanjiko Gitao is expected to be arraigned before the Kibera High Court on Wednesday, November 18.",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-17T16:14:05Z"
+  },
   {
    "id": "820d4a995922",
    "title": "Law student takes birth registration campaign to Nubians in Kibra",

@@ -1,32 +1,31 @@
 {
- "generated_at": "2026-11-18T01:01:52Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-18T11:55:32Z",
+ "new_in_last_run": 11,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 26
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 12
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "Kenyans.co.ke",
@@ -36,7 +35,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "The Standard",
@@ -51,7 +50,7 @@
   {
    "name": "KBC",
    "ok": true,
-   "found": 0
+   "found": 1
   },
   {
    "name": "Ghetto Radio",
@@ -60,6 +59,138 @@
   }
  ],
  "items": [
+  {
+   "id": "98e201e772ff",
+   "title": "Regina Re's Daughter Pleads Not Guilty in Kibera Murder Case",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRVFNaG1kaWNxTmo0amFWbVpzWUl4QjF3WllUdGUycUZSRGlVRmh2UFlnbnI5Mk16d3RTNkJBdlN3aVo0SkpNZmtsdzRYc0I1dy1SNnd0TmRUV29LRTcyTzMxU05pMXJ4dEVadzlHSkZUd3RvQnVub2tIUHlCWTYxRXRUWTJkdmVrY3RvMml3Zk1mdVBSa3o4dA?oc=5",
+   "source": "streamlinefeed.co.ke",
+   "via": "Google News",
+   "published": "2026-11-18T11:20:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "1585e1c7fd2b",
+   "title": "Thandie Gitao Pleads Not Guilty in Kibera Murder Case",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTktFWm81YVJVY3VvMllWN0FyYVh2bmNNVlh5OUE0ZFp5NlBqQmRRaWgtemNwSnp4WEYxODJONWlGdGpZamZaVlgzYlRzWjhKS1ZWVndFczhHWlI1NnZPWHRsM3NGZWRQamNhOHotaElvdk1BZ292Y1MyaTdwX1hNWXBTU3RtcXBCdEVwM0pPRlQ?oc=5",
+   "source": "streamlinefeed.co.ke",
+   "via": "Google News",
+   "published": "2026-11-18T10:10:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "68379b2a9740",
+   "title": "EACC Arrests Kibera DCI Officer Over Ksh50,000 Bribe Demand",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdmlTN3FOeUlqQWlxSkU0QVR2SXlKUzFTb2xhYTBnVzYtMU1fMEhNQ2RhWGNhS0tpYnJyOVhFVVhKT1F5RHRXbDEwbGlBTzRBbTBxWmtQVUhKSXZzdXhqT3dETkhzN093OEFCVEtVVnFCVTlxVVBBN0dPN0tQY3c5SWtXR3UtUFRTaFNR?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-11-18T09:59:12Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "f09458eff4e5",
+   "title": "Regina Re’s daughter charged with grandmother’s murder",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT3NhVDFxeTNEUmhuTldobFFLS1N3dDAxa2NNNlA5RU1yc1ZnY2xidGhXSVFfWG5zTGdpSFh2enByX0RYSjA1Mkh0NWIwX1RucmN5Tk5Jakk3N2xLbHdoWXNMOWR0MEw4YjhjaTVyRGFSejNxWTU3OVpmQ0pqenZlbQ?oc=5",
+   "source": "KBC Digital",
+   "via": "Google News",
+   "published": "2026-11-18T08:41:33Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "601eb1f798b1",
+   "title": "EACC arrests DCI officer for demanding KSh 50,000 bribe from Kibera resident",
+   "url": "https://www.tuko.co.ke/kenya/counties/647146-eacc-arrests-dci-officer-demanding-ksh-50000-bribe-kibera-resident/",
+   "source": "Tuko",
+   "via": "Tuko",
+   "published": "2026-11-18T08:35:51Z",
+   "date_estimated": false,
+   "summary": "EACC has arrested a Kibera DCI officer accused of demanding a KSh 50,000 bribe to record a fraud complaint, after a sting operation at Kibera Police Station.",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "8d6fc6bf74f7",
+   "title": "“To help file fraud report\": EACC arrests DCI officer over KSh 50,000 bribe",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdUdfb3BwUHR5RXRQREtHTmZ5QjExTFp2V3dQbWoxQzJLRHJJeDlGTzFaRXJBSGEtWWRBZjZWUWxVUlp5TEZVNnhRR2tCV1BNN0F6eFk5S09sT1p6czJyS1pjMUJDbW0xUzRGV2xPa3Rwc1pxZFl3Q001TTdIR2JPYjZXUk4zSlJBSDFCTGVEN3l6Y3I4Sk5Ob3ZFalBkOXh3LXNuX2dOWHBBYnFINnZFbHFB?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-18T08:35:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "bb2696087ca0",
+   "title": "EACC arrests Kibera DCI officer over alleged Sh50,000 bribe",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMlp5MTk0Rm40d1phUVJQZWVqVjBQQ0ktdDVKTHpWQ0NydDl6elpGc1l4ck5TZ0NmWTh2WTl3azlkUXRadHhoOWM4N1oweUxZNEFTUXdRUVFqNEE2LTc1cU9fRUc2TkN5ZFNnV1Y0YTVzcG9YOHN5OEhZVF9qblN6cDdid1dyVUZqclhzLXdSdm95TUQ3OVdYc09sMXBoZDRQ?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-18T07:14:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "84ae90cd1fd2",
+   "title": "DCI Officer Arrested For Allegedly Demanding Bribes",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9EN2NRbmNWTmcxMVRjSGVVNVJvLUdsT0ZtSm9zSFFoZzU1bllqNDBYU3RodjlFQm8wMU5wVHg5MHpSakRHbE41Q1JsdGFnTjZrSFJQaWtfNkRmdWk3c3VqTzdOS2pDSDRYNkY3WXZB?oc=5",
+   "source": "The Kenya Times",
+   "via": "Google News",
+   "published": "2026-11-18T06:49:34Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "2d23fc6e4c4b",
+   "title": "EACC Arrests Nairobi DCI Officer Caught Receiving Ksh50,000 Bribe",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMlJ5U1k4SVlVWUhHeHo0QjBYS1lVQy1PY3h4V2trMnM5OVE3bFBKY0tfYzZGMnBUNlZ5LU1famFsRlR4M0c5dkYtTEgyZFlWU1d0UURUY0lGT1A1NDFFbVBKcm9teDdoQUtoYmdCQU9pMUxDam54Zy1FOUV1UUNpc1liZTdqaEdDejMyY1F0QnYwSWM?oc=5",
+   "source": "Kenyans.co.ke",
+   "via": "Google News",
+   "published": "2026-11-18T06:43:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "f2e5bc9b3832",
+   "title": "EACC arrests Kibera police officer over alleged Ksh50,000 bribe",
+   "url": "https://www.kbc.co.ke/eacc-arrests-kibera-police-officer-over-alleged-ksh50000-bribe/",
+   "source": "KBC",
+   "via": "KBC",
+   "published": "2026-11-18T06:38:19Z",
+   "date_estimated": false,
+   "summary": "The Ethics and Anti-Corruption Commission (EACC) has arrested a police officer attached to the Directorate of Criminal Investigations (DCI) in Kibera over allegations of demanding and receiving a Ksh50,000 bribe to record a fraud complaint and initiate investigations. The officer, identified as…",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "df204d537d62",
+   "title": "Why Kibera Court Refused Regina Re’s Plea to Attend Mother’s Funeral",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRGs3NnZPeWhYTnd0ZjMzVVBoOERaQWJVZTlEZksyNl81dnM1ODNiUjhQVncybzI3d2ktbGxPNXEzOUV3a1BRRXd6MGNkeU9zZnNqNVZXcm9XVkk5amdjdEdtMlJ4N04tSlBlYVhZZ3otRW03T3JqZmozc0FoS25SMUV5SVQyWG5XZnd0a1ROQQ?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-11-18T04:14:42Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T11:55:32Z"
+  },
   {
    "id": "3d9350c487c3",
    "title": "Court denies Regina Re, daughter and brother’s request to attend her mother’s burial",

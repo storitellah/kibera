@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-17T16:14:05Z",
- "new_in_last_run": 5,
+ "generated_at": "2026-11-18T01:01:52Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
@@ -36,7 +36,7 @@
   {
    "name": "Tuko",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "The Standard",
@@ -119,6 +119,18 @@
    "summary": "Thandie Malaika Wanjiko Gitao is expected to be arraigned before the Kibera High Court on Wednesday, November 18.",
    "category": "Crime & Security",
    "first_seen": "2026-11-17T16:14:05Z"
+  },
+  {
+   "id": "f3a949d96243",
+   "title": "19-year-old killed in gang fight in Kibra, Nairobi",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxS0o5THVIT0o0Vi1GTEpETlJNcjdzcnFINTFsWEkzM1Y4SGRCVkZrNHl0YkxyamE1UHE1T1NPNVFzSUw2MWVCMUJyMEpacjZqRzFMeHg5R3ZjY3V4aFA3ZE9WMnNZbFFoMlEwYzc5TFZNa2lLQlpwQUU1bjF2LWvSAYcBQVVfeXFMTVhLWFhZUWJvX2o1UW9pLWVZdDhLcjZZUDZjZ2E2UU5LQWh1SkdaUktmY2JheTQyVGI0WGNUcmdCOFF2YlY4dWVJdmxQWW45Q0htOWktOVB3b25RTFdINExfc1VjdnhtSkR2cHgza3dTbkRtZnViZDlqMmN5aGt5QWNHUmtrYzJB?oc=5",
+   "source": "Kahawatungu",
+   "via": "Google News",
+   "published": "2026-11-17T04:33:25Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T01:01:52Z"
   },
   {
    "id": "820d4a995922",
@@ -311,6 +323,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-12T20:06:15Z"
+  },
+  {
+   "id": "25406c5113ad",
+   "title": "Lawyer Mbobu murder: Police inspector Sang pleads not guilty",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBoZ1RXZ1ViQThzWFE2UzFIY0dGVy1COHdHTFduSVpDTVBMOGlZbU5Jcml1WkJSOGRYVDIxQzliUjdyZkhVOUxRYUJYWWxvX19hNjAzMkpwMTFJanZEMkhTZTZCdkxhV3RSN3g2R3ZtNDBJZi1YQlE?oc=5",
+   "source": "KBC Digital",
+   "via": "Google News",
+   "published": "2026-11-12T08:53:18Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-18T01:01:52Z"
   },
   {
    "id": "f0e5dfd7cbf4",

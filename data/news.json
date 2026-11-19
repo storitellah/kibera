@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-19T02:39:00Z",
+ "generated_at": "2026-11-19T11:51:51Z",
  "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 29
+   "found": 27
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 29
+   "found": 27
   },
   {
    "name": "Bing News",
@@ -19,14 +19,13 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
    "ok": true,
-   "found": 1
+   "found": 0
   },
   {
    "name": "Kenyans.co.ke",
@@ -56,10 +55,22 @@
   {
    "name": "Ghetto Radio",
    "ok": true,
-   "found": 0
+   "found": 1
   }
  ],
  "items": [
+  {
+   "id": "6825daac8300",
+   "title": "Teen Mothers Need More Than Government Promises",
+   "url": "https://ghettoradio.co.ke/teen-mothers-need-more-than-government-promises/?utm_source=rss&utm_medium=rss&utm_campaign=teen-mothers-need-more-than-government-promises",
+   "source": "Ghetto Radio",
+   "via": "Ghetto Radio",
+   "published": "2026-11-19T09:47:47Z",
+   "date_estimated": false,
+   "summary": "In Summary -Teenage mothers in informal settlements need quality antenatal and newborn care. Government says Sh19.1 billion has been allocated to primary healthcare. KEMRI warns that some infections affecting newborns are becoming harder to treat. Experts say most newborn and child deaths are…",
+   "category": "Health",
+   "first_seen": "2026-11-19T11:51:51Z"
+  },
   {
    "id": "f66005435544",
    "title": "AFC Leopards mocked for wearing 2025 kits during Kibera Black Stars clash",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-19T11:51:51Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-19T20:47:04Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 27
+   "found": 30
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 27
+   "found": 30
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -44,8 +45,9 @@
   },
   {
    "name": "Nation",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "name": "KBC",
@@ -59,6 +61,42 @@
   }
  ],
  "items": [
+  {
+   "id": "c1374422c263",
+   "title": "Denmark FC thrash Kibra United 3-0 in FKF Division One Clash",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSXpkbFdHeFZaWlRkc2VfWkFaWWZtOEJSdzlDOHZOZG16ZC12Zkh1ZGJVRGU5WjJhQ1YtX2xFU282dW12OTEwWTZVY3VURXIza1BmZldqMml5dnc4dkl3ZjJRU2JZN25KNlczbjM2dktIUktMTWxtenJ0YlZwamhVSUNob1pLQkRsczhwbzln?oc=5",
+   "source": "Radiokaya",
+   "via": "Google News",
+   "published": "2026-11-19T16:10:35Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-19T20:47:04Z"
+  },
+  {
+   "id": "9cff24729738",
+   "title": "Aplysia Study Reveals KIBRA Binding to PKM Does Not Ensure Stabilization",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU19JcVlXdVVJMXhNWFJlaTQzakhGU0RKZllwb01Db2Fwb0t6aDZfbG1ZNFZncmhvQ0VFZ192dkl0c09nNFlKaGRMc2FBRVl2cE15dVBLREZVR3B5R1pzSEJPejJnOVVkWTVYdVBFSWVYeVVBaGo0allSbHlDS2h0eGg0MTRDNkpQWlVBWE1KZUw4RGRTa3NEckxNNExXZw?oc=5",
+   "source": "Bioengineer.org",
+   "via": "Google News",
+   "published": "2026-11-19T14:11:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-19T20:47:04Z"
+  },
+  {
+   "id": "0dc162f891e3",
+   "title": "Govt names 3 Huduma Centres where Nairobi residents can pay rates, permits and parking fees",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNSk5ZSkxFLWdJYnl2M0ZwTUFwQjVpem5uN2V4YVd1dkZKaFVPZzk2dDN1bkJOT21nRjl3cWdIZGNpMkp3Yl9YT0pUTUhIVTU2ZlBWTF9JLWVVb05MdUZGU3M3aTA1T2liVU5NcUhaT3JCSzcxQUo3c1VSaXBVanpEdHBqTEhyMWpSaWdnNTV2cUFUakx5OEtVVFdIN3d0VzVCN2FjM3M5ZFNaT21tQWU5ejFRS3lzOVc3RGFtZ1JuRHc?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-11-19T13:33:49Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-19T20:47:04Z"
+  },
   {
    "id": "6825daac8300",
    "title": "Teen Mothers Need More Than Government Promises",

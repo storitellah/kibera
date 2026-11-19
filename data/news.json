@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-18T20:41:13Z",
- "new_in_last_run": 5,
+ "generated_at": "2026-11-19T02:39:00Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
@@ -83,6 +83,18 @@
    "summary": "The two were arraigned at the Kibera Law Courts on Wednesday, where they denied charges of accessory after the fact to murder.",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T20:41:13Z"
+  },
+  {
+   "id": "c3e4506e5eac",
+   "title": "Kibera Law Courts: Regina Re, Antony Macharia Granted Accessory Bail",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRlFpLVNPVVM1Z0M0SXFrQVZxY1hROFJJOVNoZjRUXzRra0g4UDJVSl9LVm1vTUtsZW53QUQwalpoeS11ZTZTRFVBcnEzc1V6TWdaNnByTF9tUURVMlFrQ0h5WHctUXNjVWx4a2lJZDFpUzVDTTRGTlhuRDMta3pwT3lsd1VjdElreDR3VWMzUTVBNkpGVmJoVVRRcGhtdjRHNkpIZFRlNG5ZR3l1V3hiOV81LUx2a3NEVlhDcw?oc=5",
+   "source": "Wansom AI",
+   "via": "Google News",
+   "published": "2026-11-18T13:01:43Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-19T02:39:00Z"
   },
   {
    "id": "79a07381d1a5",

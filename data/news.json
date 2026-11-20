@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-11-20T02:23:54Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-20T11:53:51Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 31
+   "found": 30
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 31
+   "found": 30
   },
   {
    "name": "Bing News",
-   "ok": false,
-   "found": 0,
-   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
+   "ok": true,
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -55,8 +55,9 @@
   },
   {
    "name": "Ghetto Radio",
-   "ok": true,
-   "found": 1
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [
@@ -107,6 +108,18 @@
    "summary": "In Summary -Teenage mothers in informal settlements need quality antenatal and newborn care. Government says Sh19.1 billion has been allocated to primary healthcare. KEMRI warns that some infections affecting newborns are becoming harder to treat. Experts say most newborn and child deaths are…",
    "category": "Health",
    "first_seen": "2026-11-19T11:51:51Z"
+  },
+  {
+   "id": "ace18c99fa1f",
+   "title": "CDB Seminar - Professor CP Heisenberg from IST Austria",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVmRtT2xhTHFTUm1TLWcteFJfZlNYV0QwRnRFY3BPYnBxTWw0ZDN1dVg4STV6RTdLRGJhQ29zSmVIaU9zbHNzZFRHQkdibmdkYW5tZUo5aFByQUhxUmpwaGxHVFQtS1hfMzk5cTRhUVNWaFpSQlQ0cGNXYXVLelk2UHcyaGNOTkxRRjdhVmV3UmVFVWhwWFlaRzh2alRHYjVG?oc=5",
+   "source": "UCL | University College London",
+   "via": "Google News",
+   "published": "2026-11-18T20:29:55Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-20T11:53:51Z"
   },
   {
    "id": "f66005435544",
@@ -251,6 +264,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "794debe6385f",
+   "title": "EACC arrests Kibera DCI officer over alleged KSh50,000 bribe",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xYUN4THI2WkNuTC1ySmpWYmdRbzFZeUVkM0xqYmZCUExoZ2Z1aXBsXzl5STREZlBSVGVtMktTWVNlbERMRUQta1RvNW1qMFBVbWlqVERLSnJVdmFQYVZRR3FrVUhOMXA3N0FhaW1YTng?oc=5",
+   "source": "5050 Markets",
+   "via": "Google News",
+   "published": "2026-11-18T07:09:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-20T11:53:51Z"
   },
   {
    "id": "84ae90cd1fd2",

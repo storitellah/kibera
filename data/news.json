@@ -1,27 +1,27 @@
 {
- "generated_at": "2026-11-19T20:47:04Z",
- "new_in_last_run": 3,
+ "generated_at": "2026-11-20T02:23:54Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 30
+   "found": 31
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 30
+   "found": 31
   },
   {
    "name": "Bing News",
-   "ok": true,
-   "found": 11
+   "ok": false,
+   "found": 0,
+   "error": "ParseError: not well-formed (invalid token): line 1, column 41"
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -45,9 +45,8 @@
   },
   {
    "name": "Nation",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "KBC",

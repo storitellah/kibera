@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-21T02:28:08Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-21T11:22:58Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
@@ -15,7 +15,7 @@
   {
    "name": "Bing News",
    "ok": true,
-   "found": 12
+   "found": 11
   },
   {
    "name": "GDELT",
@@ -25,9 +25,8 @@
   },
   {
    "name": "Capital FM",
-   "ok": false,
-   "found": 0,
-   "error": "URLError: <urlopen error timed out>"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Kenyans.co.ke",
@@ -360,6 +359,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "66a935540d15",
+   "title": "DPP splits charges in Regina Re mother's killing",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZNEZOVExodzdsSWlqekNRcFNTamkwTEZielVfSV8xY1lSVmdoN3hqSVhZU2ZXUTZqSkhkbWkyc240X2Y3YmZET2lxV1dQQzJ1Mkx4UURPN2VjdS1yeHZab0VTbkZQXzlKYU4xbnl4aF8?oc=5",
+   "source": "5050 Markets",
+   "via": "Google News",
+   "published": "2026-11-17T21:13:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-21T11:22:58Z"
   },
   {
    "id": "3d9350c487c3",

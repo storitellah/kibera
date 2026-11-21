@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-20T20:31:23Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-21T02:28:08Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 30
+   "found": 29
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 30
+   "found": 29
   },
   {
    "name": "Bing News",
@@ -25,8 +25,9 @@
   },
   {
    "name": "Capital FM",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "URLError: <urlopen error timed out>"
   },
   {
    "name": "Kenyans.co.ke",
@@ -55,9 +56,8 @@
   },
   {
    "name": "Ghetto Radio",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "ok": true,
+   "found": 0
   }
  ],
  "items": [

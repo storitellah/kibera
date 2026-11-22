@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T19:26:38Z",
+ "generated_at": "2026-11-22T01:25:49Z",
  "new_in_last_run": 0,
  "sources": [
   {
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -54,8 +55,9 @@
   },
   {
    "name": "Ghetto Radio",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 403: Forbidden"
   }
  ],
  "items": [

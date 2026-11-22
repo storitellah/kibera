@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-22T01:25:49Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-22T11:39:26Z",
+ "new_in_last_run": 5,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 29
+   "found": 28
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 29
+   "found": 28
   },
   {
    "name": "Bing News",
@@ -55,12 +55,59 @@
   },
   {
    "name": "Ghetto Radio",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "ok": true,
+   "found": 0
   }
  ],
  "items": [
+  {
+   "id": "1892447feb62",
+   "title": "NSL: Kibera Black Stars coach outlines season ambitions",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLU1TTWFCdVBveUFJQUN1VnFhUHZadVVuVmdmZUY0b0hhd2ZhWnNRVnFQN243dkxEWVUxUW5zcGlrUXZ0Uk53OFB6dVBSOHpkZFBGLVpBb2Fyb05EUl94MDlnc0xuS1BJUklyNlBya29mZjVVM0tfZkFSV29OcXNYWkt0THhreW9ueVhVRFd6Y2x6YldzR0ZETklFUW9fQ29ub0U2NTNDWk4?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-22T10:40:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-22T11:39:26Z"
+  },
+  {
+   "id": "c89f93918aec",
+   "title": "Lucky Summer SC vs SHOFCO Kibra FC live score, H2H and lineups",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdnZVeGRQOWpIa21sMFRHQ09LYURWSC0wd2pJd3gxaE41T0tXMXp1UjJyUnVnMjN2TEd4dUVJX3lBRHVjNXlOOGUtWEdGeTNGNVhmNzF6ajNqQ1FYLXZwZmJQd2Z5LVZEUDk4MWlJVm9OY2pMQ19xWGtRWktUN0ZDbGRqallqRmlublE?oc=5",
+   "source": "Sofascore",
+   "via": "Google News",
+   "published": "2026-11-22T09:19:42Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-22T11:39:26Z"
+  },
+  {
+   "id": "f173ac8f547d",
+   "title": "WPL: Ulinzi Starlets chase perfect record against Shabana as Kibera seek redemption",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPb1RQMWdXRjA5Y3JUTWlTc3YtQksycGV3MUpfbnlYUFJrNnNVVXpGd20xb1l0R2xGODQ1WHFqYXZYQUwxS08xeXVCYTlNb3NaQjBaZFlkXzJ0cmEtWDQ4YzJfa0lVRjZtUy1xUGhoZV94MjRQTEpxU2RJY3Q0ejh3dWhrbUotTTVtQXpMY2hsejdmdE9ZREltNEZEVU9PUENhNHRkeVN2MXJEYnhXTHFkdkg2QjNnVF9NUWpjOU9FWDFoWmE0QXdUQmY2MzZpdw?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-22T07:10:19Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T11:39:26Z"
+  },
+  {
+   "id": "e81e4feee0c5",
+   "title": "Kenya, China collaborate in training caregivers for global Job market",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG9lMHdhSm9Xb1E1WHpTR3lzdkRPMVp4Qm1kZ3dlSWVlQy1wN2dJZERaVm5FN0VOZzVvVTFUTTI2SzFtUGp5Y1BNakxsdWVjM0VLdk1YZEhWemhYUWxUMUhTRExEUHpoMUR3T1p3SWZ4UFNpNGhxQ1BHZlBvdFRLbW5RNGpHb21EaGVPN2dIYU5hcWhneU5BYlR4bWhmQQ?oc=5",
+   "source": "Kenya News Agency",
+   "via": "Google News",
+   "published": "2026-11-20T10:38:37Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Business & Jobs",
+   "first_seen": "2026-11-22T11:39:26Z"
+  },
   {
    "id": "a8755f4e051e",
    "title": "𝐊𝐞𝐧𝐲𝐚, 𝐂𝐡𝐢𝐧𝐚 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐞 𝐢𝐧 𝐭𝐫𝐚𝐢𝐧𝐢𝐧𝐠 𝐜𝐚𝐫𝐞𝐠𝐢𝐯𝐞𝐫𝐬 𝐟𝐨𝐫 𝐠𝐥𝐨𝐛𝐚𝐥 𝐉𝐨𝐛 𝐦𝐚𝐫𝐤𝐞𝐭 Kenya and China have strengthened their technical training partnership, following the signing of a Memorandum of Understanding (MoU) between Kibra T",
@@ -204,6 +251,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "b4d75d073a79",
+   "title": "Former KTN host REGINA RE’s daughter, THANDIE MALAIKA, finally charged with murder after stabbing her grandmother 20 times - Appears shaken in court (PHOTO)",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd0w0RFB3cGt4U0hkM3djUkxROGs1Z3NpbW1LUjNnOEtuNUFRMEFWYkdkZC11eXJ1azA5MTBzV2xqQU9SSGNxNS13RWhYemkyYmNJeHhQTm80a1k3MC1oY0RCZWVaczVrWWVMUEFYOHVWc0xmMHlzRXN0STd4cHFlZHpn?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-11-18T10:14:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T11:39:26Z"
   },
   {
    "id": "1585e1c7fd2b",

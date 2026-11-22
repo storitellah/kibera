@@ -1,27 +1,26 @@
 {
- "generated_at": "2026-11-22T11:39:26Z",
- "new_in_last_run": 5,
+ "generated_at": "2026-11-22T19:49:39Z",
+ "new_in_last_run": 25,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 28
+   "found": 55
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 28
+   "found": 55
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 12
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -97,6 +96,66 @@
    "first_seen": "2026-11-22T11:39:26Z"
   },
   {
+   "id": "77d170472e50",
+   "title": "BETTING GUIDE: Barcelona vs Villarreal,match preview, team news and prediction",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaGlwQWJ5clJiSHowRlVKTTBwSjh3Z0lrN3FLQ0ZWUVlXMVY2VFpnN3phMzhvZWx6TGd5M3M5bEhzUXJ1bFhHdE04RTFVd0t3RGkwcE9nTlJTRkMzQnF5VHhEQUtNM2R6WUh0bXNadUs4ZEQ3eEctS2FVRkZLTWtfYVZ2ZmdWb2NEUHdqajJZR3czUDB3cDVEWmh4RE9ETXVDMGFFNWw0WWpiRldYdGpEZl82WXJKTUR4YU1MelRRN1JZT2Vf?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-22T04:24:35Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "b17f8df89baa",
+   "title": "BETTING GUIDE: Shabana vs Mara Sugar, match preview, team news and prediction",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNenNfY01nZzFfTzJPd2ktbVhHcDRJdnZRek05RnZWaTFZS1FORnVuXzBDdHFUS25pR3hST0VNSG9YTmZldnZXMy0xR0ZIcUk0d2JENTJhQkVnUGdaZnRqTVA4cnhaY0p6NHlFRjdHVkxCaG9taTVQVUpVcF9LcEk0ZXd1OU5TYXJ2Z3NtZ2Z4b0JhVDYyNFRPLVJOTDg5QmxyblNaUkNqY1dLdmVOdVd4R3hKeE80RW9EUUNiWWlsMEdrR0k?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-22T04:19:35Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "a527dcca4bb1",
+   "title": "Nairobi announced as Kenya's only host city for 2027 AFCON",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd1ZIcHhsMUJnVDlKQXhObldiVWVqUk5teW1FQkE5MHNOZWJLeHp3Vm1VYy1WdUczTGxvaGRfdXJEVkIwRVpiVUwxcm5NRXBfX1VabWhJVHNwcjJjVWdkSWhybHBFLTMxZkltVkdoNzN0cUtFZ0lIVUJZR3o4Yzd5UFpTUHJrVFBHandJTDR6T01uRV95UFVYQWo0cmN4UmtfQ1F1djZIV21fTmV4?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-21T16:53:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "67651fa3e350",
+   "title": "Kenya Police Bullets and Mathare United win",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR0ZFWUdiNGxNb3ZZVEJ2d2xrS3lad0dMemdueDFKUlc0QjRiQjd4Z3M1X29CMjg5T2lONmlya0k4N0FLc1hDTmE5Q1U5Y0prRldQVlQtdE9QLXZ4dWx5Vng3ZjhWOXpPME5mVkotY1hfTTlnS0VPZEFBNmRkN0ZOeWotYkRiTWN0WktuakhCYzZsenNiTWVrVVBRQVU4OXg4RzZHVGtrSDFTa0E?oc=5",
+   "source": "www.standardmedia.co.ke",
+   "via": "Google News",
+   "published": "2026-11-21T16:26:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "a82bf94a1cfc",
+   "title": "Stiff Tumor Matrix Drives Exosome Formation and Release in Breast Cancer",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVXc3SU5ibFR1SUJveUFrVzhOb0VJcVZfdnJIZWw0MGp2U2VTc3preTdzUGpPdFU5ejhUOGZFWXV2YTdJU0ZsSG9BZ1Z1aVdqZHdfZFhCZk5rakVMNVkwQTRjRUFOd3ZnU2dsOTBIZTRqTnp1SmFJcmdBM2tDdklWejJHR1BCYWRId3JYLW9HZHQzOWJQd201VnZtVjRXUQ?oc=5",
+   "source": "Bioengineer.org",
+   "via": "Google News",
+   "published": "2026-11-21T07:57:08Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
    "id": "e81e4feee0c5",
    "title": "Kenya, China collaborate in training caregivers for global Job market",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG9lMHdhSm9Xb1E1WHpTR3lzdkRPMVp4Qm1kZ3dlSWVlQy1wN2dJZERaVm5FN0VOZzVvVTFUTTI2SzFtUGp5Y1BNakxsdWVjM0VLdk1YZEhWemhYUWxUMUhTRExEUHpoMUR3T1p3SWZ4UFNpNGhxQ1BHZlBvdFRLbW5RNGpHb21EaGVPN2dIYU5hcWhneU5BYlR4bWhmQQ?oc=5",
@@ -107,6 +166,18 @@
    "summary": "",
    "category": "Business & Jobs",
    "first_seen": "2026-11-22T11:39:26Z"
+  },
+  {
+   "id": "597a78278b94",
+   "title": "The week’s best photos",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9kdUlqcUF1STVhOWJqQzZPYnhPQnNYbVJDYzRySnpfekdfcWtLZHJJOHQ4QVVmSHdRSm5CR1dSYmU2dE5WeUJTeXZJZWgyM2hnWERtSm1SVlNBN2pJZ0NhdzhUMEV3MVY2SFFtekEtSlBOMXc?oc=5",
+   "source": "The Week",
+   "via": "Google News",
+   "published": "2026-11-20T09:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
   },
   {
    "id": "a8755f4e051e",
@@ -131,6 +202,30 @@
    "summary": "",
    "category": "Housing & Land",
    "first_seen": "2026-11-20T20:31:23Z"
+  },
+  {
+   "id": "5dd695a9edb4",
+   "title": "Crossing Thresholds Names Dubois-Mwake Executive Director",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNX1RxWkpiYW1oWV93alpPZVNzeTN4RmVHenYxdmpiemU4M21yaENDSV9xcHNJV1FiWFlTRUdJejJOMVNhdFF2Rkkya2tCMk1PNXVnYTl4YWRNNWc2dTR6VHR0S2twcFFsU0FnNjhJQ2NKZmVZckJDLUtmZXlHdEhGNWVJTWlXNnZZNlc4SlF6OWhmZ3NHS3pKSk0tWXk?oc=5",
+   "source": "Wisevoter",
+   "via": "Google News",
+   "published": "2026-11-19T21:09:14Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "ff323b24af98",
+   "title": "Inside CAF's Kenya, Tanzania and Uganda AFCON PAMOJA 2027 logo",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbVNqb0x0LXJSYXhmNGRxbldzSWdEdmJ5Ynh2S3h6SWE3MUdZdWZZOGJwbWtfRkp5elpHX3VFYUd5elFCbnZvY2VfOFFJX25kUnZubWZVMkpYNElFN1BEWGdTMTlzWHNnUkgtWEhLQk41Sm5UeEkwUnZYSHM2ODJoWjNYQ0xiVWhfTEJmby0wU0xRSjVPa1pkdU1aaWwtekMtTWZ5T3NNeVNiNHp0YzJNMw?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-19T18:47:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
   },
   {
    "id": "c1374422c263",
@@ -181,6 +276,30 @@
    "first_seen": "2026-11-19T11:51:51Z"
   },
   {
+   "id": "80d00a591308",
+   "title": "Regina Re’s Mum Was Scheduled to Move Into New Home in Nyari Estate, New Details Show",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEItTnlkUVVXZkhJU1BuM1dSelFEYXpRNHlMRm40NjNTbHI3RzUwR2l2dzNTc2dkRGxhZ0dGbm1oUy1WUk4yRUYtRTNCMy1mZ2ZRbnlOcHlMMVczdnN0VzZoYkVVUnI0VGxiRG1yRmY0ZWhHcGlZcHZ1WFNodjFzZmZsajV6TDkzN1Z0Wm5xOTZLZnQ5aEZaVjRJT3Y?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-19T05:12:06Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "c2c873820455",
+   "title": "Court Issues Fresh Orders for Regina Re’s Daughter After Murder Charge",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOU1sRWRwRTQtOC1vSTRYTHhnSkRTejRPakRYanQzdXl3Z3JpVEpGZWRQTDlvRkxDN252N19kemRJZHZuMVdDOTNtbEphNGJVb284Mk1abU43TTZvN3duVzFoakJHUWpJWVAtWTRfQS1EdnRZZUJ4NHVYV2ZwRTY5dEFKbGt2Zw?oc=5",
+   "source": "Nairobi Wire -",
+   "via": "Google News",
+   "published": "2026-11-19T03:46:19Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
    "id": "ace18c99fa1f",
    "title": "CDB Seminar - Professor CP Heisenberg from IST Austria",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVmRtT2xhTHFTUm1TLWcteFJfZlNYV0QwRnRFY3BPYnBxTWw0ZDN1dVg4STV6RTdLRGJhQ29zSmVIaU9zbHNzZFRHQkdibmdkYW5tZUo5aFByQUhxUmpwaGxHVFQtS1hfMzk5cTRhUVNWaFpSQlQ0cGNXYXVLelk2UHcyaGNOTkxRRjdhVmV3UmVFVWhwWFlaRzh2alRHYjVG?oc=5",
@@ -193,6 +312,18 @@
    "first_seen": "2026-11-20T11:53:51Z"
   },
   {
+   "id": "6a856526b9d1",
+   "title": "24 hours in pictures: France strikes, anti-Trump protests in Manila and more",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbkxsVURZaV9NYUgxcVhkWUtfaWlYYU5KMXhEVW9objB4Ny1fTElYa3BhNFAwV2VJaVJWRURqX3Z6b012RG5IUGFQSGtCZUlpdENBTjc4SGMyRTRQcTIzQ1JFSl9ZaWYwcHFSQ2VwYm94ODI5OWctV3lSWHZHbTY2Zk0tcFpULU9MVGJyMHdEdERvZVRET1NyYms4TnhqMGUyZGItMXJaOUZCTGxjVkNmY1l3?oc=5",
+   "source": "The Citizen",
+   "via": "Google News",
+   "published": "2026-11-18T19:48:07Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
    "id": "f66005435544",
    "title": "AFC Leopards mocked for wearing 2025 kits during Kibera Black Stars clash",
    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNTl4eXhhdkRDTl9wR1JMZHo5YTJLZHF3ZHpZN0N6QkJiUWM5bjR3V3dxbWlzSjMwbFFTd1pfV3Q4OFM5c1YzVkQ1eXlPZ2FrZ3psM285REF2cEh3TVIwalo4TXZLZTVRYzRUZGJqV0NpajBSaHhjVm12eWsxX3RyekViTUdza29ZMGI3Nkt4ZnRBN25Wd2JFenVPS3J2aW02Q1ZhZnZiYw?oc=5",
@@ -203,6 +334,30 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-18T20:41:13Z"
+  },
+  {
+   "id": "037917808790",
+   "title": "Thandie Malaika denies killing her grandmother",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdEM0bjYzTndMNnJOVXBtSUFvWmNOQkItbjlIR2M2Mm1FXzlQQVpwRGR5MW96dUxxRlFCV01tVjEwNFZBamlkTlZtajdOaFM3UzBPaFBVTVVFbEItaFZ2OThwdGF5Um1GWjB5Y01BOVhkc0Z3WC1NOVg5ZXlFdEVOWGs5QXd2UQ?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-11-18T15:16:14Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "0b695729746e",
+   "title": "Regina Re, Brother Released on KSh 200k Cash Bail in Mother's Murder Case",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSm1NYW9zZGgxeHZWS3FlejNGVzZ5U0F5dVp4eEVQYWZEODFSVDVGdnNXNHdqYjFkTDcxQkQ0eUdNT3VZUDJqM1hBQnRScmYxNjh1SXRoX2laMlRrNnhoeXQ1V1JSb19LZjJRZUZoS1hKVWlQU2gwNzBBMm1aLWRpeDQ0RlRlX1JJOXRQblQycmpIYnFLN1RON1N1anFnLW12d0E?oc=5",
+   "source": "Tuko News",
+   "via": "Google News",
+   "published": "2026-11-18T14:36:51Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T19:49:39Z"
   },
   {
    "id": "f0df9b6b8f6f",
@@ -253,6 +408,18 @@
    "first_seen": "2026-11-18T11:55:32Z"
   },
   {
+   "id": "80dabd86aad0",
+   "title": "Judge rejects murder suspect’s plea to attend grandmother’s burial",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xUE5qNVVXZG9IWU01RmN2SDBkcFpOVnByTzdGaDM5bXlvalNBMTVSN3NnU0ZDU1poTTBUWWY1cXRmNTJUNkN4WGQzNmVfRDBIX0ZhWUJlZVZyNVZfdm54WTdYalVLaUptTHJVRU9acjU0M3c?oc=5",
+   "source": "Nairobi Law Monthly",
+   "via": "Google News",
+   "published": "2026-11-18T10:40:52Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
    "id": "b4d75d073a79",
    "title": "Former KTN host REGINA RE’s daughter, THANDIE MALAIKA, finally charged with murder after stabbing her grandmother 20 times - Appears shaken in court (PHOTO)",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd0w0RFB3cGt4U0hkM3djUkxROGs1Z3NpbW1LUjNnOEtuNUFRMEFWYkdkZC11eXJ1azA5MTBzV2xqQU9SSGNxNS13RWhYemkyYmNJeHhQTm80a1k3MC1oY0RCZWVaczVrWWVMUEFYOHVWc0xmMHlzRXN0STd4cHFlZHpn?oc=5",
@@ -287,6 +454,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "cfc575dae162",
+   "title": "Thandie Malaika denies murdering grandmother as court orders psychiatric assessment",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRnVUOTFpaDlRd2hmVW9xMUg1NXFROHFpSHgwZ3VLOXZ1QVRYRmdpY05QSjFrUjh6UVZlLU9SbFRBOUo1ZVh5Y1cwc19UWXQyWjZUT2gxcnVWai1NSktxMTV0SV9DWEpEVVA3OUgwUl9GT2Q0UUNMZWRuX3ItQlJOYmpOWV9aTzhfQXNWSzlPa0VoUkt4NUFMY2FmZ0xVLU82VUtJdDJ3el9rTkJuaHc4MlVaa2Jfdm9tLXc?oc=5",
+   "source": "Radio47 - Hapa Ndipo",
+   "via": "Google News",
+   "published": "2026-11-18T09:54:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T19:49:39Z"
   },
   {
    "id": "74e41c85ced1",
@@ -347,6 +526,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "7fc89fde392f",
+   "title": "Kenya's Emerging Stars crash out of AFCON U23 qualifiers after Ivory Coast defeat",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa0ZybU1YdHp6WGhpcGxyTnh1YWhyWkdtZkNBdFVvVENMR0xNbnoxLUJwWXIyVHlHTWRrSV9kU05LZ1hFdnlIVGQxOFFCZGNVZjFtT2d5WW1CcTZHb0F0b1lPZFlqODhzc1dtWXhNYUNtR2FVUmxYMnBJOFZDY2ZpVjhWbm54bzg5Sm12bTNULUdOTU9uN1NsbjNBMEU3cnNjSllma3NlZk9WeURfVUVwcmd4SUdTUHc2cTFzWi1oZEh4Vmlidk9aQ1ZDSQ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-18T07:13:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
   },
   {
    "id": "794debe6385f",
@@ -433,6 +624,30 @@
    "first_seen": "2026-11-21T11:22:58Z"
   },
   {
+   "id": "4a9986e765bd",
+   "title": "Dorita Macharia death: Regina Re’s daughter Thandie to be charged with murder",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNGpWY3hoZTVIZnFoYTNINFJVRzA5NnRIWndqNjFBNENudS10S3JnUzNKWjV1Tm5JUHBicmVsWnQ0RjBWa3pMN1pZNElTQWtsRFdJeWVCczRYci1GWXltZjBiMVBfSGQyNUt3bmJxZTFoRlN4N1JxYTJ4cW4zQjdoem05SkluUDFoLThFSTB5a29TbGFjYjc1NDVkdlZyT1l5eURYOElNN05XakQxU1N5M0Vkd1FwUQ?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-17T18:14:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "764b61bcbfe7",
+   "title": "Regina Re: Emotional scenes as family views Dorita Macharia’s body",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRVM4QnRKMWlDR3N1UF9oZDBHMFZNY2NTVmtTeHZuWTR3amNEUHBVbmRDVDBTb1p4eDl1WjZSbnB0bXhHQzhkalp4T1IySC12N04xZF9QQk85ZzNGazRYcmtyckhkajNsSkp5djM3UFoxQkhMMTBHWjNINmJEU25OX0N4aDNoWUJfNzhOVUpmSVhTRUJHMVdTcDBiOUtpRm9Oa3Y4TkYwbFlTODNn?oc=5",
+   "source": "K24 Digital",
+   "via": "Google News",
+   "published": "2026-11-17T14:13:18Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
    "id": "3d9350c487c3",
    "title": "Court denies Regina Re, daughter and brother’s request to attend her mother’s burial",
    "url": "https://www.tuko.co.ke/people/family/647069-court-denies-regina-daughter-brothers-request-attend-mothers-buria/",
@@ -469,6 +684,18 @@
    "first_seen": "2026-11-17T16:14:05Z"
   },
   {
+   "id": "b7f17b0becdc",
+   "title": "Hull City coach provides encouraging update on Harambee Stars-eligible midfielder's recovery",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUWVDT29nQld3VFlTZ0tkaTF5bTFpekIyOXRkTWxBU1g4Mmh1cElBQzFEVTh5VHhrZE91SVY0eVQwdE1Kc2lnb1M5MV9VRERQejNmdzROMGxGZEJYVFJDOHN5ckhEN2lVNTdhbGRPTUQ1dnh5aWF3U2Y1OXZlU3U0QjJJM29HdVZUQzlFMjNiUDBiSlk5TWVKRG9JX1pwMzdtQjE1MXVtOVhVQ3R3dFljdzZXYm9HbFhncHlzZ2dXbEJMbjllTkZFU2plcF9Wa0cwUXI5U3NLSlNuZw?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-17T10:20:57Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
    "id": "69e4d0937790",
    "title": "DPP to charge Regina Re’s daughter with murder of 86-year-old grandmother",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ1FQNFlWdHpQcmdwaTlCcWhBaUsybk9BR0lNeXpXdFhFRGhpamNCWlV6eWVicVFUWjNnYVc1dDNkM0FZcHBIVGNkeHRyb21fcWc3MDk4dTlsQkxDOHNjT1l1bjVuR1MtbXo0OGR2THk4aTRYTExLdUpwMXFITWpQUFQ4UnBpMjEyMWluTkoxRFBEbU5iMm41STczYUpsZGxXM1JQQUNhVFlkMUFIUUJ4NjBzYUdNZGc?oc=5",
@@ -493,6 +720,30 @@
    "first_seen": "2026-11-17T16:14:05Z"
   },
   {
+   "id": "b510c40cea72",
+   "title": "DPP Approves Murder Charges Against Regina Re’s Daughter Over Grandmother’s Death",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZlctQ2VLUjFpeFcwRksxM28xaTlZSk9LSzk4REhlSl9BWkhuWnBpYl9XSUpxV2Z3d3JWUXFoQnBvWXNLdVprbmgzdWtmc3JEQkFVRkFnV2ZYbmE1R1I0VlpHUkFoZzhoYTQ1UEtJamlmSVlPWW80UWtjWmw4TmhmRWljdHFIM2lOT1dMWFowaWp6c2pjQlkxMDV2N2owMUEzQ1E2cFpobEVoUQ?oc=5",
+   "source": "Uzalendo News",
+   "via": "Google News",
+   "published": "2026-11-17T09:17:26Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "0a4b056d41b8",
+   "title": "Fast-rising Harambee Stars striker opens up on chasing Michael Olunga’s record",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcmZhT0JkdlB2anlXTFF3Qy1WMllpSkE3c2U3ZjFIdjV5NkFuLTBJR0RhOTdxUzN5NXhzcGZwb0tWTzR4a1NhR0V0X19oZndwM3RXT3AzSDlSeWNfMVplbTZuTmhXNzBHY0lLVTc4LXQ3RWp5X0VJLTdvYWMwU1hNZEFYcU54WG1WakNXNF9JTnNiblpmUXVaNm04X2ZxSHhCU1ZwSkRWZ0FCYngxaVB5Z2prdG51RlBNcEI4U0xUaElNTXpZOEJZ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-17T06:04:57Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
    "id": "f3a949d96243",
    "title": "19-year-old killed in gang fight in Kibra, Nairobi",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxS0o5THVIT0o0Vi1GTEpETlJNcjdzcnFINTFsWEkzM1Y4SGRCVkZrNHl0YkxyamE1UHE1T1NPNVFzSUw2MWVCMUJyMEpacjZqRzFMeHg5R3ZjY3V4aFA3ZE9WMnNZbFFoMlEwYzc5TFZNa2lLQlpwQUU1bjF2LWvSAYcBQVVfeXFMTVhLWFhZUWJvX2o1UW9pLWVZdDhLcjZZUDZjZ2E2UU5LQWh1SkdaUktmY2JheTQyVGI0WGNUcmdCOFF2YlY4dWVJdmxQWW45Q0htOWktOVB3b25RTFdINExfc1VjdnhtSkR2cHgza3dTbkRtZnViZDlqMmN5aGt5QWNHUmtrYzJB?oc=5",
@@ -515,6 +766,54 @@
    "summary": "",
    "category": "Education",
    "first_seen": "2026-11-16T19:42:18Z"
+  },
+  {
+   "id": "8b859807f4ac",
+   "title": "Ruto commissions new pre-school in Narok, reaffirms govt commitment to early childhood education",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTFFwNjdvdnpnbXo2OVVaSTBPTWNxNVZITkpxdU9YXzkyWGVnTlpXLWIzTUxsMS1TZU8ybXQ4ZmdkZ3hmLWMwMVVuTUxVSEJlRVpsN28waXkxMGM0TDd6eklFdTBXemVudGY2Q3NnYjh0TTM1ZFhzUlUyUGdQZnE1T201b3E5QXJjMzQtQ1M1d0FBYTVYSlhPeEFSdy1pMXRERzJ5SlBaMFlod01zZWVkamF0S0JXMnBvS0wyN2RDYTRTTzJ0TFhj?oc=5",
+   "source": "Education News",
+   "via": "Google News",
+   "published": "2026-11-16T08:57:35Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "2d8c79bbd4c5",
+   "title": "Teacher Julius Ndurya deserves recognition and promotion for refusing to sell his conscience",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaUZ1c2wwSVdHNFhTSWxINmRiQ1Z3LVpUemFTbmozaXpnY1dYd1pESU1XeUpEbGlsNFdYTURHZFJMY2VzZWhzQ2xLYzBZNWJpbTlzYmRnU3dIYUo4VzZibF9jWHBuZWlfLVBLaEthcnpfdmEwOGx5clBvUjR1Y01CR0xRWElNckF6c2JLaEFuMm9lNlRuYmFpM25vSFJ2TS1RcWVKemxBOEczMzNPVzJHNlVTYW9xSi1UR0Zpd2tyRXpabWc?oc=5",
+   "source": "Education News",
+   "via": "Google News",
+   "published": "2026-11-16T06:39:22Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "27c7f6463ab3",
+   "title": "Samburu teacher wins hearts nationwide after baby-sitting KCSE candidate's baby",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYkVqdWxGSEo3UHBZVml0SDQzcHBOVEh2b05GM3VPcHZ0Z0NYZjlNR0VRZmJBanlGUVk3Z3p3dThERFlnb0xEUkwwTEJrS1oxeGhmOEhlaC1zZ3F2Ym83bnEzR2R4ZlhldlNnbGhQZEdxMW94MHRQc05YWWtDQWI1RVVTZEFoN2FMa3pMVVhncUVpRF9iWmt2VGtFeld3aW5FQjFDeE92NWlZbm9PQ2hGLQ?oc=5",
+   "source": "Education News",
+   "via": "Google News",
+   "published": "2026-11-16T06:13:46Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "831f0370af29",
+   "title": "Ivory Coast release key defender ahead of Kenya U23 return leg",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd2xwYzhoVWMzb3dSVVh4U0hvbFlKNXJMRlNvLUJESDJQd2VyZUNwYnVaNlZfU2lzaF9XSTBKSWJGVFFlVUs3ZzcwNlNISlNzT0l3ZDh0b3JBd2NtUUtJbjBJODlXd0V0V2FiLTR0WU1kOTd2emVlMmxFZ09pd083NVplazFBTW5sZnRPeVk3dzRnOVQyRzRaQ3lqWnlSYy1mSEtVMms1R0J0dUpycml6WmxVNA?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-16T04:38:53Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-22T19:49:39Z"
   },
   {
    "id": "06666c2cafc5",

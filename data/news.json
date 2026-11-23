@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-22T19:49:39Z",
- "new_in_last_run": 25,
+ "generated_at": "2026-11-23T01:49:51Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 55
+   "found": 29
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 55
+   "found": 29
   },
   {
    "name": "Bing News",
@@ -19,8 +19,9 @@
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-23T01:49:51Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-23T13:10:30Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 29
+   "found": 31
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 29
+   "found": 31
   },
   {
    "name": "Bing News",
@@ -599,6 +599,18 @@
    "summary": "Kenya's anti-graft agency arrested a Kibera police officer over an alleged US$385 bribe to record a fraud complaint, the agency said on 18 November.",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T20:41:13Z"
+  },
+  {
+   "id": "98cb2cf7ab67",
+   "title": "Politicians Among Nine Dragged To Court Over SACCO Theft",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0hzckZEZGFnTTdQQ0NuQ1FCbUtQMXJJWG03MzVoNlBuXzZIRFQ0R2VTV3h1emRzeWR0WE1RZFdOMHZ4TDQ4WDlCWlIyQmRubWlPWnNPN2QtcUkwbVdlSlRiS3VCZUZwWHdMSUluV0NMSlFLU2ZwZ2tVejdMeWdrNVpVaFdNOGxSN3hVaTFpcDRJOE0?oc=5",
+   "source": "The Kenya Times",
+   "via": "Google News",
+   "published": "2026-11-18T04:41:59Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-23T13:10:30Z"
   },
   {
    "id": "df204d537d62",

@@ -1,21 +1,23 @@
 {
- "generated_at": "2026-11-24T02:19:05Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-24T13:56:26Z",
+ "new_in_last_run": 0,
  "sources": [
   {
    "name": "Google News",
-   "ok": true,
-   "found": 31
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   },
   {
    "name": "Google News (Swahili)",
-   "ok": true,
-   "found": 31
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 503: Service Unavailable"
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 12
   },
   {
    "name": "GDELT",
@@ -44,8 +46,9 @@
   },
   {
    "name": "Nation",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 404: Not Found"
   },
   {
    "name": "KBC",

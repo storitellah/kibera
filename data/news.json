@@ -1,23 +1,21 @@
 {
- "generated_at": "2026-11-24T13:56:26Z",
- "new_in_last_run": 0,
+ "generated_at": "2026-11-24T23:57:02Z",
+ "new_in_last_run": 15,
  "sources": [
   {
    "name": "Google News",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "found": 56
   },
   {
    "name": "Google News (Swahili)",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 503: Service Unavailable"
+   "ok": true,
+   "found": 56
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 12
+   "found": 11
   },
   {
    "name": "GDELT",
@@ -46,9 +44,8 @@
   },
   {
    "name": "Nation",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "KBC",
@@ -62,6 +59,90 @@
   }
  ],
  "items": [
+  {
+   "id": "79311c1af302",
+   "title": "Starlets name 29-player provisional squad for Tanzania friendlies",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaVZ5OWZYUVZjWFhPY09zVjFfLTh5S1V3UmRPVmUxZUlzdUtYQmNCenR5YWVrbVQ1NF9QSmUzQ2ZlcDVTaHN0VTZWY1Qwa0hZZmZTVUIzMVRHY2ZoVHg0MTZJQnJ4Wmk1X01lVktRY0JrX0dmbnBPRmYwYXk1ajYxb3FtQW1aZFp0QWdSMUYyLWVGczM4eEc4QjBSQnZUX0xaZUhaWWZYR2ExZkhRRGN6VUhYckI?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-24T19:40:09Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "7376b1c205ce",
+   "title": "How a feminist lens is shaping my climate reporting (commentary)",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ2dqR21ydzFFSVA3UEJUQWlCcHAtSmFTRkxOUnVLOXloRTFkYTJFdzFGcFdNakc5UWIwSTNEdzM2b3RzX0w2bllaUHRkQ2FuelJMMnNjRUdJZG9EZk1YdVU0VmViR1ZoQlFvQjdGRGd2SVNDMXd2WHBvNlVkSDJOZF8yZl9mWmxHNTNhRHJWaU5XOXktbUFxazdndGRPc2c5ZW1V0gGjAUFVX3lxTE9DZ2pHbXJ3MUVJUDdQQlRBaUJwcC1KYVNGTE5SdUs5eWhFMWRhMkV3MUZwV01qRzlRYjBJM0R3MzZvdHNfTDZuWVpQdGRDYW56Ukwyc2NFR0lkb0RmTVh1VTRWZWJHVmhCUW9CN0ZEZ3ZJU0Mxd3ZYcG82VWRIMk5kXzJmX2ZabEc1M2FEclZpTlc5eS1tQXFrN2d0ZE9zZzllbVU?oc=5",
+   "source": "news - Mongabay",
+   "via": "Google News",
+   "published": "2026-11-24T18:35:59Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "39ade4f5e5e2",
+   "title": "Oduor Names 29-Player Harambee Starlets Provisional Squad for Upcoming Tanzania Friendlies",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQR0tiR0gwbnVKVUo3Yk1GOW9GaVhqRzVjUVU2R01vNmFJR3liRktDN0NjWDlGX1dUMDNJVGlMSHp3bWhjT213ODhWUEdxcjRpTi1oMEJRRkRObVo5YzN3bGJBclN0V0RjU0hhY3llUE9FbFhIcFlBNkl6ajhIMzJMWG5keHZvSGtMdHpjOUZXTHRrUUozRk5sY1dVc2RNVHBzOEpFRnZNZ1laLVppVHRsZjJuWkFMN2p4RVNmb1Rn?oc=5",
+   "source": "Football Kenya Federation",
+   "via": "Google News",
+   "published": "2026-11-24T17:17:40Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "4232c07275e7",
+   "title": "Patrick Ngetho Muchiri",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWYml3OE02TG5HQjhGenRWVUoxaTZ0SjktNUxsaWgyV1NlV0k5TXo2NUNWLURoX0JKNUxtejZrdW45WEhoNkNPX3BibXJFdm5EZm5pQzk2Qi1HU2hmWkd3bQ?oc=5",
+   "source": "Obituary Kenya",
+   "via": "Google News",
+   "published": "2026-11-24T10:38:26Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "81f259d409aa",
+   "title": "1,500 passengers every 10 minutes: Govt sets date for completion of new Nairobi railway",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX1Z0YmpGWnJfdm5qSzJZdmtqOXN5eHhpZmRpMEU1MlZJb01mUEl3WVpVMXBkc0FIUlFTdzRVTnQzd3JlZ2V0WnpaY0hZX01WNzZYUnZ0amRRNUpldkxYUkV5UkdnSlNjZjNSeGN2a25XZkI3OGU2cUl3LVA0aHdrU0tQMG9RZzVOMmFrNkdLMHc4RjJmd2lyY29vZno1RENSNVdYRUlfVUlUVE1nZkt2ZTV4REEtNVZm?oc=5",
+   "source": "People Daily",
+   "via": "Google News",
+   "published": "2026-11-24T04:35:34Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "10fc817912b3",
+   "title": "When schools close, holiday camp becomes home for Kibra children",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTjVERTRlZVZQSmc4V25mdUhHWmhHS09LMmtUdWpnVU5pQ0xYaXp2U2lTbndWTXpaR19uQXd3NURQdFUzUFlzQkJZMjMyT0kxcXpXRWZ4Y2dHZU45ZVNIVktaaGpneUJ2SU9KZ3J1YklBdU9vVHNyZVUtNFUwZ0lyQ1Q3NGR6OFNCdFlUeE1YLWtsTV9fY1hOZFRIdi1oSGN0WXJIVU5xOEtJRnk3S2Y3TjV1REYzaDFkVDVNY2t5Q3VBQQ?oc=5",
+   "source": "The Standard",
+   "via": "Google News",
+   "published": "2026-11-24T03:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Education",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "762cd4a03a7c",
+   "title": "NSL: BB FC, Nzoia Sugar among biggest winners as Sofapaka begin promotion bid with victory",
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRTRsdEtFUlVvODluT2hjOFNsbXp3MnUzZVg1U1c2V09tcERKSkZYT0xzNldWUjJNT1N2dnJ2Q0JvNXEybkFRLXFZQ3RseDVGYy04Q1ExNFU3dVhIM0dfVUJlRkZ0UEVnMHN4VmhyTE1ndW1MakdNbEMwc1ZxRmVfQ2QwSm5oeVFjMzZQVjg3T2FSRzFENWFJQlNWRHRUc20tMW5UOF9zWmFhd05fZlk3MmE2c29abDRnS0VWY0NDT3JpTHBfbV84RGkxeWJkNWtZTjctNzd3?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-23T18:01:35Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
   {
    "id": "1892447feb62",
    "title": "NSL: Kibera Black Stars coach outlines season ambitions",
@@ -109,6 +190,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-24T02:19:05Z"
+  },
+  {
+   "id": "9ce1c22e39e0",
+   "title": "Kenya’s internet metering bill raises privacy and affordability concerns",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQR0NvQ3NrTncwUlhUZmVzOW5BaUlIaXEzenhSSHI3YUZaTkFvTFU2azJUR1h6TkZndnJjb085bXFjNU1pOEh2Q0p5Tk1FcUJEdzBZYk9PLXBrOU80WnZmWjNJRnl4aTBwbG1aQ2Y2UGxwM0lyaTlSZGp0d0x0QlIxTU1LdVhoTFJIeHpnZmtNbUoyU0tST1IxTU0wTlVzbWJKaEp2RlY3bWE5a0JHRjE4VWhjWdIBuAFBVV95cUxNUGNzc3VpU0tTTjAtcENjYnBmLTNmYWE5Ul82V19SdW5OZ0VpTzd2VHdqb0h4dDVrenBVT0hIT0xxY0lSUzNrNnR6YWtZWE1BVDhyZkVpNTlEUU53c1pqSkZNeTg4NnA5cWZVY0tLZ1BJdUZnS2xZUnNvQjNOQTJROXNJMFpnUkpSSW0waHFUa003X0czNG0tbWRaVFBCR1MzTGtXbUU3bUM5eDJqMWR1MUNrV2h0Tmkx?oc=5",
+   "source": "Al Jazeera",
+   "via": "Google News",
+   "published": "2026-11-22T05:40:43Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Infrastructure & Transport",
+   "first_seen": "2026-11-24T23:57:02Z"
   },
   {
    "id": "77d170472e50",
@@ -181,6 +274,18 @@
    "summary": "",
    "category": "Business & Jobs",
    "first_seen": "2026-11-22T11:39:26Z"
+  },
+  {
+   "id": "529a137168a9",
+   "title": "Who Is Regina Re? Inside the Life of Former TV Star Linked to Her Mother's Murder Case Alongside Daughter",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPY2xvdGx5SnJ3S21MOV9DdVhCSjJBeWtXMUdpLVRFcXRMQzhOWGR1SExFOTJaRVJoTEJnMkpFRFB6QmVRaXJRNzNfd2F6SmdoVENlaUI4WUlBMDlYUEs1QmJWNW1qWC1YWFJ2R0VFdVFmbGtydDNydE9ocElaY216d2VwYWJtWkp5SWprckV6WW9OeWpKeGpfSHBIN3QzNWREMFdzRHhqQWRmSXFjVjAxc0NZbi1RT25xRnBTS2RaUHg1dG5KNWRfbW1ud3dXbS1TUllUeWhOdklaZS01X0Y5bDd5SWp3N2t3?oc=5",
+   "source": "Pulse Kenya",
+   "via": "Google News",
+   "published": "2026-11-20T09:03:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-24T23:57:02Z"
   },
   {
    "id": "597a78278b94",
@@ -291,6 +396,18 @@
    "first_seen": "2026-11-19T11:51:51Z"
   },
   {
+   "id": "df90d5d27cb5",
+   "title": "Stevo Simple Boy Shares Progress Photos as He Begins Building a House for His Mother",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU0FZN3k4VXFkX2N2Vlo4YVZWeE5sdDVzbGIyYmlRN2RoRl9naDMxd25ZOXVrNjJwdmg3V1cySFlEOUl3bXFKc19GSzkzaF93SGlqcTJqcGxVdXdNVEMyRnVuaHhJVldxX2NTWUVWZ0RDR2ttSW5QaC1qMjZaeld0T3ZCSjRPWXRPTVZOQ0JZdEthRHdlQmVCWEJvaFlJaGxXb2pXekF5WkE?oc=5",
+   "source": "Mpasho",
+   "via": "Google News",
+   "published": "2026-11-19T07:56:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
    "id": "80d00a591308",
    "title": "Regina Re’s Mum Was Scheduled to Move Into New Home in Nyari Estate, New Details Show",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEItTnlkUVVXZkhJU1BuM1dSelFEYXpRNHlMRm40NjNTbHI3RzUwR2l2dzNTc2dkRGxhZ0dGbm1oUy1WUk4yRUYtRTNCMy1mZ2ZRbnlOcHlMMVczdnN0VzZoYkVVUnI0VGxiRG1yRmY0ZWhHcGlZcHZ1WFNodjFzZmZsajV6TDkzN1Z0Wm5xOTZLZnQ5aEZaVjRJT3Y?oc=5",
@@ -313,6 +430,42 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "590d9ab53579",
+   "title": "Thandie Gitao denies grandmother’s murder as court orders assessment",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE10QlBLQmtUdTlzTy1mRDhhRlpibE1NdVNCSFBDekNLcmpnS254ejcxcTRac3Vvc1dDS3c0VE52ckVCZXZWdWI0YU50RXk3Rmo0UmJ6Ylc5RlFIUnV6ZmJWdlBjRk1rVVY0NHlfUWJSYm12Ql9VQVJPbnZ3?oc=5",
+   "source": "5050 Markets",
+   "via": "Google News",
+   "published": "2026-11-18T22:34:09Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "b9611dfd7af9",
+   "title": "Nairobi City Thunder BAL qualifiers game schedule released",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbUczUl9vNEp2WlhwRmRoNnlzdjZoa0NCS1dDeUdqNl8xUVFFQjU3QTdkSFNONktWX0lOMnF5U25NVlVuNzh5aG4tYklpX0tYb25UQkRfRnVJQmNXUC14eEZDQ1JHazF4ME5fcC1fRUVJM2hyczhGZ2JFZ1RVRUpIODNzd2NidnF1Z1RIWlJ6YXMyRnY3Q3hVNWJRUXNNMW10UVdPNDNMZWtCY1ZBb0liQjdKMA?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-18T21:13:29Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "ddc7c33fdca8",
+   "title": "Thandie Malaika denies grandmother’s murder, barred from burial",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0NjhMSzA3RTQ5eU1WV3NtQWtNZkVRdk93dThKTXpaT3NoVFBCS183THUyZnl0bUFOS3FYWGpWVTViZXFLTzBQYzN0NVAtS3c5ajQyb0pMOFVvcDhpVVVBZG9OYzNFV0hPOHZLVw?oc=5",
+   "source": "5050 Markets",
+   "via": "Google News",
+   "published": "2026-11-18T21:09:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-24T23:57:02Z"
   },
   {
    "id": "ace18c99fa1f",
@@ -421,6 +574,18 @@
    "summary": "",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "5105e10791ae",
+   "title": "DCI Officer Arrested Over Alleged Ksh 50,000 Bribe",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOWlpZFN5TGJmVy1RSmZtcW9HaXdYaTRkUGQzbXpNNXFrd2xpSk85TGZaTkRnYUJFVmdKX3Y5N3VjSlhFRGxjcXY1RmdubGdNdktCcU0xWWd4anBXMDVBQ0VRN1BESE91MF9pemJsYjhFSkZ3NWtRbTk1QVpTTnFvNkZVMHRWQdIBiwFBVV95cUxNbjJ3LU52RDBrTTczNEVMYlhfRngyVXl6VEl0WEVwalN2VGVRX3ViMjVucDBUc0ZyZ3k3azVYcDcyVm5DN3BGUk9QMlVmMzlWR3VCQktwSzRyOVBFVDdoc25MSjF1Z0pVRG1VU3lzTkFEa2JYT0JLeGZldFNsWWp6V2I2d0kybF9zSjVz?oc=5",
+   "source": "KDRTV",
+   "via": "Google News",
+   "published": "2026-11-18T10:50:14Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-24T23:57:02Z"
   },
   {
    "id": "80dabd86aad0",
@@ -601,6 +766,18 @@
    "summary": "The Ethics and Anti-Corruption Commission (EACC) has arrested a police officer attached to the Directorate of Criminal Investigations (DCI) in Kibera over allegations of demanding and receiving a Ksh50,000 bribe to record a fraud complaint and initiate investigations. The officer, identified as…",
    "category": "Crime & Security",
    "first_seen": "2026-11-18T11:55:32Z"
+  },
+  {
+   "id": "6d7052640c31",
+   "title": "Tragedy as 19-year-old killed in gang fight in Kibra, Nairobi County",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOR1NhellKeHNSUmVpS2ZfV0ZiYVhidWdaemd6Y09hQU5SWGpXbl9QUnZEQjBYMFhSZy1xQV9NeUJoR1NkNXBfMlhzQk1qWmVvR01TUlVPU2xBYlAwLU1iZnVjc2RhUHQ2RFFPT3VfMXNYZzI5eUk2RWJSSE5FWGpCWjZmUGFiT1BHSGVwXzNQVnMwVk5ua0ZzLVNLcw?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-18T05:30:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Fire & Emergencies",
+   "first_seen": "2026-11-24T23:57:02Z"
   },
   {
    "id": "8d3c0197785d",

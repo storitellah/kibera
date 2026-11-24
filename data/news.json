@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T13:10:30Z",
+ "generated_at": "2026-11-24T02:19:05Z",
  "new_in_last_run": 1,
  "sources": [
   {
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -95,6 +94,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-22T11:39:26Z"
+  },
+  {
+   "id": "ff5db52de22c",
+   "title": "News Comments WPL: Ulinzi Starlets chase perfect record against Shabana as Kibera seek redemption",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVERUSjl1YVJkXzlWN05tRFFKNHNxTXQ0OUNUdFhLVTQ2bGRzeVh6NnJPeGlCUjM0ZnE5dGRQWW9fQ013dkFrUkxYRVVGVEl2UzFNOVpIMHdnN0ZvUEJJWlZOdXZXSEl4ejdfSEpsczhfMFpVVjExOGltSUx6dE9XdmRJdjQ0SmZRcHhzT2xrNFdqOThyRFFlbFNGdzM0bFZjbk1FU0RBN25jZmZxa18tZE1ZV3FldTdkdnhhenEwbUh0QTdZbDZyVUtBTHVHU2ZGX3dhX0s1SlNmZw?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-22T07:10:18Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-24T02:19:05Z"
   },
   {
    "id": "77d170472e50",

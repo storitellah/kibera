@@ -1,21 +1,21 @@
 {
- "generated_at": "2026-11-25T08:49:26Z",
- "new_in_last_run": 10,
+ "generated_at": "2026-11-25T19:25:15Z",
+ "new_in_last_run": 12,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 54
+   "found": 52
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 54
+   "found": 52
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 10
   },
   {
    "name": "GDELT",
@@ -55,10 +55,82 @@
   {
    "name": "Ghetto Radio",
    "ok": true,
-   "found": 0
+   "found": 1
   }
  ],
  "items": [
+  {
+   "id": "2ac58f526e60",
+   "title": "Between Fear and Choice: Why Teen Mothers Struggle to Access Contraceptives",
+   "url": "https://ghettoradio.co.ke/between-fear-and-choice-why-teen-mothers-struggle-to-access-contraceptives/?utm_source=rss&utm_medium=rss&utm_campaign=between-fear-and-choice-why-teen-mothers-struggle-to-access-contraceptives",
+   "source": "Ghetto Radio",
+   "via": "Ghetto Radio",
+   "published": "2026-11-25T18:39:31Z",
+   "date_estimated": false,
+   "summary": "In Summary Teenage mothers in Kibera and Gatwekera report discrimination and financial barriers when seeking reproductive healthcare. Some say they experienced prolonged bleeding and other complications after receiving contraceptives without adequate counselling. Community organisations are raising…",
+   "category": "Health",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "11d0a475f559",
+   "title": "SABINA CHEGE recounts how her iPhone was stolen in Parliament by a fellow MP – He was captured on CCTV!",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdXRZdFI2czlzbzJHRWdfejhuZ2hhLU5vVlZ5OW9Pb05fcnZFWWxockxWNkhGQl9VT1hDOUl6TFM4Z2R2M1lOWkpUQ2prSnZZZjdJZlF0ekloNENZRlZBa0RHSFdnSHAya1BzUlRTOU9yWEg4MnI4b09oMGZ2V0ZPczl5MA?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-11-25T15:03:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "5e085b1fc82b",
+   "title": "Evidence Kwa Kalatas! Kibra MP PETER ORERO named as the MP captured on CCTV stealing SABINA CHEGE’s iPhone 17 in Parliament - This is embarrassing (PHOTO)",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd1hIdDVIWFhYdHNxSG5ocFlpWnFneXFuOE9XdGNkZFFBdU9sdWFNbjVKVVJPRUFKRFQtWWpYcEVoY2ZNb2FPMjFhLU1NWU5kUi1NaFRUTi1uQkQwZXVpTXlFTVQxTUk3LXRSZjZrdXVHMHJYRXJ6TlVDaHB6V1pYYTB3?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-11-25T13:14:46Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "0f614221481e",
+   "title": "𝐇𝐚𝐫𝐚𝐦𝐛𝐞𝐞 𝐒𝐭𝐚𝐫𝐥𝐞𝐭𝐬 𝐒𝐪𝐮𝐚𝐝 𝐟𝐨𝐫 𝐍𝐨𝐯𝐞𝐦𝐛𝐞𝐫 𝐟𝐫𝐢𝐞𝐧𝐝𝐥𝐢𝐞𝐬 𝐚𝐠𝐚𝐢𝐧𝐬𝐭 𝐓𝐚𝐧𝐳𝐚𝐧𝐢𝐚 𝐧𝐚𝐦𝐞𝐝 Harambee Starlets interim head coach Godfrey Oduor has named a 28-player provisional squad ahead of the national women’s football team’s Novem",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQb1ZtdGZEVG5nb2g0Rk5ndmpNM2IyOTJrNVMwM3FBTVRPODNwZ09QZThEUFRLX2R2QnR2b3E4aDZ4OHVIWGJFYzBwSXk3cTJKb1pjMEhPM0tzajBJaDFrX0hFX25qSjRmdnNjREZfXzQxRkNoalEwVVIzYTlkVkt2NkwtREpadC1TZUk3MWFnck9yZnRaZUh3c3VON25MNTZtYXlCS2pBYzlIclZtUkxkZ2lqejBweVJEZ3JPZVBxaE54TWpaeFVGd05JcWlCYWZNcVpHQ21wRHI1bERVU0E?oc=5",
+   "source": "Facebook",
+   "via": "Google News",
+   "published": "2026-11-25T13:13:49Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "ef7eef63a78d",
+   "title": "MP who stole Sabina Chege’s phone",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBMaENFVGVtS2tnM3JCb3o0dnpJZnU5UHJnSUJoX00xcEl4d0t5RUF4d09ueEdNTWR3WFQxcnVTcHZoUkVYQnprRjYzemlRd253RnhSY2V5MF9rUnNwa284MkhqazU2MzFIS2k3SldEdUxYaDZKaU1r?oc=5",
+   "source": "Venas News",
+   "via": "Google News",
+   "published": "2026-11-25T12:05:41Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "4669231bfb3f",
+   "title": "Wetang'ula exposes MP caught stealing colleague's phone on CCTV",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdnZXa2pUaEhldjl4WnBkdW5WbTZrd1pRVWEzd3lZeUw2M0Nza3lOak9HdUU1NkN3eEE0b3lDVm94ODZiaUJESUVOdG1RQVl5UkxjSUduSHkwMGZzY2pwZWFYSUQ4ZUxZTWVmYlBucjZWbkdUTDB5QWlieXNiQlN4bWg4eFhwdWVTX1JnRXdBOVdJd29lSzVOX2NDbThmM2NseTdUSTVMUll0RDRFQjBJUDlB0gG3AUFVX3lxTE8zeGdfcUw5ZUllUVVkb3NBbEdKMHlqd1dHZXc3VGgtTWtIcXRpSG5ZdHBIbmJmNXBMVzhvZnpQOTg5VlhidldRUHEwLW9LWWpnWHRDdUJ1R1NzZTM0eUlRSnZSQ2N6dFpLRVM0dXhsWlo4Uk8zaXBvMFk5c3Z3dGg2SE1ZeUV5dTFsenp4OVBUZWxfRHYzUnZfWXJyT0dCT1JjUlIyWUVrM3U0V0FfWXgya1pWblRoVQ?oc=5",
+   "source": "TNX Africa",
+   "via": "Google News",
+   "published": "2026-11-25T10:16:54Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
   {
    "id": "ad3244ad1f0f",
    "title": "Talanta Rail Link Set for December Completion, Moving 1,500 Passengers Every 10 Minutes",
@@ -192,6 +264,18 @@
    "first_seen": "2026-11-24T23:57:02Z"
   },
   {
+   "id": "61b4a849120f",
+   "title": "Virusi Mbaya – Early Ma | MP3 Download",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yWC1iMWEtVjVYczJVTTd6RXo3T1k0Q2VLejlJZ2g4N3FvR25zdEM3b1pZTEh6d1dXQmtpZkpLeWlTOFkyVG5kRDlfSmxPOTdONF9QbmgyNFYzSUVHRW1RZlBzQzQ?oc=5",
+   "source": "Voxtrendy",
+   "via": "Google News",
+   "published": "2026-11-24T00:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
    "id": "762cd4a03a7c",
    "title": "NSL: BB FC, Nzoia Sugar among biggest winners as Sofapaka begin promotion bid with victory",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRTRsdEtFUlVvODluT2hjOFNsbXp3MnUzZVg1U1c2V09tcERKSkZYT0xzNldWUjJNT1N2dnJ2Q0JvNXEybkFRLXFZQ3RseDVGYy04Q1ExNFU3dVhIM0dfVUJlRkZ0UEVnMHN4VmhyTE1ndW1MakdNbEMwc1ZxRmVfQ2QwSm5oeVFjMzZQVjg3T2FSRzFENWFJQlNWRHRUc20tMW5UOF9zWmFhd05fZlk3MmE2c29abDRnS0VWY0NDT3JpTHBfbV84RGkxeWJkNWtZTjctNzd3?oc=5",
@@ -238,6 +322,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-22T11:39:26Z"
+  },
+  {
+   "id": "06f5882105e4",
+   "title": "Kibande explains importance of Nzoia Sugar winning NSL opener against Mfalme",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSHdRYkdCVTdLNnhHeFpRYi1ZSHBoaEJNZUo4MDVOa1Zzc2hjVFd5TnJzVjI2Vm90OFdTbHZQYm10U0NzZ1dMbVd5akdQLWU3bURodTl0LTczQUJCbkNOTEJuc29wNzhZeWlaVTdvQ2xHeVJjd1o5ZVRsWl9Mc09oTWM1OG41Z280VFVfOEVVaUdYcnIxOXBQX2NTaHNzaHdEV0FjaVVZaU8yRGNrZ3RPeGxTbGpYTE9jYzJ0QXBSUDdOZWYweWc?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-22T09:04:54Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T19:25:15Z"
   },
   {
    "id": "f173ac8f547d",
@@ -298,6 +394,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-22T19:49:39Z"
+  },
+  {
+   "id": "758b00e65f4f",
+   "title": "Senator Kajwang’ urges opposition to respect IEBC",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU1ZIMVhSVThVcUZhb3N0X083TEgzUkNKd241eWtKdU1fQzBUZlN3end3TWN0ak0yaUEtaEJaRjBvTzRBU0tIaVRORVRRRWRDeUxQYXc2Vl94aG0tRUJFM0F2YzlCLUxwSFdnSWJjNHFkeVJEOEFEMTQzM204RUVVNjNDaU5Jdkp4d2NPV3BhVE9MQVVEUUdR?oc=5",
+   "source": "Radio47 - Hapa Ndipo",
+   "via": "Google News",
+   "published": "2026-11-21T19:39:19Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-25T19:25:15Z"
   },
   {
    "id": "a527dcca4bb1",
@@ -396,6 +504,30 @@
    "first_seen": "2026-11-22T19:49:39Z"
   },
   {
+   "id": "974a4e18c46a",
+   "title": "Aluoch backs Mathare United Women to bounce back against Trinity",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaWltZXp1NmZNaU5lWTdPTi1iWUdYd1J1OE0yZjM5SDhMcmtGdE5YVngwZkw4TG9pZTRLTF9EdFZkTHFOeEtlNjNPZHk1RVlRNTd1QXNGakViN0s3M3JKUVJnQm9wQjI0Z09aWHVmUnhZV1ZYQkdFMEJ0dWZhb0pJS1pNQ2Rlc3F0bFpSZjh6aDdJcXMyWTZRSmh5MlRoZG9PWHdiaHBCMA?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-20T08:13:42Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Community & Development",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "582b41af0bea",
+   "title": "BETTING GUIDE: Liverpool vs Manchester United, Match Preview, Team News and Prediction",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORmEzTnFqVU1CNlE4bXY0ejJxeUVrQk5vQklsWGRiN1VBTkRwcDNUOHBabTF0YjJyS3drc3pMRjZHbk5hOThQOHZnQzJOemFoYVlVOUh0U0tfWGdVRnlINnNHcUcyYWoySEtxY01WLU5leS1vTzB1aXpzQ09WTjY0eWxKZ3NoZFlTNTJFMzVwVUZXR1NsWENsOXBoWF9LTUdQcGdTRzBMVWpyUHZFNS1vTkpZWkxtMWw4MlViejdCRURvUVM3TjVad3lsWFZ1dUE?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-20T08:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
    "id": "a8755f4e051e",
    "title": "𝐊𝐞𝐧𝐲𝐚, 𝐂𝐡𝐢𝐧𝐚 𝐜𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐞 𝐢𝐧 𝐭𝐫𝐚𝐢𝐧𝐢𝐧𝐠 𝐜𝐚𝐫𝐞𝐠𝐢𝐯𝐞𝐫𝐬 𝐟𝐨𝐫 𝐠𝐥𝐨𝐛𝐚𝐥 𝐉𝐨𝐛 𝐦𝐚𝐫𝐤𝐞𝐭 Kenya and China have strengthened their technical training partnership, following the signing of a Memorandum of Understanding (MoU) between Kibra T",
    "url": "https://news.google.com/rss/articles/CBMivwhBVV95cUxNSE8yaVZTSDhjRDJPNXk4WEptLXpGcEFDRjhEVGc4eHV3ZzJidmdxNFU5Ymo0MzBVbFdRQzdPOHBsQnRBXzdoV1NqVjQ5dUVLVmFYSU1EbWl2Tm96LXlCcFN2Sm41U1hqZTRwamhNdHQ5enJSX0JjUkt1SU50RWN2eDJienhGRVEydGQ0U0xIZTZvaEl0S3NJclVZX3VQRnlLYk9UQnRSazZZVURVSFpzZWM3QnhYUEhBczRIWmpVWmRGbWlkQktGMDhaejVzMmFxSnYzS1lieW1TSTM3RzhFNlFtTV8xWXROSE55Y1JkN2lHMVJCVjZ1SVFDOFFIaEpNZ0hCR1FWeWE0WnV3dXVKRzJtN3hmYUVLU2d4b1pjWUxzMDY4dGMwOTdUSV80bGNLZzFEMlJEd1pOMEJCeXRwMXMzMEtmMEg5R2tScUp4RnlKN1g1R2pOUTI2eEd6aGMxS19DRV8zNE4zOWY3c1hLWGlSNzZuWktzRXBfNGJwYTh4SVdMdmRYNXpSZWZPTG1TV0k0ZGNORkFjdGZVRUpyV0Zma19xREJoX0EzdVBpUVNqaUxUTUZmQUNNMmpIY29URFJYLVpoTFhNZnNOcmxib2lrOURDd29tR2x3ekVJVk1NdDBvQmNTdUFPRWVTaHB5SDlBVmxVQXpqSDlsclNiS1BMRmRrRzFqMlh2RTl2Z0tQWE9BM1Q0WWRFYk4wY3NFNGk5ZlhIT1FIdzN2WHppT0lYZ2VkVGFVdHhJN1BqYm1zek12NXdOYXFfYUdBeFlINUxpYW11alFRRngzeGo2aGhGcV9UNTZ1VE9xV2ozYnJCaTE2MmRwQVlFWjhLV1R5dl9WbzV1YTBVY0ltTkJKLXl6bzNwWDUwSjR1ejUxb184bHhWYkdOZzhONHBMNEViMW5ad1lKaTI3MHhNYzh5REZjZzIweDl1VlVvWGYtMkJ6dVRyNU9sOEwyeHlhMmV0bVU2RS1BV2ZMekJybzlNMHk2QU04MHhuSEQ1bE1Fek5ja1JxVHZrQm9fdUtTOF8wdE9BN3Y4X1AwemZNT1VOY0FXSjBGcHFFd2hZT0VlcGdzWTl0bDBjMUJTT0N6TGgzb0dqT1JmLVJ6ZVRSRjZSNE5DV3RWOXNldGFOb1hibXVsTDBaZFBfa0lVNFE5c3Y4dFUwNnhzcnNhX2ZXOUZmNW4xcjkyZkEtOGNxTm5PVl9RLTNWVTM3ZVhiRVRsYmtDOUxkWll6ZXZJcnVjMHF1aTZHaXB4SkpCci1Ucm1jTF9SQ3JHM1dQTkZvMFV4NS1TUlRzMEMzT3QzVjhWZTVlaW5jXzU5Y0lRQzZvejRPSTF4V3lyMUk1MkVBRVNhdk9iYzN3algyaE1EcUo1VGp2czdmbkxlQjhTRDFLUEVDUFZWQkI5ZjhwM2hLUGd1blk4aUs4TUZ6aWo4a2RqeEIw?oc=5",
@@ -466,6 +598,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-19T20:47:04Z"
+  },
+  {
+   "id": "76d2ddf83453",
+   "title": "Mombasa MCAs raise alarm over poor sanitation, sewerage services",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS1BrQ0xRZExIeUxMQV9jMDFiTmhRamptem40Mm1xcjVSa1BSWV9ZZnphUmxBRVJvLXZ0dkl1M0ZnV3dWM05VMnVEOG8waGtoM2Jra0ZzY29LNkt0MUFfSTJPdm52VUZlY0JFa0FCR2ZHNHotWFY4WDQ1WWgyVTR1ZUdpajFxdGtzQ21qT2NRYjF4QQ?oc=5",
+   "source": "Radiokaya",
+   "via": "Google News",
+   "published": "2026-11-19T15:43:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Water & Sanitation",
+   "first_seen": "2026-11-25T19:25:15Z"
   },
   {
    "id": "9cff24729738",

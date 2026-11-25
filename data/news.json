@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-24T23:57:02Z",
- "new_in_last_run": 15,
+ "generated_at": "2026-11-25T08:49:26Z",
+ "new_in_last_run": 10,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 56
+   "found": 54
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 56
+   "found": 54
   },
   {
    "name": "Bing News",
@@ -60,6 +60,42 @@
  ],
  "items": [
   {
+   "id": "ad3244ad1f0f",
+   "title": "Talanta Rail Link Set for December Completion, Moving 1,500 Passengers Every 10 Minutes",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTWk3LUFoMVVmQzdrVUxjc0tMaWcyT19iRm5zUThLWmdENlIzR0ZqQmN0LTlaSk9CS0pkZzcyZWFiQXM4VWQzcFc0WjZPNmFsR28wcEE3d2VxZFBJa3BwQy1FT2lUcHZrYjRiR0NQeTZLWkkteXdSRUZHWFVMY0Q4S3R0cGszSzVvOFdXeDI4RmZrakY3OWNvM1l1clNDbDMzdzJhb3VhUTBZUVIxbjJpZ2JxU2wxZlhqZ2h1QU5EamU?oc=5",
+   "source": "Construction Review",
+   "via": "Google News",
+   "published": "2026-11-25T05:08:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T08:49:26Z"
+  },
+  {
+   "id": "fd3e01297348",
+   "title": "Harambee Starlets recall Ulinzi trio ahead of Tanzania tests",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNUtxcHQyUzRvc2kwQUs0VXVsNndtcEdaaEhkcXAwS1RieEFZenMyaVhrdFl4UHBRZlFLeVg3M1NCY3FWZXY5NTg2MlFSclo5V1F6ZFg2LUdqVjBUWkFZekswZnJtRUU4cE1uNllKN21OY2F2ZG1iMmY3YXpjZ1Jaa0p4RG5pZy1hdWxiQW5R?oc=5",
+   "source": "Radiokaya",
+   "via": "Google News",
+   "published": "2026-11-25T04:25:44Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T08:49:26Z"
+  },
+  {
+   "id": "cd3dcbb79e82",
+   "title": "Harambee Starlets name 29-player provisional squad for Tanzania friendlies",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGNRTG93Y3doZG1WejFmRVl1Nk9XejdKZ004NU5xRzgxQXVJV2sxMDgyMElHLTZUQUlTTHYyQUxaQXlqZ3JQeWdJcVBSQkROU0k5U2FFb1paN1VvVmZWQ0pfQ0RSSnlvMHRuQnVuVlpVVTl3b0kwdElYUWx0SkFqMXI4U2hGdmUxbVRNakF3YU1oeVJwbFVEeW1YZDFKd0puSFkycjN3eURyYnA1bEs2LXhKZ2NMYlZtU2JHaWxIRWc0QQ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-24T23:14:58Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T08:49:26Z"
+  },
+  {
    "id": "79311c1af302",
    "title": "Starlets name 29-player provisional squad for Tanzania friendlies",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaVZ5OWZYUVZjWFhPY09zVjFfLTh5S1V3UmRPVmUxZUlzdUtYQmNCenR5YWVrbVQ1NF9QSmUzQ2ZlcDVTaHN0VTZWY1Qwa0hZZmZTVUIzMVRHY2ZoVHg0MTZJQnJ4Wmk1X01lVktRY0JrX0dmbnBPRmYwYXk1ajYxb3FtQW1aZFp0QWdSMUYyLWVGczM4eEc4QjBSQnZUX0xaZUhaWWZYR2ExZkhRRGN6VUhYckI?oc=5",
@@ -108,6 +144,30 @@
    "first_seen": "2026-11-24T23:57:02Z"
   },
   {
+   "id": "b41f91796eb0",
+   "title": "MOFA vs Nairobi City Stars - Watch Online for Free",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBieDQ5V3NrVTRGNjd5X0c4aFJBM25wTHp6akdnczZGM1RaZmFhMnQ3MEQxcVdfcDBTM29NX2dVcHVDS1V1Zk5QSUVUTjBKUDVvRDZlVFprZFlXcHg3ZkJQOXVfeWhlb0lFUHgyQlFwN2RUZkE1WFhz?oc=5",
+   "source": "APWin",
+   "via": "Google News",
+   "published": "2026-11-24T09:37:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T08:49:26Z"
+  },
+  {
+   "id": "b3592e4d4af6",
+   "title": "Police recover cannabis worth Sh9.4 million in Kilifi as suspect escapes arrest",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaTZQcHAzdnFfenZjX0xpWXNYYm5PX19ubUc2NUZNYkhhUUhtVkQ1Ty1ZSlJ3NUQzSmxOR3BvLWpVTHkwaXpEOVdPTmNYS2lXczdnQnZrR3BxVmRMZEdnQjJxanVjWGtMbGhNNTRTTUF5QmtSVFdROWIxc3JsenMwOHlWM05ZYkRfanBHNWQ5a0psVHFGdG5XNkFGMlhoMEFYT1RlUHcxdm9TUGgyZmZRRkVxcDNvTU1VSTljdkNkNTRabVk?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-24T06:46:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-25T08:49:26Z"
+  },
+  {
    "id": "81f259d409aa",
    "title": "1,500 passengers every 10 minutes: Govt sets date for completion of new Nairobi railway",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQX1Z0YmpGWnJfdm5qSzJZdmtqOXN5eHhpZmRpMEU1MlZJb01mUEl3WVpVMXBkc0FIUlFTdzRVTnQzd3JlZ2V0WnpaY0hZX01WNzZYUnZ0amRRNUpldkxYUkV5UkdnSlNjZjNSeGN2a25XZkI3OGU2cUl3LVA0aHdrU0tQMG9RZzVOMmFrNkdLMHc4RjJmd2lyY29vZno1RENSNVdYRUlfVUlUVE1nZkt2ZTV4REEtNVZm?oc=5",
@@ -142,6 +202,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "7c5786c815e1",
+   "title": "Four arrested over alleged railway track theft in Nairobi’s Industrial Area",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTUs0RzdVZnlYaFdMcWNLX0c4VldTYkFFTlNJYTdodDR2cDFkUnY1bkE0Qkhsa2F0RDg5OHhwY3ZVbXZGcm9rWmNhcUQ3UG1kTlVzYlBncE0zeVFvNm5fT1RqNHB3M3JiYXpxRVFQMmIwSU9EVkFTbFg4VF8xQ1VMZV9QUWxyTy05NGVrYnhpZmMtUm9wZHpLa0NwbEdNOE1ldnYtVEZScHl0MmdIQXhwQS1UM3lmYjJDaG0tVDhB?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-23T07:31:26Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-25T08:49:26Z"
   },
   {
    "id": "1892447feb62",
@@ -264,6 +336,30 @@
    "first_seen": "2026-11-22T19:49:39Z"
   },
   {
+   "id": "9035a3558204",
+   "title": "White smoke in NSL as FKF, Darajani Gogo reach deal to allow start of 2026/27 season",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSEoteUJRazhVM3oyaUY2dUl5Vy1WWmt4dnFUaWVDcFlVLTlnM3VWRGdJTHd4TjlLanpwLVYwai11YW9qbVNjN0ZhTlR5QkszeG5uaXN1UGc4akNwSEJCX09Rb3VRLVhsRUN2V2lZbFZVTkxaYWtub1lGOUZPMXJMcDZhbUlBcVVsalppendOLXpoRUJVbXpMVUI3a3liVjlGWVdFMkFiN1EtcWl5MkE?oc=5",
+   "source": "Capital FM Africa",
+   "via": "Google News",
+   "published": "2026-11-20T17:29:31Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Arts & Culture",
+   "first_seen": "2026-11-25T08:49:26Z"
+  },
+  {
+   "id": "18e3bb30df18",
+   "title": "Somali national to be repatriated after admitting to fraudulently acquiring Kenyan ID",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWHFLTDBrSHFXaUI5bVdtaEMxNXRfYTdIWGtQQVJUYnFROFh1RmllQXFEcEJIeXdXUF9NQWdGTFRfYzhiUTFDYWxpRlRqdXJmMFlvTVk3MlpXendYMDBCcml3RWVOenZHXzQ1djgwaUs2LWVDVlpLa3JIWnRCZzJUeVJkbXgxMW5ESHMwUVVOaUt4aFRZaHFRazdGR0hlNmdBSnp0ZWhaQV9vYXZHU3JmdU1xU0VaalpTMHFkRlU3RG9lMS1ZRWRDNnFfRUs?oc=5",
+   "source": "The Eastleigh Voice",
+   "via": "Google News",
+   "published": "2026-11-20T10:55:12Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-25T08:49:26Z"
+  },
+  {
    "id": "e81e4feee0c5",
    "title": "Kenya, China collaborate in training caregivers for global Job market",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVG9lMHdhSm9Xb1E1WHpTR3lzdkRPMVp4Qm1kZ3dlSWVlQy1wN2dJZERaVm5FN0VOZzVvVTFUTTI2SzFtUGp5Y1BNakxsdWVjM0VLdk1YZEhWemhYUWxUMUhTRExEUHpoMUR3T1p3SWZ4UFNpNGhxQ1BHZlBvdFRLbW5RNGpHb21EaGVPN2dIYU5hcWhneU5BYlR4bWhmQQ?oc=5",
@@ -322,6 +418,18 @@
    "summary": "",
    "category": "Housing & Land",
    "first_seen": "2026-11-20T20:31:23Z"
+  },
+  {
+   "id": "3d0a93941154",
+   "title": "Lamu launches first-ever film festival to nurture young creative talent",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeGpTbTFTaEZIYjNhN2NIT3EyOU1HRTl5OFFHWHBRWWt5MXlzbGZWbHN5NkxuZWV4OXFQbU1pOF9TOTR4clFjWDR5bkRTWTM0RG5JeXZ5Sko0dVpMbXdPMGgzOFJ4SlE1OXZiSlZHV2tlUkY5M2dreG5vOFc4OG90QXBkUHFDcTJHS3dGc2c0dWVKZFlMdjhQQUFEb0Y?oc=5",
+   "source": "Radiokaya",
+   "via": "Google News",
+   "published": "2026-11-20T05:28:23Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Arts & Culture",
+   "first_seen": "2026-11-25T08:49:26Z"
   },
   {
    "id": "5dd695a9edb4",
@@ -562,6 +670,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-18T20:41:13Z"
+  },
+  {
+   "id": "b85ad69f9a24",
+   "title": "Regina Re charged with helping daughter evade arrest after grandmother's murder",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQnI5Q21DbDFqaUlrYUxyNlFHXzg1NEJlcUYyVzhhSTN6ZFdtSE1aUHJCYmZJUFk0SmpXYlV0eVpJNndJeGxNcHZoZHppcXQyMWRnNUhCYTQ4aDlMX1pydlJwY2xLRHVaeDJEazdLUzA5SkZfaW12Vkt2aTMteEhpQ25Id3pqdEtTaS13SEl5d2Q0cldoMVJmQ2xURQ?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-18T11:48:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-25T08:49:26Z"
   },
   {
    "id": "98e201e772ff",

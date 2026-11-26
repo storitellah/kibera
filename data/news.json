@@ -1,26 +1,27 @@
 {
- "generated_at": "2026-11-25T19:25:15Z",
- "new_in_last_run": 12,
+ "generated_at": "2026-11-26T03:39:07Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 52
+   "found": 27
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 52
+   "found": 27
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 10
+   "found": 11
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -59,6 +60,18 @@
   }
  ],
  "items": [
+  {
+   "id": "471ed892da9e",
+   "title": "Beyond the pitch: Vulnerable girls find strength, friendship and hope in football",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPblJabk1lNnRHaWUxVzA2QkU4THIxRVExazBwczBlbUd4YlppeEtwZE51TXJPRXhIRWdFZUJ4YjZjM1JWckpHbFAwS2p6YmRqd2hiYUxWWmUyOUZnYjNUaGpDTTRkZlRNd2hKbml0R2V1UkUxbjAydUctSkdHb3pNMVVoR2sybVlSdmhqcDJVbkkxendKTUlkeTBtZ1YwaERRZzFpamxwZEpuM2d1ZU5qSHNZQjUwT2xmanNJ?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-25T19:36:24Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-26T03:39:07Z"
+  },
   {
    "id": "2ac58f526e60",
    "title": "Between Fear and Choice: Why Teen Mothers Struggle to Access Contraceptives",

@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-26T03:39:07Z",
- "new_in_last_run": 1,
+ "generated_at": "2026-11-26T17:03:51Z",
+ "new_in_last_run": 5,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 27
+   "found": 26
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 27
+   "found": 26
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -56,10 +55,58 @@
   {
    "name": "Ghetto Radio",
    "ok": true,
-   "found": 1
+   "found": 2
   }
  ],
  "items": [
+  {
+   "id": "9264abcdb8d2",
+   "title": "Kibera Residents Threaten Protests Over Phone Theft Allegations Targeting MP Peter Orero",
+   "url": "https://ghettoradio.co.ke/kibera-residents-threaten-protests-over-phone-theft-allegations-targeting-mp-peter-orero/?utm_source=rss&utm_medium=rss&utm_campaign=kibera-residents-threaten-protests-over-phone-theft-allegations-targeting-mp-peter-orero",
+   "source": "Ghetto Radio",
+   "via": "Ghetto Radio",
+   "published": "2026-11-26T13:34:22Z",
+   "date_estimated": false,
+   "summary": "In Summary: Kibera residents have threatened to stage protests at Parliament Buildings unless nominated MP Sabina Chege apologises over allegations linking their Member of Parliament, Peter Orero, to the alleged theft of a mobile phone within Parliament. They dismissed the allegations as character…",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-26T17:03:51Z"
+  },
+  {
+   "id": "990b1a617afc",
+   "title": "German President Steinmeier visits children’s arts centre in Kibera",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS2RfR0MwSkF0ZVc1VmJWMEZrbm5OemxYRmMxU0RCWW0tYWpxeENjQXlQMW1jblRhc2JRLTZxMWZKcTZWcU96aXZHbUctdGlrQUVZM25PWXk2cC1Jd2tlQy1BcEZ4R1lnOERCbDNKYlg5RU5LM3pWSGxCOFpnWFBYVFQ5TWVMNVVDQjVETFpZWkF2MGhzRGdzOHMtZXF0ck5YYkhZdUpGNWxVX0hSRjBOdG1vLTBzcjlCdGc?oc=5",
+   "source": "The Kenyan Diaspora Media",
+   "via": "Google News",
+   "published": "2026-11-26T10:28:41Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Arts & Culture",
+   "first_seen": "2026-11-26T17:03:51Z"
+  },
+  {
+   "id": "4db400ece731",
+   "title": "US-based Nandwa earns Harambee Starlets call-up",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNei1KUEVXT3U2OENxRzEyaDNmWWh6bXdPN3BycFRlY1RLaHk3aE8zUDI2aFVKTDRtWW9uNGw4TTFoa0E5Smh4SXVHT3FkLW95ZGFLdUVmUjlpenRTaDhiUEtZVnRPeUdoVTRod3k1bFR6TFVHQUZiQXB5b2x6c1lDRlBaWFN6Rms0LXhtSWVtTWRpNTREMVBwOENPN3dral9pemtEREJCUDhNT1d5M0E?oc=5",
+   "source": "www.standardmedia.co.ke",
+   "via": "Google News",
+   "published": "2026-11-26T08:07:30Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-26T17:03:51Z"
+  },
+  {
+   "id": "00c7bd2dddae",
+   "title": "Zetech set sights on WPL top three",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSm5NaloyVnhQaDRxVzZwSi1BYnhxX2lrQWpUc0F6c0NsTVN0c1hXVTdiYjdYRzM2RFVJWHFDbTBYLWV2NV80UFVEd0JCVWl3TV96dDU4aWVOdkxkRHpBdzNES0pwWHZPSGRFQzJwOEhlY29nU2NfVENaMEo0V1F4OUxMazRaRmd2TW5ONmI5RzQ3UQ?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-26T04:30:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-26T17:03:51Z"
+  },
   {
    "id": "471ed892da9e",
    "title": "Beyond the pitch: Vulnerable girls find strength, friendship and hope in football",
@@ -299,6 +346,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "c49b2c33082f",
+   "title": "Sofascore",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRFgwekVEZUljS3JkRmpEOTRvNEVhdnE0WjVGcFJZcmw5eFJfUmdhWHJNbEpybkxuN3lKTUdUdUhIZThabkJQWmRvc1RMYXZuOEhrdmY0UjltWThlZXBRTEhCYTBaN0FSZTJhMHVKTm5fanp2ZGlPSUtKWURGaGVjZmhn?oc=5",
+   "source": "Sofascore",
+   "via": "Google News",
+   "published": "2026-11-23T08:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-26T17:03:51Z"
   },
   {
    "id": "7c5786c815e1",

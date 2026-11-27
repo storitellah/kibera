@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-27T01:48:04Z",
- "new_in_last_run": 3,
+ "generated_at": "2026-11-27T12:43:54Z",
+ "new_in_last_run": 2,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 25
+   "found": 23
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 25
+   "found": 23
   },
   {
    "name": "Bing News",
@@ -56,10 +56,22 @@
   {
    "name": "Ghetto Radio",
    "ok": true,
-   "found": 2
+   "found": 1
   }
  ],
  "items": [
+  {
+   "id": "1b84bcb707fe",
+   "title": "Kibera Residents Threaten Protests Over Phone Theft Allegations Against MP Peter Orero",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd1VvandPaTRMdWhCa1lKT0dVVHdMZWZiN09fY3ZxN1B2blhuWFVwNEZ4SEZOZWwtbkk1M2RtcGRSQndjc3poTXJ0Y1M4Wm5NSU51RjkybXZQdlZFM3JnQk5fZjFyZzExcVpGQ1B0Y21oblotN0p6Qnk1aXVTb21MS196emxSZ1owc2drNW9SYUM4V2J6SXFQRXNJT29aaVA3QWhYQVRsZDM0c2JPUW4tVUFWbw?oc=5",
+   "source": "Uzalendo News",
+   "via": "Google News",
+   "published": "2026-11-27T11:48:48Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-27T12:43:54Z"
+  },
   {
    "id": "8d119268968f",
    "title": "News Comments Naivas FC coach picks positives from Kibera Black Stars defeat",
@@ -4380,6 +4392,18 @@
    "summary": "Heha Movers, a Kibera-based moving company, steals hearts with a viral mock-interview skit blending humour and a genuine call for Nairobi’s youth to unite.",
    "category": "Infrastructure & Transport",
    "first_seen": "2026-11-11T17:16:12Z"
+  },
+  {
+   "id": "b3ce0a0f321f",
+   "title": "Kibera court",
+   "url": "https://www.the-star.co.ke/topic/Kibera%20court",
+   "source": "The Star",
+   "via": "Bing News",
+   "published": "2026-03-24T06:00:00Z",
+   "date_estimated": false,
+   "summary": "The Star brings you breaking news, developing stories, politics, entertainment, lifestyle, sports and much more from Kenya and around the world, throughout the day.",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-27T12:43:54Z"
   },
   {
    "id": "69b5cfcfbdca",

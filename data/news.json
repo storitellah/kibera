@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-27T12:43:54Z",
- "new_in_last_run": 2,
+ "generated_at": "2026-11-27T23:32:32Z",
+ "new_in_last_run": 9,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 23
+   "found": 42
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 23
+   "found": 42
   },
   {
    "name": "Bing News",
@@ -56,10 +56,22 @@
   {
    "name": "Ghetto Radio",
    "ok": true,
-   "found": 1
+   "found": 0
   }
  ],
  "items": [
+  {
+   "id": "84d018fd87aa",
+   "title": "Nairobi protest victims demand justice beyond compensation as Mutua delivers State apology",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQV9Nc3g2QUFkSVZOdC03bGtObHpyM3JTbmJaSWh1dGhFc2RmM3M4U3gxN1hyMHNoVU5CQjN4R2tVek5ia0wxN0J2a3JQdGNQSV9KalpzSG5PamRkYk1lWXVlN3ZZUVBobWgyUkxwVnA0SUdlWkNyakVEWXM2Y1Z6djF3SWtDS0xNc0JCYjFYZHpfdlQxdzlSQXotcXh6TTAzZ1E?oc=5",
+   "source": "The Star, Kenya",
+   "via": "Google News",
+   "published": "2026-11-27T16:05:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-27T23:32:32Z"
+  },
   {
    "id": "1b84bcb707fe",
    "title": "Kibera Residents Threaten Protests Over Phone Theft Allegations Against MP Peter Orero",
@@ -95,6 +107,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-27T01:48:04Z"
+  },
+  {
+   "id": "b30ce8526bd0",
+   "title": "Bomet MP threatens legal action over links to Sabina Chege's stolen phone",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb2Y4U2dDMXdjS05sRWEzeHVwRjJib0xoWWN2azdzRURFTldfcGRXc1F5MHJzbjRnM0RjM0FjcDQ1Ym9LOXFSdFp3YVBULUhNV3FDSGRGZ2VDQVR6VGxqVXh6RGhsOWlXSGtXdWxSQ0Jac3lWWVJmQl9hUDBRU1IwWlhGbUVROUlJNDQyWWp2VVlIOFd0Vm1xS2hXQm9VdmtmUi1lSUE5VzYzZGVlQzdIUDVHMWQ1a0Z6bTNOeHU4UEg5VGhReUxpakpQdW9PUHNUbUE?oc=5",
+   "source": "www.standardmedia.co.ke",
+   "via": "Google News",
+   "published": "2026-11-26T17:42:47Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Politics & Governance",
+   "first_seen": "2026-11-27T23:32:32Z"
   },
   {
    "id": "9264abcdb8d2",
@@ -229,6 +253,30 @@
    "first_seen": "2026-11-25T19:25:15Z"
   },
   {
+   "id": "49b556f75647",
+   "title": "1xBet community support: Practical aid for local traders",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeXpJMngxTVlic3lyZ2VNalpQQ0FoRmtwazdmRXJIdWZxUzFGalFjcDN0UzVtQ245NThTRUc3aDFSdXNqRmp0RUMwRmxpWk5HcHZ3UGR1U3FHVC1FS2FxeEhhamhtc1d2V2lyc2pGbm1GbFh3Y2Y2TERvTld6Q1YwM2VNMF95TnBsei02T1dTMG5QYXI5dHpmNm1EcXFVMldscFdxbQ?oc=5",
+   "source": "Daily Nation",
+   "via": "Google News",
+   "published": "2026-11-25T08:46:33Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Business & Jobs",
+   "first_seen": "2026-11-27T23:32:32Z"
+  },
+  {
+   "id": "3cd37417c595",
+   "title": "Trending VIDEO of a couple having MECHI at Tsavo Apartments in Fedha - They forgot to draw the curtains! Tsavo Imejaa Vituko",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNM0Rfa0ItdXMtQ2I0UFNHb3VfR1lxQzd4RmM4YW1waUFYNTFyTUhuS0VDM051akl6SmZMclVweTVWLTJpcnhoYWFKYkxKSVE2cFFWNl84ZGJYVi0tOGJFaE13dXUxNzRuVm1Ja2hEX3htTHdTd20wc3VZcDZIR3ZnendoU1E?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-11-25T08:09:45Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-27T23:32:32Z"
+  },
+  {
    "id": "9e6adb1ba8f8",
    "title": "KWPL: Zetech Sparks eye top-three finish",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPemRYQkVGZmxRaG1jcjJUcXNfQ3lYdmFlV3VXdXpQYlNMSUx5WU80NGpzODFteW5QVV82NG14UjlHZUZ6YjdYR1l4Mmt2ZWRCdnhkZ1hQZXg4WmZLZTh4NkoxcnhmbThmVVNEemF3dVh2RmVqRm1FYzZCRkIyX2V1RlFYLS1ZQQ?oc=5",
@@ -239,6 +287,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-27T01:48:04Z"
+  },
+  {
+   "id": "bb67152ce7cd",
+   "title": "PHOTOs of MADINA, the beautiful single mother murdered after hosting a man at her apartment - Do you recognize the man in this CCTV footage? He is the main suspect!",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pSkg3d0RWbVdoQ3JGRHNOUExIV3VZNm01ZVpBMDI3M2hFRi1YSENqd3JCMWZLc0hxSmhTS3ZmMEhtV0RkR1VKdFhIOENzelNtTjVmMlVkcGRocFZLemtwRGpOY0JTeVdjeWdXQ0JfQUhEdXkyMU9keWc4aWx0QTQ?oc=5",
+   "source": "DAILY POST",
+   "via": "Google News",
+   "published": "2026-11-25T07:34:40Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Crime & Security",
+   "first_seen": "2026-11-27T23:32:32Z"
   },
   {
    "id": "ad3244ad1f0f",
@@ -277,6 +337,18 @@
    "first_seen": "2026-11-25T08:49:26Z"
   },
   {
+   "id": "8de1e1dca8e8",
+   "title": "Could Africa’s Christian boom reshape faith in the U.S.?",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc191QjIxRDVuZEFzcXNKUnF3VE5ZS3k2ZF90ejFjWlRzVmtOQ3N4dlAzMXJWM1dSbGhidVAtMy10cXpzaGRGZ0MzcVF5Vm5jUlBZR1ZldHRnbUVfZUphd3AyR2hfZ2E4dG9ZTEVGLS16VEdqaDlkb3BoX05ZRnh0RXhuNnpSYnFlcGRiRm9rU1MyUG9rZnRWYVpHdw?oc=5",
+   "source": "Deseret News",
+   "via": "Google News",
+   "published": "2026-11-24T21:41:36Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-27T23:32:32Z"
+  },
+  {
    "id": "79311c1af302",
    "title": "Starlets name 29-player provisional squad for Tanzania friendlies",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaVZ5OWZYUVZjWFhPY09zVjFfLTh5S1V3UmRPVmUxZUlzdUtYQmNCenR5YWVrbVQ1NF9QSmUzQ2ZlcDVTaHN0VTZWY1Qwa0hZZmZTVUIzMVRHY2ZoVHg0MTZJQnJ4Wmk1X01lVktRY0JrX0dmbnBPRmYwYXk1ajYxb3FtQW1aZFp0QWdSMUYyLWVGczM4eEc4QjBSQnZUX0xaZUhaWWZYR2ExZkhRRGN6VUhYckI?oc=5",
@@ -311,6 +383,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-24T23:57:02Z"
+  },
+  {
+   "id": "12564ba64b66",
+   "title": "Heartbreaking PHOTOs from Rongo District Hospital, even as Luos brag about being in broad-based Government - Patients are sleeping on the floor",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeHo3TUZFWFJNSUFzb0lfbENoaWdidTRORHo1c2YzUzZNdnZ6UzcwaVJMLWV3QjJMckxqaVFnMUpKNHduQXZLblNucmpjOW84bmdxcmRMX3I4eFMwa05nakFOVGFPbENEYm9VaUZNVmlhY1hSUjRnX09tT2UwTUJzWFJR?oc=5",
+   "source": "kenyan-post.com",
+   "via": "Google News",
+   "published": "2026-11-24T15:07:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Health",
+   "first_seen": "2026-11-27T23:32:32Z"
   },
   {
    "id": "4232c07275e7",
@@ -385,6 +469,18 @@
    "first_seen": "2026-11-25T19:25:15Z"
   },
   {
+   "id": "cd5656d6d2aa",
+   "title": "NSL: Sofapaka begin promotion push against Gucha as 2026/27 season gets underway",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSUtPVDJSVDZMYTlnY25BYTRpNTFoY2FubnVxU3JSYktJOWlacFhBSkJmWjRJY1FIZmZkZVRBVnh5NC1mRHFYdnFDVUZDODlpZm5qUlc4SjBuQ1Rzalk2eU9SWk1vcGFDaFVvRGc2Q0dZOHBqaFhVS1FEX05sUlZDb1V4S2pEeE9SbEFZUXhjTUJiZzJONFdLa3hvT2lnS1ppVFRDeEdDNUlUUS1SdFQ0QVRuNGFKa05xSzJPWWFpTXJkWWlLQ0hLQg?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-23T21:32:56Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-27T23:32:32Z"
+  },
+  {
    "id": "762cd4a03a7c",
    "title": "NSL: BB FC, Nzoia Sugar among biggest winners as Sofapaka begin promotion bid with victory",
    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRTRsdEtFUlVvODluT2hjOFNsbXp3MnUzZVg1U1c2V09tcERKSkZYT0xzNldWUjJNT1N2dnJ2Q0JvNXEybkFRLXFZQ3RseDVGYy04Q1ExNFU3dVhIM0dfVUJlRkZ0UEVnMHN4VmhyTE1ndW1MakdNbEMwc1ZxRmVfQ2QwSm5oeVFjMzZQVjg3T2FSRzFENWFJQlNWRHRUc20tMW5UOF9zWmFhd05fZlk3MmE2c29abDRnS0VWY0NDT3JpTHBfbV84RGkxeWJkNWtZTjctNzd3?oc=5",
@@ -455,6 +551,18 @@
    "summary": "",
    "category": "General",
    "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "0993280b02e7",
+   "title": "Gov't Announces Completion of Luanda ESP Market in Homa Bay",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYnhjNzkwcjV0TGppc0g5cU9NZlM5UGZFWDlRNi1qSFdzc09XcGR4XzZjZFNXemY5ME9aNjZ0Q3c1czg2Sm4xaXpJaHRfRWlrUmhka0U5VkdqMmVMbGJxa19HV3JUWjYtX0N1bHRETWpEcmRkbFRHTnB5a1BpbXhmOW1IXzFFMUJSeTFpNGpPSVFyYTR3YTNldnlJNmhwbmRJUm9xXw?oc=5",
+   "source": "Nairobi Leo",
+   "via": "Google News",
+   "published": "2026-11-22T08:12:04Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Business & Jobs",
+   "first_seen": "2026-11-27T23:32:32Z"
   },
   {
    "id": "f173ac8f547d",

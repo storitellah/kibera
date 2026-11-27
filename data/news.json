@@ -1,26 +1,27 @@
 {
- "generated_at": "2026-11-26T17:03:51Z",
- "new_in_last_run": 5,
+ "generated_at": "2026-11-27T01:48:04Z",
+ "new_in_last_run": 3,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 26
+   "found": 25
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 26
+   "found": 25
   },
   {
    "name": "Bing News",
    "ok": true,
-   "found": 11
+   "found": 12
   },
   {
    "name": "GDELT",
-   "ok": true,
-   "found": 0
+   "ok": false,
+   "found": 0,
+   "error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "name": "Capital FM",
@@ -59,6 +60,30 @@
   }
  ],
  "items": [
+  {
+   "id": "8d119268968f",
+   "title": "News Comments Naivas FC coach picks positives from Kibera Black Stars defeat",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdEtBREpLMHZScmlKSlRJdnRLM1lDc3ZUbWZBMlBObGExX3BWcDdEaXFZTW9EakU0Zk1UdkJVRlNZb1A1a094UElBWGJTY1JoTXhKVnNaSk1RdFl4cHNTeWFYNkI1ZllrSVphV3JlTHpwNlc5SDVDN0Vsd2JCWkIwYVB1bmEwUVNqWnlRV3ExM2pSaDdQQWIyT0wtMDVCbUQ3Vk5FWEdOMDgya1IxbXE0UU42bHZsdTgxS0RSem9uSQ?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-26T19:04:28Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-27T01:48:04Z"
+  },
+  {
+   "id": "93a85c84f05f",
+   "title": "Naivas FC coach picks positives from Kibera Black Stars defeat",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNallDY2MtWTFZZ2NYOXM2eGVBeGhjaS1GT3E0V2JCd01pN01zc2hLc3NVaUtwMngwMmUxUzg1YXhFaW1zVHVORmFKMncxSG02RlhHUFNYZEcybnppN3hPNTNzYkktdVE3RWNkTlVQTmR2TXJjLUx1ci1oQnhqM3g5YUxXQ2Y2M3ZDT3pHdFRmRWVjZ3dpUjVfZ3pxTzVDTHRCYm5LRnRsOFVONi1XcTR6UnpZaw?oc=5",
+   "source": "Mozzart Sport Kenya",
+   "via": "Google News",
+   "published": "2026-11-26T19:03:39Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-27T01:48:04Z"
+  },
   {
    "id": "9264abcdb8d2",
    "title": "Kibera Residents Threaten Protests Over Phone Theft Allegations Targeting MP Peter Orero",
@@ -190,6 +215,18 @@
    "summary": "",
    "category": "Sports",
    "first_seen": "2026-11-25T19:25:15Z"
+  },
+  {
+   "id": "9e6adb1ba8f8",
+   "title": "KWPL: Zetech Sparks eye top-three finish",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPemRYQkVGZmxRaG1jcjJUcXNfQ3lYdmFlV3VXdXpQYlNMSUx5WU80NGpzODFteW5QVV82NG14UjlHZUZ6YjdYR1l4Mmt2ZWRCdnhkZ1hQZXg4WmZLZTh4NkoxcnhmbThmVVNEemF3dVh2RmVqRm1FYzZCRkIyX2V1RlFYLS1ZQQ?oc=5",
+   "source": "Citizen Digital",
+   "via": "Google News",
+   "published": "2026-11-25T08:00:00Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "General",
+   "first_seen": "2026-11-27T01:48:04Z"
   },
   {
    "id": "ad3244ad1f0f",

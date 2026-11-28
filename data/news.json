@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-11-27T23:32:32Z",
- "new_in_last_run": 9,
+ "generated_at": "2026-11-28T08:01:38Z",
+ "new_in_last_run": 1,
  "sources": [
   {
    "name": "Google News",
    "ok": true,
-   "found": 42
+   "found": 37
   },
   {
    "name": "Google News (Swahili)",
    "ok": true,
-   "found": 42
+   "found": 37
   },
   {
    "name": "Bing News",
@@ -19,9 +19,8 @@
   },
   {
    "name": "GDELT",
-   "ok": false,
-   "found": 0,
-   "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "found": 0
   },
   {
    "name": "Capital FM",
@@ -60,6 +59,18 @@
   }
  ],
  "items": [
+  {
+   "id": "2f5f0748826d",
+   "title": "Luanda Villa vs Kibera Soccer live score, H2H and lineups",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOHcwc1Z5TzhkNmdKMXRjM2RWN2U4Vm4xTTgtSmhZV2p6c3g1akVub3FLRDRfRkQ1bWRac1dJV0psWmVLeHNuUzFCZnVaeGlRU0FoSnBNOEs4NEgzWnljM2RSWHR4U09ISjF3aUwyazY2eE5TSFBRMGVuY0tTbXlxY2xUdw?oc=5",
+   "source": "Sofascore",
+   "via": "Google News",
+   "published": "2026-11-28T05:16:10Z",
+   "date_estimated": false,
+   "summary": "",
+   "category": "Sports",
+   "first_seen": "2026-11-28T08:01:38Z"
+  },
   {
    "id": "84d018fd87aa",
    "title": "Nairobi protest victims demand justice beyond compensation as Mutua delivers State apology",
